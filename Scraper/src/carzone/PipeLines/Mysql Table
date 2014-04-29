@@ -1,0 +1,72 @@
+DROP TABLE IF EXISTS test2;
+CREATE TABLE test2 (
+  guid CHAR(32) PRIMARY KEY,
+  title TEXT,
+  link TEXT,
+  year TEXT,
+  LOCATION TEXT,
+  mileage TEXT,
+  engine TEXT,
+  price TEXT,
+  updated DATETIME
+) DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE Hyundai (
+  title TEXT,
+  link TEXT,
+  price TEXT,
+  carYear TEXT,
+  location TEXT,
+  mileage TEXT,
+  engine TEXT
+) DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `honda` (
+  `honda_id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` tinytext NOT NULL,
+  `link` tinytext NOT NULL,
+  `year` tinytext NOT NULL,
+   `location` tinytext NOT NULL,
+   `mileage` tinytext NOT NULL,
+   `engine` tinytext NOT NULL,
+  `price` tinytext NOT NULL,
+  PRIMARY KEY (`honda_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1 COMMENT='latin1_swedish_ci'
+
+
+show databases
+show tables
+use "database"
+describe "table"
+
+
+DROP TABLE IF EXISTS vw_golf;
+CREATE TABLE vw_golf (
+  ID int NOT NULL AUTO_INCREMENT,
+  title TEXT,
+  link TEXT,
+  price TEXT,
+  carYear TEXT,
+  location TEXT,
+  mileage TEXT,
+  engineSize TEXT,
+  engineType TEXT,
+  Transmission TEXT,
+  Colour TEXT,
+  Owners TEXT,
+  NCT TEXT,
+  BodyType TEXT,
+  PRIMARY KEY (ID)
+) DEFAULT CHARSET=utf8;
+
+
+Linear regression
+#Apply linear regission to the mysql database and generate an average
+
+from sklearn import linear_model
+
+clf = linear_model.LinearRegression()
+clf.fit([[getattr(t, 'x%d' % i) for i in range(1, 8)] for t in texts],
+        [t.y for t in texts])

@@ -1,0 +1,501 @@
+,title,price,carYear,location,mileage,engineSize,engineType,Transmission,Colour,Owners,NCT,BodyType
+0,Volkswagen Golf GOLF 1.9 D TDI MATCH 105BHP 05DR,"10,900",2007.0,Donegal,"44,000",1.9,Diesel,Manual,Grey,2.0,,Hatchback
+1,Volkswagen Golf R32 4M 250BHP DSG*Full Service History*,"10,950",2007.0,Dublin,"68,972",3.1,Petrol,Automatic,Blue,2.0,"August, 2015",Hatchback
+2,Volkswagen Golf GOLF GT SP 1.9 TDI 105BHP 105 BHP SPORTLINE,"11,000",2007.0,Limerick,"80,000",1.9,Diesel,Manual,Black,2.0,"July, 2015",Hatchback
+3,Volkswagen Golf GTI 200BHP DSG,"11,450",2007.0,Dublin,"51,430",2.0,Petrol,Automatic,Red,2.0,"May, 2015",Hatchback
+4,Volkswagen Golf GOLF GT 1.4 TSI 3DR 6S 170BHP,"10,000",2007.0,Galway,"21,748",1.4,Petrol,Manual,Grey,2.0,,Hatchback
+5,Volkswagen Golf 1.4 SPORT 80BHP,"10,000",2007.0,Wexford,"65,000",1.4,Petrol,Manual,Blue,2.0,"January, 2015",Hatchback
+6,Volkswagen Golf GOLF 1.4 SPORT 80BHP,"10,250",2007.0,Meath,"32,311",1.4,Petrol,Manual,Silver,1.0,,Hatchback
+7,Volkswagen Golf 2.0 GTI DSG 200BHP,"9,950",2007.0,Westmeath,"59,030",2.0,Petrol,Automatic,Black,4.0,"February, 2015",Hatchback
+8,Volkswagen Golf 2.0 TDI COMFORT  140BHP,"9,950",2007.0,Cork,"65,244",1.9,Diesel,Manual,Grey,2.0,"May, 2015",Hatchback
+9,Volkswagen Golf 1.4 SPORT TSI DSG 140 5DR,"9,950",2007.0,Dublin,"82,642",1.3,Petrol,Automatic,Metallic Black,2.0,"January, 2015",Hatchback
+10,Volkswagen Golf 1.9TDI COMFORT,"9,950",2007.0,Cork,"128,623",1.9,Diesel,Manual,Blue Graphite,2.0,,Hatchback
+11,Volkswagen Golf SPORT,"9,750",2007.0,Mayo,"71,457",1.9,Diesel,Automatic,Red,2.0,,Hatchback
+12,Volkswagen Golf 2.0 GTI DSG 200BHP,"9,750",2007.0,Cork,"96,004",1.9,Petrol,Automatic,Metallic Blue,3.0,"January, 2015",Hatchback
+13,Volkswagen Golf GOLF 2.0 GTI DSG 5DR 200BHP,"9,850",2007.0,Dublin,"72,000",2.0,Petrol,Automatic,Black,3.0,"January, 2015",Hatchback
+14,Volkswagen Golf GOLF 2.0 GTI 3DR F 200BHP,"9,850",2007.0,Donegal,"83,574",2.0,Petrol,Manual,White,3.0,,Hatchback
+15,Volkswagen Golf 1.6 COMFORT 102 BHP AUTO,"9,950",2007.0,Dublin,"27,962",1.5,Petrol,Automatic,Grey,3.0,"June, 2015",Hatchback
+16,Volkswagen Golf GOLF 2.0 GTI 3DR F 200BHP,"9,950",2007.0,Longford,"46,603",2.0,Petrol,Manual,Black,2.0,,Hatchback
+17,Volkswagen Golf GOLF GT 1.4 TSI 3DR 6SPEED 170BHP,"9,750",2007.0,Dublin,"67,108",1.4,Petrol,Manual,Metallic Grey,2.0,"July, 2015",Hatchback
+18,Volkswagen Golf GTI REP 1.9 TDI,"8,950",2007.0,Dublin,"91,603",1.9,Diesel,Manual,Black,2.0,"September, 2015",Hatchback
+19,Volkswagen Golf GOLF 1.9 D TDI MATCH 105BHP 5DR,"8,950",2007.0,Dublin,"96,934",1.9,Diesel,Manual,Black,2.0,"August, 2015",Hatchback
+20,Volkswagen Golf 1.4 COMFORT 80BHP,"8,995",2007.0,Sligo,"72,860",1.4,Petrol,Manual,Grey,2.0,"September, 2015",Hatchback
+21,"Volkswagen Golf ....ONLY 26000 MILES, 1 OWNER, FULL SERVICE HISTORY, NCT 3/15....","8,999",2007.0,Dublin,"26,000",1.3,Petrol,Manual,Silver,1.0,"March, 2015",Hatchback
+22,Volkswagen Golf GOLF 1.4 SPORT 80BHP,"9,000",2007.0,Cork,"53,127",1.4,Petrol,Manual,Blue,3.0,,Hatchback
+23,Volkswagen Golf TRENDLINE TDI,"9,000",2007.0,Clare,"92,708",1.9,Diesel,Manual,Black,2.0,,Hatchback
+24,Volkswagen Golf 1.9 TDI SPORT 3 DOOR**HEATED SEATS**MULTI FUNCTION STEERING WHEEL**SUNROOF**AIR CON*,"9,450",2007.0,Dublin,"77,000",1.8,Diesel,Manual,Metallic Black,2.0,"February, 2015",Hatchback
+25,Volkswagen Golf GOLF 2.0 GTI A 5DR DSG 200BHP,"9,500",2007.0,Dublin,"78,000",2.0,Petrol,Automatic,Black,2.0,"June, 2015",Hatchback
+26,Volkswagen Golf 1.9 TDI *VERY CLEAN CAR*,"9,500",2007.0,Galway,"115,000",1.9,Diesel,Manual,Brown,2.0,"February, 2015",Hatchback
+27,Volkswagen Golf 1.4 COMF 80BHP,"8,950",2007.0,Cork,"68,350",1.4,Petrol,Manual,Black,2.0,,Hatchback
+28,Volkswagen Golf GOLF 1.9 TDI COMFORT 105BHP,"8,500",2007.0,Leitrim,"140,430",1.9,Diesel,Manual,Black,1.0,"February, 2015",Hatchback
+29,Volkswagen Golf GOLF 1.9 TDI COMFORT 105BHP,"8,500",2007.0,Leitrim,"140,430",1.9,Diesel,Manual,Black,1.0,"February, 2015",Hatchback
+30,Volkswagen Golf GOLF 1.9 TDI COMFORT 105BHP,"8,500",2007.0,Louth,"142,609",1.9,Diesel,Manual,Black,2.0,"January, 2015",Hatchback
+31,Volkswagen Golf 1.9 TDI 90BHP 5,"8,700",2007.0,Clare,"80,343",1.8,Diesel,Manual,Silver,3.0,"October, 2015",Hatchback
+32,"Volkswagen Golf 1.4 SPORT 80BHP                                                 ""1 OWNER - GREAT CON","8,750",2007.0,Dublin,"62,000",1.3,Petrol,Manual,Black,1.0,"June, 2015",Hatchback
+33,Volkswagen Golf 1.9 TDI 5DR 105 105BHP,"8,895",2007.0,Dublin,"73,000",1.9,Diesel,Manual,Silver,2.0,,Hatchback
+34,Volkswagen Golf 1.4 5DR 80BHP,"8,945",2007.0,Galway,"67,729",1.4,Petrol,Manual,Blue,1.0,,Hatchback
+35,Volkswagen Golf 1.4 GT TSI 170 BHP TIPTRONIC,"8,950",2007.0,Dublin,"59,000",1.4,Petrol,Automatic,Metallic Silver,1.0,"October, 2015",Hatchback
+36,Volkswagen Golf **SALE NOW ON**HIGH-SPEC**AUTOMATIC 5DOOR,"8,950",2007.0,Dublin,"59,030",1.6,Petrol,Automatic,Black,0.0,,Hatchback
+37,Volkswagen Golf GOLF 1.9 D TDI Highline 5DR,"8,450",2007.0,Wicklow,"103,000",1.9,Diesel,Manual,Blue,2.0,"February, 2015",Hatchback
+38,Volkswagen Golf 1.9 TDI SPORT 105BHP,"8,490",2007.0,Galway,"94,000",1.8,Diesel,Manual,Black,2.0,"May, 2015",Hatchback
+39,Volkswagen Golf GOLF 1.9 TDI SPORT 105BHP,"8,500",2007.0,Wicklow,87,1.9,Diesel,Manual,Black,3.0,"May, 2015",Hatchback
+40,Volkswagen Golf 1.4 5DR 80 BHP 80BHP,"8,500",2007.0,Dublin,"43,496",1.4,Petrol,Manual,Black,2.0,"July, 2015",Hatchback
+41,Volkswagen Golf 1.4 SPORT 80BHP,"8,500",2007.0,Tipperary,"49,338",1.3,Petrol,Manual,Black,2.0,"March, 2015",Hatchback
+42,Volkswagen Golf VW GOLF PLUS 1.4 80 BHP,"8,500",2007.0,Cavan,"55,985",1.4,Petrol,Manual,Grey,2.0,,Hatchback
+43,Volkswagen Golf 1.4 Sport 5dr Sunroof,"8,500",2007.0,Limerick,"70,836",1.4,Petrol,Manual,Black,2.0,,Hatchback
+44,Volkswagen Golf GOLF 1.9 TDI 5DR 105 105BHP,"8,500",2007.0,Louth,"99,419",1.9,Diesel,Manual,Black,2.0,"August, 2015",Hatchback
+45,Volkswagen Golf 1.9 TDI NCT 3/15  COMFORT,"8,500",2007.0,Galway,"125,004",1.9,Diesel,Manual,Red,0.0,"March, 2015",Hatchback
+46,Volkswagen Golf 1.9 Tdi 5dr,"8,450",2007.0,Cork,"96,859",1.9,Diesel,Manual,Silver,2.0,,Hatchback
+47,Volkswagen Golf GOLF 2.0 GTI 5DR DSG 200BHP,"8,300",2007.0,Dublin,"107,000",2.0,Petrol,Automatic,Silver,3.0,"February, 2015",Hatchback
+48,Volkswagen Golf Comfortline with air con,"8,400",2007.0,Kildare,"69,593",1.4,Petrol,Manual,Silver,1.0,,Hatchback
+49,Volkswagen Golf 1.9 TDI COMFORT 105HP,"8,450",2007.0,Wicklow,"53,438",1.8,Diesel,Manual,Black,1.0,,Commercial
+50,Volkswagen Golf COMFORTLINE 1.4 A/C + CRUISE CONTROL,"8,450",2007.0,Limerick,"82,741",1.4,Petrol,Manual,Black,,,Hatchback
+51,Volkswagen Golf 1.4 SPORT 80BHP!!MASSIVE SALE NOW ON!!! FINANCE AVAILABLE IN 2 HOURS SIMI APPROVED D,"8,450",2007.0,Dublin,"96,835",1.4,Petrol,Manual,Red,2.0,"June, 2015",Hatchback
+52,Volkswagen Golf GOLF 1.9 TDI 5DR 105 105BHP BASE BHP,"8,000",2007.0,Cavan,"114,237",1.9,Diesel,Manual,Black,3.0,"April, 2015",Hatchback
+53,Volkswagen Golf GOLF 1.4 5DR 80 BHP 80BHP,"8,195",2007.0,Waterford,"35,600",1.4,Petrol,Manual,Black,1.0,,Hatchback
+54,Volkswagen Golf GOLF 1.4 5DR 80 BHP 80BHP,"8,200",2007.0,Louth,"90,720",1.4,Petrol,Manual,Blue,1.0,"February, 2015",Hatchback
+55,Volkswagen Golf 1.4 5DR 80 BHP 80BHP,"8,250",2007.0,Galway,"39,179",1.3,Petrol,Manual,Metallic Red,2.0,"November, 2015",Hatchback
+56,Volkswagen Golf Comfortline,"8,250",2007.0,Dublin,"48,467",1.6,Petrol,Automatic,Silver,1.0,"March, 2016",Hatchback
+57,Volkswagen Golf GOLF 2.0 GTI 5DR 200BHP,"8,000",2007.0,Cavan,"90,000",2.0,Petrol,Manual,Red,2.0,"February, 2015",Hatchback
+58,Volkswagen Golf 1.4 5DR 80 BHP 80BHP,"7,950",2007.0,Dublin,"75,254",1.4,Petrol,Manual,Black,1.0,"July, 2015",Hatchback
+59,Volkswagen Golf Sport Low Mileage VW Dealer Cash Price trade ins Accepted.,"7,950",2007.0,Westmeath,"86,370",1.4,Petrol,Manual,Silver,2.0,,Hatchback
+60,Volkswagen Golf 1.4 COMFORT 80BHP,"7,950",2007.0,Dublin,"95,500",1.3,Petrol,Manual,Metallic Silver,2.0,"July, 2015",Hatchback
+61,"Volkswagen Golf GT 1.4 TSI 5DR 6SPEED 170BHP [2 OWNERS,FSH,WARRANTY]","7,950",2007.0,Dublin,"101,000",1.3,Petrol,Manual,Red,2.0,"March, 2015",Hatchback
+62,Volkswagen Golf 1.9TDI Comfortline,"7,950",2007.0,Laois,"142,294",1.9,Diesel,Manual,White,4.0,,Hatchback
+63,Volkswagen Golf 1.4,"7,975",2007.0,Wexford,"38,525",1.4,Petrol,Manual,Silver,2.0,,Hatchback
+64,Volkswagen Golf 1.4,"7,975",2007.0,Wexford,"86,991",1.4,Petrol,Manual,Red,3.0,,Hatchback
+65,Volkswagen Golf 1.9 D TDI MATCH 105BHP 5DR,"7,995",2007.0,Donegal,"105,000",1.8,Diesel,Manual,Metallic Black,2.0,"January, 2015",Hatchback
+66,Volkswagen Golf 1.6 AUTOMATIC 3dr // Full Service History // NCT 06-2015 // Immaculate Condition // ,"7,999",2007.0,Dublin,"31,068",1.5,Petrol,Automatic,Maroon,2.0,"June, 2015",Hatchback
+67,Volkswagen Golf !,"7,950",2007.0,Dublin,"47,783",1.6,Petrol,Automatic,Silver,1.0,"February, 2016",Hatchback
+68,Volkswagen Golf 1.4 SPORT 80BHP LOW KMS FULL S/H SIMI APPROVED DEALERS 2014 TRADE INS WELCOME FINANC,"7,950",2007.0,Dublin,"50,331",1.3,Petrol,Manual,Black,3.0,,Hatchback
+69,Volkswagen Golf GOLF 1.4 SPORT 80BHP,"7,950",2007.0,Wicklow,"59,000",1.4,Petrol,Manual,Black,2.0,"November, 2015",Hatchback
+70,Volkswagen Golf 1.4 COMFORT 80BHP,"7,950",2007.0,Dublin,"62,060",1.4,Petrol,Manual,Silver,2.0,"May, 2016",Hatchback
+71,"Volkswagen Golf SPORT GT, 1.4 5dr VW Dealer Cash Price Trade Ins Accepted","7,950",2007.0,Westmeath,"73,321",1.4,Petrol,Manual,Red,2.0,,Hatchback
+72,Volkswagen Golf 1.4 COMFORT*LOW MILEAGE CAR*IN MINT CONDITION*,"7,950",2007.0,Galway,"73,322",1.4,Petrol,Manual,Black,1.0,,Hatchback
+73,Volkswagen Golf 1.9 Tdi Sport,"7,850",2007.0,Waterford,"122,410",1.9,Diesel,Manual,Black,1.0,,Hatchback
+74,Volkswagen Golf 1.4 3 DOOR GT SPORT,"7,900",2007.0,Cork,"73,321",1.4,Petrol,Manual,Black Magic Pearl Effect,1.0,,Hatchback
+75,Volkswagen Golf 1.4 SPORTLINE,"7,900",2007.0,Dublin,"93,206",1.3,Petrol,Manual,Black,2.0,"January, 2015",Hatchback
+76,Volkswagen Golf 1.4 COMFORTLINE 5DR LOW MILEAGE,"7,950",2007.0,Galway,"46,603",1.3,Petrol,Manual,Grey,2.0,"August, 2015",Hatchback
+77,Volkswagen Golf GOLF 1.4 COMFORT 80BHP,"7,700",2007.0,Westmeath,"78,600",1.4,Petrol,Manual,Green,1.0,"February, 2015",Hatchback
+78,Volkswagen Golf 1.4 Comfortline **AS NEW**,"7,700",2007.0,Limerick,"80,791",1.4,Petrol,Manual,Black,2.0,"February, 2015",Hatchback
+79,Volkswagen Golf 1.4 COMFORT *SPOTLESS CAR!!*,"7,750",2007.0,Galway,"81,000",1.4,Petrol,Manual,Blue,2.0,,Hatchback
+80,Volkswagen Golf PLUS 1.4 80 BHP 5DR 80BHP,"7,750",2007.0,Dublin,"82,100",1.3,Petrol,Manual,Blue,1.0,"April, 2015",Hatchback
+81,Volkswagen Golf GOLF 2.0 TDI SPORT 140BHP,"7,750",2007.0,Cork,"108,740",2.0,Diesel,Manual,Metallic Silver,2.0,"May, 2015",Hatchback
+82,Volkswagen Golf AUTOMATIC 1.6 HATCHBACK 5-DOOR  //  LOW MILEAGE AND IMMACULATE THROUGHOUT  //  NCT 2,"7,850",2007.0,Dublin,"59,000",1.6,Petrol,Automatic,Silver,1.0,"February, 2015",Hatchback
+83,Volkswagen Golf GOLF 1.4 COMFORT 80BHP,"7,500",2007.0,Dublin,"79,770",1.4,Petrol,Manual,Silver,2.0,"February, 2015",Hatchback
+84,Volkswagen Golf GT SP 1.6 5DR 6SPEED 102BHP,"7,500",2007.0,Dublin,"80,778",1.5,Petrol,Manual,Blue,2.0,,Hatchback
+85,Volkswagen Golf 1.9 TDI **GT SPORT**NCT TESTED 04/2015**05/2014**STUNNING CAR TRADE IN'S WELCOME,"7,500",2007.0,Dublin,"123,000",1.8,Diesel,Manual,Black,2.0,,Hatchback
+86,Volkswagen Golf GOLF 2.0 TDI SPORT 140BHP,"7,500",2007.0,Waterford,"124,000",2.0,Diesel,Manual,Black,4.0,"January, 2015",Hatchback
+87,Volkswagen Golf 1.9TDI Comfortline,"7,400",2007.0,Dublin,"82,021",1.9,Diesel,Manual,Black,2.0,,Commercial
+88,Volkswagen Golf GOLF 1.4 COMFORT 80BHP,"7,450",2007.0,Dublin,"48,032",1.4,Petrol,Manual,Metallic Blue,2.0,"May, 2015",Hatchback
+89,Volkswagen Golf GOLF 1.4 SPORT 80BHP,"7,450",2007.0,Cavan,"63,942",1.4,Petrol,Manual,Red,1.0,"June, 2015",Hatchback
+90,Volkswagen Golf 1.4 COMF 80BHP,"7,450",2007.0,Waterford,"77,484",1.4,Petrol,Manual,Reflex Silver,3.0,,Hatchback
+91,Volkswagen Golf 1.4 COMF-NCT 08/15-1 OWNER,"7,450",2007.0,Dublin,"98,955",1.3,Petrol,Manual,Grey,1.0,"August, 2015",Hatchback
+92,Volkswagen Golf VW GOLF 1.4 3DR,"7,000",2007.0,Cavan,"107,000",1.4,Petrol,,Red,2.0,,Hatchback
+93,Volkswagen Golf GOLF GT SP 1.4 TSI 6SPEED 140HP,"7,000",2007.0,Dublin,"107,497",1.4,Petrol,Manual,Silver,1.0,"October, 2015",Hatchback
+94,Volkswagen Golf GOLF 1.4 SPORT TSI 140BHP 3DR,"7,200",2007.0,Cork,"110,000",1.4,Petrol,Manual,Black,3.0,"June, 2015",Hatchback
+95,Volkswagen Golf GOLF 1.4 5DR 80 BHP 80BHP,"7,250",2007.0,Tipperary,"89,302",1.4,Petrol,Manual,Metallic Silver,2.0,"June, 2015",Hatchback
+96,Volkswagen Golf GOLF 1.9 TDI COMFORT 90 90BHP,"7,250",2007.0,Dublin,"140,119",1.9,Diesel,Manual,Black,2.0,"December, 2014",Hatchback
+97,Volkswagen Golf GOLF 1.4 SPORT 80BHP,"6,999",2007.0,Dublin,"93,000",1.4,Petrol,Manual,Black,3.0,"January, 2015",Hatchback
+98,Volkswagen Golf 1.9 TDI COMFORT 105HP,"6,500",2007.0,Dublin,"87,356",1.8,Diesel,Manual,Silver,1.0,,Commercial
+99,Volkswagen Golf 1.9 TDI COMFORT 105HP,"6,500",2007.0,Sligo,"147,266",1.8,Diesel,Manual,Black,2.0,,Commercial
+100,Volkswagen Golf GOLF 1.4 COMFORT 80BHP,"6,895",2007.0,Galway,"80,111",1.4,Petrol,Manual,Black,1.0,"March, 2015",Hatchback
+101,Volkswagen Golf GOLF 1.4 5DR 80 BHP 80BHP,"6,900",2007.0,Cork,"82,010",1.4,Petrol,Manual,Grey,3.0,"January, 2015",Hatchback
+102,Volkswagen Golf 1.4 5DR 80 BHP 80BHP,"6,900",2007.0,Tipperary,"87,790",1.3,Petrol,Manual,Grey,3.0,"May, 2015",Hatchback
+103,Volkswagen Golf GOLF 1.4 COMFORT 80BHP,"6,950",2007.0,Kilkenny,"45,360",1.4,Petrol,Manual,Metallic Silver,2.0,"January, 2015",Hatchback
+104,Volkswagen Golf GOLF 1.4 5DR 80 BHP 80BHP,"6,950",2007.0,Leitrim,"59,000",1.4,Petrol,Manual,Blue,3.0,"August, 2015",Hatchback
+105,Volkswagen Golf 1.4 Comfortline / Full Service History / Cartell History Checked / Immaculate Throug,"6,995",2007.0,Dublin,"90,099",1.3,Petrol,Manual,Orient Blue Metalic,2.0,"January, 2015",Hatchback
+106,Volkswagen Golf 1.4 80 BHP Air Conditioning,"6,995",2007.0,Donegal,"94,448",1.3,Petrol,Manual,Blue Metallic,2.0,,Hatchback
+107,Volkswagen Golf GOLF GT 1.4 TSI 5DR sport,"6,000",2007.0,Wicklow,"93,000",1.4,Petrol,Manual,Silver,3.0,,Hatchback
+108,Volkswagen Golf GOLF 1.4 COMFORT 80BHP,"6,200",2007.0,Louth,110,1.4,Petrol,Manual,Red,2.0,,Hatchback
+109,Volkswagen Golf 1.4 5DR 80BHP GRANGECASTLE MOTOR COMPANY,"6,250",2007.0,Dublin,"91,000",1.3,Petrol,Manual,Blue,1.0,"June, 2015",Hatchback
+110,Volkswagen Golf 1.4 COMFORT 80BHP COMFORTLINE,"6,350",2007.0,Dublin,"115,575",1.3,Petrol,Manual,Silver,2.0,"October, 2015",Hatchback
+111,Volkswagen Golf GOLF 1.4 5DR 80 BHP 80BHP,"6,500",2007.0,Kildare,"49,088",1.4,Petrol,Manual,Silver,2.0,"March, 2015",Hatchback
+112,Volkswagen Golf 1.4 5DR 80 BHP 80BHP,POA,2007.0,Tipperary,"65,865",1.4,Petrol,Manual,Silver,3.0,"May, 2015",Hatchback
+113,Volkswagen Golf SORRY I'M NOW SOLD,POA,2007.0,Donegal,"74,565",1.3,Petrol,Manual,Blue,2.0,"February, 2015",Hatchback
+114,Volkswagen Golf SPORT 1.9 TDI,POA,2007.0,Galway,"165,000",1.9,Diesel,Manual,Silver,1.0,,Hatchback
+115,Volkswagen Golf GOLF 1.4 5DR 80 BHP 80BHP,"4,999",2007.0,Dublin,"135,000",1.4,Petrol,Manual,Red,2.0,"January, 2015",Hatchback
+116,Volkswagen Golf GOLF 1.4 5DR 80 BHP 80BHP,"5,995",2007.0,Mayo,"110,000",1.4,Petrol,Manual,Silver,1.0,"December, 2015",Hatchback
+117,Volkswagen Golf GOLF GT 1.4 TSI 5DR 6SPEED 170BHP,"9,300",2006.0,Cork,"90,000",1.4,Petrol,Manual,Red,2.0,"July, 2014",Hatchback
+118,Volkswagen Golf GOLF R32 4M 250BHP DSG,"9,600",2006.0,Laois,"80,873",3.2,Petrol,Automatic,Black,5.0,"September, 2014",Hatchback
+119,Volkswagen Golf GOLF 2.0 GTI DSG 5DR AUTO 200BHP,"9,950",2006.0,Dublin,"58,409",2.0,Petrol,Automatic,Grey,2.0,"September, 2014",Hatchback
+120,Volkswagen Golf GOLF 2.0 GTI 5DR 200BHP,"9,950",2006.0,Wicklow,"62,137",2.0,Petrol,Manual,White,2.0,,Hatchback
+121,Volkswagen Golf GT 1.4,"11,950",2006.0,Dublin,"31,069",1.4,Petrol,Manual,Black,1.0,,Hatchback
+122,Volkswagen Golf GOLF 1.9 S TDI AIR CONDITIONING 5DR,"8,700",2006.0,Donegal,"92,000",1.9,Diesel,Manual,Black,2.0,,Hatchback
+123,Volkswagen Golf GOLF 2.0 GTI DSG AUTO 3DR 200BHP,"8,950",2006.0,Dublin,"86,000",2.0,Petrol,Semi-Automatic,Metallic Blue,4.0,"January, 2016",Hatchback
+124,Volkswagen Golf 1.6 SPORTLINE,"8,995",2006.0,Dublin,"71,457",1.5,Petrol,Manual,Black,,,Hatchback
+125,Volkswagen Golf comfortline,"9,000",2006.0,Meath,"44,366",1.4,Petrol,Manual,Blue,3.0,,Hatchback
+126,Volkswagen Golf GOLF 2.0 GTI 200BHP,"9,000",2006.0,Kildare,"67,000",2.0,Petrol,Manual,Black,2.0,"January, 2014",Hatchback
+127,Volkswagen Golf 1.4 COMFORT 5DR 75BHP,"7,750",2006.0,Dublin,"51,791",1.3,Petrol,Manual,Metallic Grey,1.0,,Hatchback
+128,Volkswagen Golf 1.4 5DR!!MASSIVE SALE NOW ON!!! FINANCE AVAILABLE IN 2 HOURS SIMI APPROVED DEALER 20,"7,950",2006.0,Dublin,"57,203",1.4,Petrol,Manual,Grey,2.0,"April, 2014",Hatchback
+129,Volkswagen Golf GOLF 1.9 D PLUS TDI SE 103BHP 5DR,"7,950",2006.0,Sligo,"60,000",1.9,Diesel,Manual,Grey,1.0,"February, 2014",Hatchback
+130,Volkswagen Golf 2.0 GTI 200BHP,"7,950",2006.0,Dublin,"88,856",1.9,Petrol,Manual,Red,1.0,"April, 2016",Hatchback
+131,Volkswagen Golf 2.0 GTI 200BHP......NCT 4-16,"7,950",2006.0,Dublin,"108,000",2.0,Petrol,Manual,Blue Graphite,3.0,"April, 2016",Hatchback
+132,Volkswagen Golf 1.4 COMFORT 5DR 75BHP,"7,995",2006.0,Dublin,"38,525",1.3,Petrol,Manual,Metallic Black,1.0,"January, 2015",Hatchback
+133,Volkswagen Golf 2.0 GTI 5DR 200BHP,"7,995",2006.0,Dublin,"59,000",2.0,Petrol,Manual,Silver,1.0,"January, 2016",Hatchback
+134,Volkswagen Golf,"8,250",2006.0,Meath,"39,768",1.6,Petrol,Manual,Black,1.0,,Hatchback
+135,Volkswagen Golf 2.0 GTI 5DR 200BHP,"8,350",2006.0,Dublin,"80,778",1.9,Petrol,Manual,Silver,0.0,"March, 2016",Hatchback
+136,Volkswagen Golf GOLF GT TDI 140,"8,650",2006.0,Galway,"71,000",2.0,Diesel,Manual,Black,1.0,"November, 2014",Hatchback
+137,Volkswagen Golf GOLF 1.4 75BHP 5DR,"7,600",2006.0,Waterford,"43,993",1.4,Petrol,Manual,Red,4.0,,Hatchback
+138,Volkswagen Golf GOLF 1.4 SPORT 75BHP 5DR,"7,000",2006.0,Dublin,98,1.4,Petrol,Manual,Black,3.0,"July, 2014",Hatchback
+139,Volkswagen Golf 2.0 GTi DSG,"7,000",2006.0,Dublin,"93,144",2.0,Petrol,Automatic,Black,3.0,"May, 2014",Hatchback
+140,Volkswagen Golf Sportline,"7,250",2006.0,Kildare,"85,749",1.6,Petrol,Manual,Black,1.0,,Hatchback
+141,Volkswagen Golf GOLF 1.6 SPORT 3DR 102BHP,"7,250",2006.0,Dublin,"93,206",1.6,Petrol,Manual,Blue,2.0,"August, 2014",Hatchback
+142,Volkswagen Golf 1.6 AUTO PLUS,"7,300",2006.0,Dublin,"49,000",1.6,Petrol,Automatic,Metallic Blue,1.0,,Hatchback
+143,Volkswagen Golf GOLF 1.4 SPORT 3DR 75BHP,"7,350",2006.0,Kildare,"71,458",1.4,Petrol,Manual,Silver,4.0,,Hatchback
+144,Volkswagen Golf GOLF 1.9 TDI 5Dr,"7,450",2006.0,Dublin,"88,000",1.9,Diesel,Manual,Black,2.0,"February, 2014",Hatchback
+145,Volkswagen Golf 1.4 SPORT 75BHP 5DR,"7,450",2006.0,Dublin,"95,691",1.3,Petrol,Manual,Silver,2.0,"July, 2014",Hatchback
+146,Volkswagen Golf SPORTLINE,"7,499",2006.0,Wicklow,"62,000",1.4,Petrol,Manual,Black,2.0,,Hatchback
+147,Volkswagen Golf 1.9 D TDI SPORT 103BHP 5DR,"6,750",2006.0,Dublin,"130,000",1.8,Diesel,Manual,Blue,2.0,"April, 2014",Hatchback
+148,Volkswagen Golf GOLF PLUS 1.4 5DR 75BHP,"6,770",2006.0,Kildare,"57,166",1.4,Petrol,Manual,Blue,2.0,,Hatchback
+149,Volkswagen Golf Automatic GOLF 1.6 COMFORT 3DR A/T 102BHP,"6,950",2006.0,Cork,"54,059",1.6,Petrol,Automatic,Blue,2.0,,Hatchback
+150,Volkswagen Golf GOLF 1.4 COMFORT 5DR 75BHP,"6,950",2006.0,Dublin,"62,060",1.4,Petrol,Manual,Blue,4.0,"August, 2014",Hatchback
+151,Volkswagen Golf 1.6 CALL JOHN ON 0876003905,"6,950",2006.0,Cork,"63,000",1.5,Petrol,Manual,Black,1.0,"May, 2014",Hatchback
+152,Volkswagen Golf 1.4 SPORTLINE 5dr // One Owner // Full Service History // NEW NCT 2016 // Tax 05-14 ,"6,950",2006.0,Dublin,"79,995",1.3,Petrol,Manual,Black,1.0,"March, 2016",Hatchback
+153,Volkswagen Golf 1.4 SPORT**FULL LEATHER**,"6,950",2006.0,Galway,"97,555",1.3,Petrol,Manual,Black,2.0,"July, 2014",Hatchback
+154,Volkswagen Golf SPORT 1.6FSI 115BHP 5DR,"6,995",2006.0,Cork,"89,065",1.6,Petrol,Manual,Black,1.0,,Hatchback
+155,Volkswagen Golf 1.4 SPORT 5DR,"6,750",2006.0,Dublin,"44,235",1.4,Petrol,Manual,Red,3.0,"April, 2016",Hatchback
+156,Volkswagen Golf Diesel,"6,750",2006.0,Waterford,"72,700",1.9,Diesel,Manual,Black,3.0,"November, 2015",Hatchback
+157,Volkswagen Golf GOLF 1.4 75BHP 5DR,"6,200",2006.0,Dublin,"95,000",1.4,Petrol,Manual,Silver,4.0,"January, 2014",Hatchback
+158,Volkswagen Golf 1.4 COMFORT 5DR 75BHP,"6,250",2006.0,Dublin,"85,128",1.4,Petrol,Manual,Black,3.0,"April, 2016",Hatchback
+159,Volkswagen Golf,"6,300",2006.0,Tipperary,,1.3,Petrol,Manual,Silver,2.0,,Hatchback
+160,Volkswagen Golf 1.6 Automatic 5dr Tax 7/14 NCT 8/14. FSH. Immaculate Car.,"6,450",2006.0,Dublin,"78,000",1.5,Petrol,Automatic,Metallic Black,2.0,"August, 2014",Hatchback
+161,"Volkswagen Golf 1.4 75BHP 5DR,1 OWNER FROM NEW,FULL VW SERVICE HISTORY,VIEWING RECOMMENDED,TAXED 05 ","6,495",2006.0,Wicklow,"83,264",1.3,Petrol,Manual,Metallic Silver,1.0,"May, 2014",Hatchback
+162,Volkswagen Golf GOLF 1.4 SPORT 5DR 75BHP,"6,500",2006.0,Kilkenny,"72,700",1.4,Petrol,Manual,Red,1.0,,Hatchback
+163,Volkswagen Golf Golf Van 1.9 Tdi 105 bhp,"6,500",2006.0,Limerick,"96,312",1.9,Diesel,Manual,Silver,2.0,,Commercial
+164,Volkswagen Golf GOLF 1.4 SPORT 75BHP 5DR,"6,500",2006.0,Cork,"108,740",1.4,Petrol,Manual,Silver,1.0,"February, 2016",Hatchback
+165,Volkswagen Golf GOLF 1.4 SPORT 75BHP 5DR,"6,570",2006.0,Louth,"113,871",1.4,Petrol,Manual,Blue,2.0,"July, 2014",Hatchback
+166,Volkswagen Golf GOLF 1.4 80BHP 5DR,"6,000",2006.0,Westmeath,"128,472",1.4,Petrol,Manual,Black,2.0,"July, 2014",Hatchback
+167,Volkswagen Golf GOLF 1.9 TDI SPORT 105BHP,"5,950",2006.0,Kilkenny,"119,925",1.9,Diesel,Manual,Red,2.0,"June, 2014",Hatchback
+168,"Volkswagen Golf 1.9 TDI COMFORT 5DR ,90BHP, pristene condition. nct 02-16, exceptional good driver. ","5,950",2006.0,Kildare,"150,096",1.8,Diesel,Manual,Metallic Black,2.0,"February, 2016",Hatchback
+169,Volkswagen Golf 1.9 TDI Sport,"5,950",2006.0,Mayo,"163,895",1.9,Diesel,Manual,Tornado Red,2.0,"January, 2014",Hatchback
+170,Volkswagen Golf 1.9 TDI 5DR VERY GOOD!!!,"5,995",2006.0,Wexford,"134,838",1.8,Diesel,Manual,Black,4.0,"January, 2016",Hatchback
+171,"Volkswagen Golf  1.6 SPORTLINE HATCHBACK 5-DOOR  //  UPGRADED 17"" ALLOYS  //  TOP SPEC MODEL WITH UP","5,999",2006.0,Dublin,"99,000",1.6,Petrol,Manual,Metallic Black,1.0,"August, 2014",Hatchback
+172,Volkswagen Golf GOLF PLUS 1.4 5DR 75BHP,"6,000",2006.0,Limerick,"67,729",1.4,Petrol,Manual,Silver,2.0,"February, 2014",Hatchback
+173,Volkswagen Golf GOLF 1.9 D TDI SPORT 103BHP 5DR,"6,000",2006.0,Dublin,"125,000",1.9,Diesel,Manual,Black,3.0,"June, 2015",Hatchback
+174,Volkswagen Golf L@@K MASSIVE SALE NOW ON | 5DR | NCT JAN-16 | CAREFUL OWNER | ECONOMICAL | RELIABLE ,"5,949",2006.0,Dublin,"90,000",1.3,Petrol,Manual,Red,1.0,"January, 2016",Hatchback
+175,Volkswagen Golf 1.4 75BHP 3DR,"5,950",2006.0,Dublin,"90,100",1.3,Petrol,Manual,Metallic Grey,3.0,"February, 2016",Hatchback
+176,Volkswagen Golf 2.0 DIESEL  5DR HATCHBACK NCT 03/15 P/S C/D C/L E/W E/M ABS BRAKES MULTIPLE AIRBAGS ,"5,950",2006.0,Dublin,"119,000",1.9,Diesel,Manual,Red,2.0,"March, 2015",Hatchback
+177,Volkswagen Golf GOLF 1.9 TDI 5 DR 5DR 105BHP,"5,900",2006.0,Limerick,"115,575",1.9,Diesel,Manual,Silver,2.0,,Hatchback
+178,Volkswagen Golf - 1.9 TDI 90BHP VAN - DOE JUNE 2014 - CALL NOW ON 087-092 5525,"4,950",2006.0,Dublin,"172,000",1.9,Diesel,Manual,Blue,2.0,"June, 2014",Commercial
+179,"Volkswagen Golf 1.6 SE ESTATE AUTOMATIC 2 Years Nct,**Stuning Estate car**","4,995",2006.0,Dublin,"46,050",1.6,Petrol,Automatic,Red,1.0,"April, 2015",Estate
+180,Volkswagen Golf GOLF 1.9 TDI COMFORT 5DR 105BHP,"5,000",2006.0,Donegal,"125,000",1.9,Diesel,Manual,Metallic Silver,3.0,"June, 2014",Hatchback
+181,Volkswagen Golf GOLF 1.9 D PLUS TDI SPORT 103BHP 5DR,"5,000",2006.0,Kilkenny,"180,000",1.9,Diesel,Manual,Red,1.0,"August, 2014",Hatchback
+182,Volkswagen Golf GOLF PLUS 1.6 COMFORT A/T 102BHP,"5,200",2006.0,Wicklow,"72,079",1.6,Petrol,Automatic,Silver,2.0,,Hatchback
+183,Volkswagen Golf,"5,400",2006.0,Donegal,"73,500",1.4,Petrol,Manual,Black,2.0,"April, 2014",Hatchback
+184,Volkswagen Golf GOLF 1.9 TDI 105BHP VAN 3DR,"5,650",2006.0,Dublin,"142,915",1.9,Diesel,Manual,Black,3.0,"September, 2014",Commercial
+185,Volkswagen Golf GOLF 1.9 SPORT TDI AIR CONDITIONING 103BHP 5DR,"5,750",2006.0,Galway,"128,000",1.9,Diesel,Manual,Metallic Black,2.0,"May, 2016",Hatchback
+186,Volkswagen Golf 1.9 D TDI SE 103BHP 5DR,"5,750",2006.0,Mayo,"135,000",1.8,Diesel,Manual,Grey,3.0,"December, 2014",Hatchback
+187,Volkswagen Golf GOLF 2.0 GTI DSG 5DR 200BHP,"8,000",2005.0,Dublin,"60,273",2.0,Petrol,Automatic,Red,4.0,"June, 2015",Hatchback
+188,Volkswagen Golf GOLF 2.0 S SDI 03DR,"8,000",2005.0,Cork,"68,000",2.0,Diesel,Manual,Black,2.0,,Hatchback
+189,Volkswagen Golf sdi,"8,500",2005.0,Wexford,"73,000",2.0,Diesel,Manual,Silver,2.0,,Hatchback
+190,Volkswagen Golf 1.9 TDi,"8,800",2005.0,Donegal,"75,000",1.9,Diesel,Manual,Black,2.0,,Hatchback
+191,Volkswagen Golf --- SOLD ---,POA,2006.0,Dublin,"53,000",1.4,Petrol,Manual,Silver,1.0,"April, 2014",Hatchback
+192,Volkswagen Golf 1.4 5 DOOR,POA,2006.0,Cork,"105,633",1.4,Petrol,Manual,Silver,2.0,"December, 2014",Hatchback
+193,Volkswagen Golf PLUS 1.9 TDI 5DR COMFORT,POA,2006.0,Tipperary,"135,000",1.9,Diesel,Manual,Grey,2.0,,Hatchback
+194,Volkswagen Golf 1.9 TDI *VERY CLEAN CAR*LOW MILEAGE*,POA,2006.0,Galway,"145,000",1.9,Diesel,Manual,Silver,2.0,,Hatchback
+195,Volkswagen Golf GTI DSG 200 BHP,"7,500",2005.0,Dublin,"92,571",2.0,Petrol,Automatic,Black,2.0,"June, 2015",Hatchback
+196,Volkswagen Golf GOLF 2.0 GT TDI 140BHP 03DR,"7,950",2005.0,Dublin,"95,000",2.0,Diesel,Manual,Black,2.0,,Hatchback
+197,Volkswagen Golf GOLF 2.0 GTI 200BHP,"7,250",2005.0,Meath,"95,691",2.0,Petrol,Manual,Red,5.0,"April, 2015",Hatchback
+198,Volkswagen Golf 2.0 GTI 200BHP,"7,400",2005.0,Laois,"115,948",2.0,Petrol,Manual,Black,1.0,"August, 2013",Hatchback
+199,Volkswagen Golf 1.4 VERY LOW MILEAGE  !!MASSIVE SALE NOW ON!!! FINANCE AVAILABLE IN 2 HOURS SIMI APP,"7,450",2005.0,Dublin,"48,887",1.4,Petrol,Manual,Silver,3.0,"September, 2015",Hatchback
+200,Volkswagen Golf COMFORTLINE,"7,450",2005.0,Cork,"90,409",1.4,Petrol,Manual,Silver,4.0,,Hatchback
+201,Volkswagen Golf 1.9 TDI 5 DR 105BHP,"6,950",2005.0,Galway,"107,611",1.8,Diesel,Manual,Red,2.0,"February, 2015",Hatchback
+202,Volkswagen Golf 2.0 GT TDI 138BHP 05DR,"6,950",2005.0,Dublin,"112,000",2.0,Diesel,Manual,Red,3.0,,Hatchback
+203,Volkswagen Golf  GTI 5DR,"6,950",2005.0,Dublin,"114,332",1.9,Petrol,Manual,Black,3.0,,Hatchback
+204,Volkswagen Golf 1.6 COMFORT AUTO,"6,995",2005.0,Dublin,"76,107",1.5,Petrol,Automatic,Silver,1.0,"February, 2015",Hatchback
+205,Volkswagen Golf GOLF 1.9 TDI COMFORT,"7,000",2005.0,Dublin,"67,108",1.9,Diesel,Manual,Blue,3.0,,Hatchback
+206,Volkswagen Golf GOLF 2.0 GTI 200BHP,"7,250",2005.0,Meath,"95,691",2.0,Petrol,Manual,Red,5.0,"April, 2015",Hatchback
+207,Volkswagen Golf 2.0 GTI 5DR 200BHP,"6,950",2005.0,Dublin,"107,497",1.9,Petrol,Manual,Silver,3.0,,Hatchback
+208,Volkswagen Golf 1.6 AUTO HIGH SPEC,"6,500",2005.0,Dublin,"45,000",1.6,Petrol,Automatic,Silver,1.0,,Hatchback
+209,Volkswagen Golf 1.4 75BHP 5DR,"6,500",2005.0,Tipperary,"93,073",1.3,Petrol,Manual,Black,2.0,"January, 2015",Hatchback
+210,Volkswagen Golf SPORT,"6,550",2005.0,Cork,"74,565",1.4,Petrol,Manual,Black,3.0,,Hatchback
+211,Volkswagen Golf 1.9 TDI COMFORT AUTOMATIC,"6,750",2005.0,Dublin,"92,584",1.8,Diesel,Automatic,Metallic Blue Grey Met,2.0,"August, 2015",Hatchback
+212,Volkswagen Golf SPORT 1.9TDI *SPOTLESS*,"6,750",2005.0,Galway,"132,000",1.9,Diesel,Manual,Silver,0.0,"April, 2015",Hatchback
+213,Volkswagen Golf GOLF 1.9 D TDI SE 105BHP 5DR,"6,850",2005.0,Carlow,"146,000",1.9,Diesel,Manual,Blue,2.0,"July, 2015",Hatchback
+214,Volkswagen Golf,"6,900",2005.0,Tipperary,"85,000",1.3,Petrol,Manual,Grey,2.0,,Hatchback
+215,Volkswagen Golf 1.6 6 Speed Automatic,"6,950",2005.0,Dublin,"52,195",1.6,Petrol,Manual,Silver,1.0,"March, 2016",Hatchback
+216,Volkswagen Golf 1.6 COMFORT 5DR AUTO,"6,950",2005.0,Kildare,"99,073",1.6,Petrol,Automatic,Blue,2.0,,Hatchback
+217,Volkswagen Golf AUTOMATIC,"6,250",2005.0,Dublin,"49,088",1.6,Petrol,Automatic,Red,1.0,"March, 2016",Hatchback
+218,Volkswagen Golf Trendline,"6,250",2005.0,Dublin,"55,302",1.6,Petrol,Automatic,Red,1.0,"March, 2016",Hatchback
+219,Volkswagen Golf L@@K MASSIVE SALE NOW ON | 1.4 | 5DR | ONE CAREFUL OWNER | NCT JAN-15 | FULL INDEPEN,"5,949",2005.0,Dublin,"90,000",1.3,Petrol,Manual,Silver,1.0,"January, 2015",Hatchback
+220,Volkswagen Golf 1.4- 5 DOOR -ONLY 56000mls,"5,950",2005.0,Dublin,"56,000",1.3,Petrol,Manual,Blue,2.0,"January, 2015",Hatchback
+221,Volkswagen Golf 1.4 COMFORT 3DR 75BHP,"5,950",2005.0,Dublin,"70,836",1.3,Petrol,Manual,Silver,2.0,"May, 2015",Hatchback
+222,Volkswagen Golf 1.4 COMFORT 3DR 75BHP,"5,950",2005.0,Dublin,"83,400",1.3,Petrol,Manual,Silver,2.0,"January, 2015",Hatchback
+223,Volkswagen Golf GOLF 1.4 75BHP 5DR,"5,995",2005.0,Waterford,"83,885",1.4,Petrol,Manual,Blue,4.0,,Hatchback
+224,Volkswagen Golf GOLF 1.6 SPORT 5DR FSI 115BHP,"6,000",2005.0,Dublin,"74,565",1.6,Petrol,Manual,Metallic Black,2.0,"February, 2015",Hatchback
+225,Volkswagen Golf 1.4 5dr SPORT*6 months Nationwide Warranty * Nct 03/15 * Serviced * Valeted * Trade ,"6,200",2005.0,Limerick,"101,284",1.3,Petrol,Manual,Black,2.0,"March, 2015",Hatchback
+226,Volkswagen Golf AUTOMATIC,"6,250",2005.0,Dublin,"43,496",1.6,Petrol,Automatic,Blue,1.0,"March, 2016",Hatchback
+227,Volkswagen Golf 1.4 COMFORT 5DR 75BHP,"5,650",2005.0,Cork,"59,652",1.3,Petrol,Manual,Green,5.0,"June, 2015",Hatchback
+228,Volkswagen Golf 1.4 SPORT 75BHP,"5,700",2005.0,Tipperary,"118,682",1.3,Petrol,Manual,Blue,2.0,"March, 2015",Hatchback
+229,Volkswagen Golf 1.4 COMFORT 5DR 75BHP,"5,750",2005.0,Dublin,"95,000",1.4,Petrol,Manual,Black,4.0,"March, 2015",Hatchback
+230,Volkswagen Golf 1.4 SPORT 75BHP,"5,750",2005.0,Kildare,"106,000",1.3,Petrol,Manual,Black,4.0,"February, 2015",Hatchback
+231,Volkswagen Golf GOLF 2.0 GT TDI SPORT 138BHP 5DR,"5,750",2005.0,Donegal,"149,000",2.0,Diesel,Manual,Metallic Blue,2.0,"April, 2014",Hatchback
+232,Volkswagen Golf 1.9 TDI 5DR 90BHP,"5,800",2005.0,Tipperary,"144,390",1.8,Diesel,Manual,Black,4.0,,Hatchback
+233,Volkswagen Golf 1.6 COMFORT 5DR FSI 115BHP**6 SPEED**CRUISE CONTROL**MULTI FUNCTION STEERING WHEEL**,"5,850",2005.0,Dublin,"86,000",1.5,Petrol,Manual,Metallic Blue,3.0,"January, 2015",Hatchback
+234,Volkswagen Golf GOLF 1.4 75BHP 5DR,"5,940",2005.0,Dublin,"79,482",1.4,Petrol,Manual,Silver,2.0,"May, 2015",Hatchback
+235,Volkswagen Golf 1.9 D TDI SE 105BHP 5DR,"5,500",2005.0,Westmeath,"114,000",1.8,Diesel,Manual,Black,1.0,,Hatchback
+236,Volkswagen Golf GOLF 1.9 D TDI SE 103BHP 5DR,"5,600",2005.0,Galway,"116,000",1.9,Diesel,Manual,Silver,2.0,"May, 2014",Hatchback
+237,Volkswagen Golf 1.4 SPORT 75BHP,"5,500",2005.0,Cork,"98,798",1.3,Petrol,Manual,Silver,4.0,"May, 2015",Hatchback
+238,Volkswagen Golf GOLF 1.9 TDI 5DR 90BHP,"5,250",2005.0,Dublin,"123,031",1.9,Diesel,Manual,Red,2.0,"March, 2015",Hatchback
+239,Volkswagen Golf 1.9 TDI 5DR 90BHP,"5,250",2005.0,Limerick,"139,420",1.9,Diesel,Manual,Grey,3.0,"January, 2015",Hatchback
+240,Volkswagen Golf GOLF 1.4 SPORT 3DR,"5,300",2005.0,Dublin,"62,000",1.4,Petrol,Manual,Blue,1.0,"January, 2014",Hatchback
+241,Volkswagen Golf 1.4 COMFORT 75BHP ESTATE,"5,350",2005.0,Cork,"69,594",1.3,Petrol,Manual,Metallic Silver,3.0,"February, 2015",SUV
+242,"Volkswagen Golf 1.4 SPORT 3DR FULLY SERVICED, 4 NEW TYRES, NEW TIMING BELT, NCT 03/15","5,445",2005.0,Dublin,"71,761",1.3,Petrol,Manual,Black,1.0,"March, 2015",Hatchback
+243,Volkswagen Golf 2.0 GTI 200BHP,"5,450",2005.0,Dublin,"118,061",1.9,Petrol,Manual,Silver,3.0,"January, 2015",Hatchback
+244,Volkswagen Golf GOLF 1.4 SPORT,"5,500",2005.0,Meath,"67,729",1.4,Petrol,Manual,Blue,3.0,"September, 2015",Hatchback
+245,Volkswagen Golf GOLF 1.4 SPORT 3DR,"5,500",2005.0,Kildare,"69,000",1.4,Petrol,Manual,Grey,3.0,"April, 2015",Hatchback
+246,Volkswagen Golf GOLF 1.4 SPORT 75BHP,"5,500",2005.0,Wexford,"96,685",1.4,Petrol,Manual,Metallic Red,3.0,"May, 2015",Hatchback
+247,Volkswagen Golf 1.9 D TDI SPORT 105BHP 5DR,"4,950",2005.0,Dublin,"147,000",1.9,Diesel,Manual,Black,1.0,"February, 2016",Hatchback
+248,Volkswagen Golf 1.4 Base NCT'd 01/15 Tax'd 04/14,"4,995",2005.0,Kildare,"100,089",1.3,Petrol,Manual,Burgundy,2.0,"February, 2015",Hatchback
+249,Volkswagen Golf GOLF 1.4 COMFORT Full Service History&Fully Serviced 75BHP ESTATE,"4,999",2005.0,Dublin,"101,000",1.4,Petrol,Manual,Black,3.0,,Hatchback
+250,Volkswagen Golf GOLF 2.0 GT TDI 138BHP 5DR,"5,000",2005.0,Monaghan,"112,000",2.0,Diesel,Manual,Blue,3.0,"July, 2015",Hatchback
+251,Volkswagen Golf GOLF 1.4 SPORT 3DR 75BHP,"5,200",2005.0,Louth,"133,595",1.4,Petrol,Manual,Blue,2.0,"January, 2015",Hatchback
+252,Volkswagen Golf GOLF 2.0 GT TDI 140BHP 5DR,"5,200",2005.0,Kilkenny,"143,000",2.0,Diesel,Manual,Grey,3.0,"April, 2015",Hatchback
+253,Volkswagen Golf GOLF PLUS 1.4 COMFORT 75BHP,"5,250",2005.0,Dublin,85,1.4,Petrol,Manual,Blue,2.0,"November, 2015",Hatchback
+254,Volkswagen Golf 1.9 TDI 105BHP VAN 3DR,"5,250",2005.0,Dublin,"112,468",1.8,Diesel,Manual,Silver,2.0,,Commercial
+255,Volkswagen Golf GOLF 1.9 D TDI SE 105BHP 5DR,"4,900",2005.0,Monaghan,"134,000",1.9,Diesel,Manual,Grey,2.0,"May, 2015",Hatchback
+256,Volkswagen Golf GOLF 1.9 TDI SPORT 105BHP,"4,900",2005.0,Sligo,"151,000",1.9,Diesel,Manual,Grey/Green,2.0,"August, 2015",Hatchback
+257,Volkswagen Golf GOLF 1.9 D TDI SE 105BHP 5DR,"4,900",2005.0,Meath,"130,000",1.9,Diesel,Manual,Black,1.0,"January, 2015",Hatchback
+258,Volkswagen Golf GOLF  2.0 gttD HP 5DR,"6,500",2004.0,Kildare,"104,031",2.0,Diesel,Manual,Green,3.0,"March, 2015",Hatchback
+259,Volkswagen Golf,"6,850",2004.0,Cavan,"101,000",1.9,Diesel,Manual,Red,2.0,,Hatchback
+260,Volkswagen Golf 1.9 TDI 5 DR 105BHP,POA,2005.0,Laois,"159,071",1.8,Diesel,Manual,Red,2.0,,Hatchback
+261,Volkswagen Golf GOLF 1.6 102BHP 5DR,"3,950",2005.0,Dublin,"74,565",1.6,Petrol,Manual,Champagne,2.0,"January, 2015",Hatchback
+262,Volkswagen Golf,"3,999",2005.0,Dublin,"187,300",1.9,Diesel,Manual,Metallic Silver,2.0,"March, 2015",Hatchback
+263,Volkswagen Golf GOLF 1.9 D TDI SPORT 105BHP 5DR,"4,550",2005.0,Monaghan,"145,000",1.9,Diesel,Manual,Black,2.0,"January, 2015",Hatchback
+264,Volkswagen Golf GOLF 1.9 D TDI SPORT 105BHP 3DR,"4,550",2005.0,Longford,"160,000",1.9,Diesel,Manual,Black,2.0,"April, 2015",Hatchback
+265,Volkswagen Golf GOLF 1.9 D TDI SE 105BHP 5DR,"4,750",2005.0,Mayo,"170,000",1.9,Diesel,Manual,Black,1.0,"June, 2015",Hatchback
+266,Volkswagen Golf GOLF 1.9 D TDI SE 103BHP 5DR,"4,850",2005.0,Dublin,"127,000",1.9,Diesel,Manual,Silver,1.0,"November, 2014",Hatchback
+267,Volkswagen Golf 1.6 SPORT 5DR FSI 115BHP,"6,500",2004.0,Cork,"101,344",1.5,Petrol,Manual,Silver,3.0,,Hatchback
+268,Volkswagen Golf GOLF 1.4 75BHP 5DR,"5,750",2004.0,Dublin,"44,800",1.4,Petrol,Manual,Metallic Dark Grey,3.0,"June, 2014",Hatchback
+269,Volkswagen Golf GOLF 1.4 COMFORT 5DR 75BHP,"5,900",2004.0,Dublin,"85,000",1.4,Petrol,Manual,Blue,4.0,"July, 2014",Hatchback
+270,Volkswagen Golf GOLF 1.4 75BHP 5DR,"5,900",2004.0,Cork,"86,000",1.4,Petrol,Manual,Black,2.0,,Hatchback
+271,Volkswagen Golf TDI HIGH 130 130BHP 3DR,"5,900",2004.0,Tipperary,"147,000",1.8,Diesel,Manual,Blue,3.0,"January, 2015",Hatchback
+272,Volkswagen Golf GOLF 1.4 COMFORT 5DR 75BHP,"5,950",2004.0,Dublin,"67,715",1.4,Petrol,Manual,Blue,2.0,,Hatchback
+273,Volkswagen Golf GOLF 1.4 SPORT 3DR 75BHP,"6,000",2004.0,Dublin,"47,000",1.4,Petrol,Manual,Blue,1.0,"July, 2014",Hatchback
+274,Volkswagen Golf GOLF 1.4 75BHP 5DR,"6,000",2004.0,Galway,"82,000",1.4,Petrol,Manual,Red,3.0,,
+275,Volkswagen Golf 1.6 102bhp **1 Owner**,"6,450",2004.0,Cork,"86,000",1.6,Petrol,Manual,Silver,1.0,,Hatchback
+276,Volkswagen Golf GOLF 1.9 TDI 5 DR 105BHP,"6,500",2004.0,Meath,"96,000",1.9,Diesel,Manual,Blue,4.0,,Hatchback
+277,Volkswagen Golf GOLF 2.0 GTI DSG 200BHP,"5,600",2004.0,Wicklow,"95,691",2.0,Petrol,Automatic,Red,5.0,"December, 2014",Hatchback
+278,Volkswagen Golf 1.4 75BHP 5DR,"5,700",2004.0,Limerick,"91,000",1.3,Petrol,Manual,Blue,2.0,"March, 2014",Hatchback
+279,Volkswagen Golf GOLF 1.4 75BHP 5DR,"5,000",2004.0,Dublin,"180,000",1.4,Petrol,Manual,Black,2.0,"May, 2014",Hatchback
+280,Volkswagen Golf GOLF 1.4 75BHP 5DR,"5,200",2004.0,Cork,"82,000",1.4,Petrol,Manual,Black,3.0,"March, 2015",Hatchback
+281,Volkswagen Golf 1.4 COMFORTLINE 5dr // Only 75k mls // New Model // NEW NCT 03-15 // ARRIVING TODAY.,"5,450",2004.0,Dublin,"75,000",1.3,Petrol,Manual,Black,2.0,"March, 2015",Hatchback
+282,Volkswagen Golf GOLF 1.4 SPORT 75BHP,"5,450",2004.0,Dublin,"85,000",1.4,Petrol,Manual,Silver,7.0,"January, 2014",Hatchback
+283,Volkswagen Golf GOLF 1.4 SPORT 75BHP,"5,450",2004.0,Dublin,"85,000",1.4,Petrol,Manual,Silver,7.0,"January, 2014",Hatchback
+284,Volkswagen Golf GOLF TDI COMFORT 100BHP ESTATE 1.9,"5,450",2004.0,Cavan,"104,000",1.9,Diesel,Manual,Blue,2.0,,Estate
+285,Volkswagen Golf 1.4 SPORT 75BHP,"5,500",2004.0,Tipperary,"130,000",1.3,Petrol,Manual,Black,3.0,"March, 2014",Hatchback
+286,Volkswagen Golf GOLF V6 4MHI 2.8 204BHP 3DR,"5,555",2004.0,Dublin,"94,000",2.8,Petrol,Manual,Black,2.0,"January, 2014",Hatchback
+287,Volkswagen Golf GOLF 1.6 SPORT 3DR 102BHP,"5,000",2004.0,Sligo,"134,000",1.6,Petrol,Manual,Black,3.0,"April, 2014",Hatchback
+288,Volkswagen Golf 1.4 COMFORTLINE 5DR 75BHP*TAX 06/2014*,"4,945",2004.0,Dublin,"109,800",1.3,Petrol,Manual,Black,3.0,"April, 2014",Hatchback
+289,Volkswagen Golf GOLF1.4 SPORT FSI NCT June 2014,"4,950",2004.0,Dublin,"55,000",1.4,Petrol,Manual,Blue,3.0,"June, 2014",Hatchback
+290,Volkswagen Golf 1.4 New NCT May 2015,"4,950",2004.0,Limerick,"83,000",1.3,Petrol,Manual,Red,2.0,"May, 2015",Hatchback
+291,Volkswagen Golf 1.4 SPORT 75BHP,"4,950",2004.0,Dublin,"95,000",1.3,Petrol,Manual,Grey,4.0,,Hatchback
+292,Volkswagen Golf 1.4 SPORT 75BHP  -- NCT 9-2014 -- SERVICED WITH WARRANTY -- ALL TRADE INS WELCOME --,"4,950",2004.0,Dublin,"118,000",1.3,Petrol,Manual,Silver,2.0,"September, 2014",Hatchback
+293,Volkswagen Golf GOLF TDI 1.9 100BHP BASE 5DR,"4,999",2004.0,Westmeath,"134,505",1.9,Diesel,Manual,Black,1.0,"January, 2015",Hatchback
+294,Volkswagen Golf GOLF 1.4 75BHP 5DR,"5,000",2004.0,Wicklow,"80,778",1.4,Petrol,Manual,Blue,3.0,"December, 2014",Hatchback
+295,Volkswagen Golf 1.4 SPORT 3DR 75BHP,"5,000",2004.0,Meath,"99,500",1.4,Petrol,Manual,Blue,2.0,"July, 2014",Hatchback
+296,Volkswagen Golf GOLF 1.4 COMFORT 5DR 75BHP,"5,000",2004.0,Dublin,"106,565",1.4,Petrol,Manual,Black,2.0,"September, 2014",Hatchback
+297,Volkswagen Golf 1.4 75BHP 5DR *genuine miles*,"4,500",2004.0,Dublin,"43,000",1.3,Petrol,Manual,Black,3.0,"March, 2014",Hatchback
+298,Volkswagen Golf 1.4 SPORT 3DR 75BHP,"4,500",2004.0,Waterford,"110,000",1.4,Petrol,Manual,Black,3.0,"August, 2014",Hatchback
+299,Volkswagen Golf GOLF 1.4 COMFORT 5DR 75BHP,"4,600",2004.0,Kerry,"122,899",1.4,Petrol,Manual,Champagne (Beige),2.0,,Hatchback
+300,Volkswagen Golf GOLF 1.4 SPORT FSI 3DR,"4,750",2004.0,Dublin,"73,500",1.4,Petrol,Manual,Metallic Blue,2.0,"August, 2014",Hatchback
+301,Volkswagen Golf GOLF 1.4 COMFORT 5DR 75BHP,"4,750",2004.0,Leitrim,"77,000",1.4,Petrol,Manual,Red,3.0,"July, 2014",Hatchback
+302,Volkswagen Golf GOLF 1.4 75BHP 5DR,"4,750",2004.0,Westmeath,"116,000",1.4,Petrol,Manual,Black,2.0,"March, 2014",Hatchback
+303,"Volkswagen Golf """"2LT GT-SPORT 140BHP 6SP""""","4,750",2004.0,Louth,"206,000",2.0,Diesel,Manual,Metallic Blue,3.0,"August, 2014",Hatchback
+304,Volkswagen Golf GOLF 1.4 SPORT 75BHP,"4,850",2004.0,Meath,"84,155",1.4,Petrol,Manual,Metallic Silver,2.0,"May, 2014",Hatchback
+305,Volkswagen Golf GOLF 1.9 D TDI SE 105BHP 5DR,"4,850",2004.0,Monaghan,"150,000",1.9,Diesel,Manual,Black,2.0,"November, 2014",Hatchback
+306,Volkswagen Golf 1.9 D TDI SPORT 105BHP 5DR ** AIR CON ** ALLOYS **,"4,495",2004.0,Dublin,"138,000",1.8,Diesel,Manual,Metallic Grey,2.0,"June, 2014",Hatchback
+307,Volkswagen Golf Comfort Line,"4,475",2004.0,Dublin,"74,000",1.4,Petrol,Manual,Metallic Dark Grey,2.0,"February, 2015",Hatchback
+308,Volkswagen Golf GOLF 1.9 TDI COMFORT 105BHP,"3,990",2004.0,Kilkenny,"83,264",1.9,Diesel,Manual,Silver,2.0,"September, 2014",Hatchback
+309,Volkswagen Golf GOLF 1.4 COMFORT 5DR 75BHP,"4,000",2004.0,Dublin,"140,000",1.4,Petrol,Manual,Silver,4.0,"April, 2014",Hatchback
+310,Volkswagen Golf VW GOLF 1.4 5DR C/LINE,"4,000",2004.0,Cavan,"203,900",1.4,Petrol,Manual,Black,1.0,,Hatchback
+311,Volkswagen Golf GOLF 1.9 TDI 3DR 105BHP,"4,200",2004.0,Dublin,"127,000",1.9,Diesel,Manual,Metallic Silver,2.0,"August, 2014",Hatchback
+312,Volkswagen Golf GOLF 1.9 TDI 3DR 105BHP,"4,200",2004.0,Dublin,"127,000",1.9,Diesel,Manual,Silver,2.0,"August, 2014",Hatchback
+313,Volkswagen Golf 1.9 TDI COMFORT 105BHP,"4,200",2004.0,Galway,"235,000",1.9,Diesel,Manual,Blue,2.0,"May, 2014",Hatchback
+314,Volkswagen Golf 1.4 MATCH 3DR,"4,250",2004.0,Dublin,"110,200",1.3,Petrol,Manual,Black,2.0,"January, 2014",Hatchback
+315,Volkswagen Golf GOLF 1.6 102BHP 5DR,"4,300",2004.0,Wicklow,"76,000",1.6,Petrol,Manual,Silver,2.0,,Hatchback
+316,Volkswagen Golf GOLF 1.9 D TDI 90BHP 5DR,"4,400",2004.0,Dublin,124,1.9,Diesel,Manual,Silver,3.0,"April, 2014",Hatchback
+317,Volkswagen Golf 1.4 COMFORT 75BHP ESTATE,"3,500",2004.0,Cork,"139,000",1.3,Petrol,Manual,Silver,3.0,"April, 2015",Estate
+318,Volkswagen Golf GOLF 1.9 D TDI SE 105BHP 5DR,"3,600",2004.0,Dublin,"67,108",1.9,Diesel,Manual,Black,4.0,"June, 2014",Hatchback
+319,Volkswagen Golf GOLF 1.4 75BHP 5DR,"3,700",2004.0,Dublin,"92,000",1.4,Petrol,Manual,Gold,2.0,"March, 2014",Hatchback
+320,Volkswagen Golf 1.4 75BHP 5DR,"3,750",2004.0,Dublin,"63,000",1.3,Petrol,Manual,Grey,2.0,,Hatchback
+321,Volkswagen Golf 1.4 BASE 75BHP 5DR,"3,750",2004.0,Dublin,"99,000",1.3,Petrol,Manual,Silver,2.0,"February, 2014",Hatchback
+322,Volkswagen Golf GOLF GOLF2.0 SDI SPORT 75BHP 5DR,"3,800",2004.0,Waterford,"109,444",2.0,Diesel,Manual,Black,3.0,"May, 2014",Hatchback
+323,Volkswagen Golf GOLF TDI 1.9 100BHP BASE 5DR,"3,950",2004.0,Meath,"154,000",1.9,Diesel,Manual,Blue,3.0,"January, 2014",Hatchback
+324,Volkswagen Golf 1.9 TDI COMFORT 105 BHP NCT 4/14,"3,950",2004.0,Leitrim,"213,000",1.9,Diesel,Manual,Blue,2.0,"April, 2014",Hatchback
+325,Volkswagen Golf GOLF 1.4 BASE 75BHP 5DR,"3,000",2004.0,Kerry,"123,000",1.4,Petrol,Manual,Green,2.0,"March, 2014",Hatchback
+326,Volkswagen Golf GOLF 1.4 COMFORT 5DR 75BHP,"3,500",2004.0,Limerick,"119,365",1.4,Petrol,Manual,Black,2.0,"August, 2014",Hatchback
+327,Volkswagen Golf GOLF TDI COMFORT 100BHP 3DR,"4,950",2003.0,Dublin,"105,000",1.9,Diesel,Manual,White,3.0,"February, 2015",Hatchback
+328,Volkswagen Golf GOLF TDI 1.9 100BHP BASE 05DR,"5,000",2003.0,Dublin,"113,000",1.9,Diesel,Manual,Blue,3.0,,Hatchback
+329,Volkswagen Golf TDI,"5,250",2003.0,Mayo,"103,000",1.9,Diesel,Manual,Blue,3.0,,Saloon
+330,Volkswagen Golf R32,"8,000",2003.0,Donegal,"28,420",3.2,Petrol,Manual,Black,3.0,"August, 2014",Hatchback
+331,Volkswagen Golf 1.4 5DR Match,POA,2004.0,Donegal,"72,000",1.4,Petrol,Manual,Red,2.0,,Hatchback
+332,Volkswagen Golf *SOLD**SOLD**SOLD**SOLD*,POA,2004.0,Galway,"117,500",1.3,Petrol,Manual,Metallic Black,2.0,"January, 2015",Hatchback
+333,Volkswagen Golf GOLF 1.4 BASE 75BHP 5DR,"3,000",2004.0,Dublin,116,1.4,Petrol,Manual,Black,4.0,"January, 2016",Hatchback
+334,Volkswagen Golf GOLF 1.4 BASE 75BHP 5DR,"3,000",2004.0,Kerry,"120,000",1.4,Petrol,Manual,Blue,3.0,,Hatchback
+335,Volkswagen Golf GOLF 1.9 D GT TDI 130BHP 5DR,"4,500",2003.0,Cork,"170,000",1.9,Diesel,Manual,Metallic Blue,3.0,"August, 2014",Hatchback
+336,Volkswagen Golf 1.9 D TDI 90BHP 5DR,"4,900",2003.0,Tipperary,"160,000",1.8,Diesel,Manual,Black,2.0,"January, 2014",Hatchback
+337,Volkswagen Golf GOLF 1.9 D SE TDI 90BHP 5DR,"4,000",2003.0,Donegal,"137,466",1.9,Diesel,Manual,Black,2.0,"October, 2014",Hatchback
+338,Volkswagen Golf GOLF 1.4 BASE 75BHP 05DR,"4,250",2003.0,Wicklow,"65,000",1.4,Petrol,Manual,Silver,2.0,,Hatchback
+339,Volkswagen Golf GOLF 1.4 BASE 75BHP 5DR,"4,300",2003.0,Cork,"63,305",1.4,Petrol,Manual,Silver,5.0,,Hatchback
+340,Volkswagen Golf GOLF 1.9 D GT TDI 150BHP 05DR,"4,350",2003.0,Kerry,142,1.9,Diesel,Manual,Grey,3.0,,Hatchback
+341,"Volkswagen Golf 1.4 COMFORTLINE 5DR / ONE OWNER / ONLY 56,000 MILES / VERY ORIGINAL CAR / SERVICE HI","4,450",2003.0,Dublin,"56,000",1.4,Petrol,Manual,Silver,1.0,"January, 2015",Hatchback
+342,Volkswagen Golf GOLF 1.9 D GT TDI 130BHP 3DR,"4,500",2003.0,Galway,137,1.9,Diesel,Manual,Silver,1.0,"April, 2014",Hatchback
+343,Volkswagen Golf 1.9 D TDI SE 100BHP 5DR,"4,500",2003.0,Westmeath,"110,200",1.8,Diesel,Manual,Blue,3.0,"April, 2014",Hatchback
+344,Volkswagen Golf GOLF GTI TURBO 180BHP 5DR,"3,950",2003.0,Dublin,"98,000",1.8,Petrol,Manual,Black,3.0,,Hatchback
+345,Volkswagen Golf GOLF 1.6 HIGH 105BHP 05DR,"4,000",2003.0,Dublin,"82,000",1.6,Petrol,Manual,Black,3.0,,Hatchback
+346,Volkswagen Golf GOLF 2.0 GTI 115BHP 03DR,"4,000",2003.0,Cork,"95,800",2.0,Petrol,Manual,Black,3.0,,Hatchback
+347,Volkswagen Golf 1.6 COMFORT 105BHP 3DR (NCT-05-2015),"3,495",2003.0,Dublin,"130,000",1.5,Petrol,Manual,Metallic Black,4.0,"May, 2015",Hatchback
+348,Volkswagen Golf TDI 1.9 100BHP BASE 5DR,"3,499",2003.0,Kildare,"182,000",1.9,Diesel,Manual,Silver,4.0,"March, 2014",Hatchback
+349,Volkswagen Golf 1.4 75BHP COMFORT 5DR,"3,500",2003.0,Dublin,"72,000",1.3,Petrol,Manual,Gold,3.0,"April, 2014",Hatchback
+350,Volkswagen Golf 1.4 75BHP COMFORT 5DR,"3,500",2003.0,Westmeath,"123,000",1.4,Petrol,Manual,Black,2.0,"April, 2014",Hatchback
+351,Volkswagen Golf GOLF 1.4 75BHP COMFORT 05DR,"3,550",2003.0,Dublin,"85,000",1.4,Petrol,Manual,Black,2.0,,Hatchback
+352,Volkswagen Golf GOLF 1.9 D GT TDI 150BHP 5DR,"3,650",2003.0,Roscommon,"120,000",1.9,Diesel,Manual,Silver,1.0,"October, 2014",Hatchback
+353,Volkswagen Golf 1.4 BASE 75BHP 5DR,"3,750",2003.0,Dublin,"56,000",1.3,Petrol,Manual,Silver,3.0,"September, 2014",Hatchback
+354,Volkswagen Golf GOLF 1.9 TDI 100BHP BASE 3DR,"3,750",2003.0,Cavan,"169,000",1.9,Diesel,Manual,Silver,2.0,"July, 2014",Hatchback
+355,Volkswagen Golf GOLF 1.6 MATCH 05DR,"3,800",2003.0,Dublin,"98,000",1.6,Petrol,Manual,Black,2.0,,Hatchback
+356,"Volkswagen Golf 1.4 Comfortline , Choice of two","3,950",2003.0,Meath,"87,523",1.3,Petrol,Manual,Metallic Silver,3.0,"June, 2014",Hatchback
+357,Volkswagen Golf 1.9 TDI NEW NCT APRIL 2015 - TAXED JUNE 2014 - CALL NOW ON 087-092 5525,"3,450",2003.0,Dublin,"119,000",1.9,Diesel,Manual,Silver,1.0,"April, 2015",Hatchback
+358,Volkswagen Golf GTI 1.8T 150BHP 25TH ANNIVERSERY EDITION,"2,995",2003.0,Cork,"105,791",1.8,Petrol,Automatic,Black,5.0,,Hatchback
+359,Volkswagen Golf GOLF 1.6 100 BHP 5DR A,"3,000",2003.0,Dublin,"91,342",1.6,Petrol,Automatic,Blue,3.0,"March, 2014",Hatchback
+360,Volkswagen Golf GOLF 1.4 BASE 75BHP 05DR,"3,000",2003.0,Dublin,"118,000",1.4,Petrol,Manual,Black,2.0,"July, 2014",Hatchback
+361,Volkswagen Golf GOLF 1.4 BASE 75BHP 5DR,"3,200",2003.0,Dublin,"84,000",1.4,Petrol,Manual,Silver,4.0,"April, 2014",Hatchback
+362,Volkswagen Golf GOLF 1.6 HIGH 3DR 105BHP,"3,200",2003.0,Wexford,"109,660",1.6,Petrol,Manual,Black,3.0,"April, 2014",Hatchback
+363,Volkswagen Golf GOLF GTI TURBO 3DR,"3,250",2003.0,Dublin,"90,000",1.8,Petrol,Manual,Silver,6.0,"April, 2014",Hatchback
+364,Volkswagen Golf GOLF 1.4 75BHP COMFORT 5DR,"3,300",2003.0,Dublin,"92,800",1.4,Petrol,Manual,Silver,3.0,"August, 2014",Hatchback
+365,Volkswagen Golf GOLF TDI 1.9 COMFORT 130BHP 5DR,"3,350",2003.0,Monaghan,"150,000",1.9,Diesel,Manual,Gold,2.0,,Hatchback
+366,Volkswagen Golf GOLF 1.4 BASE 75BHP 5DR,"3,400",2003.0,Cork,"70,000",1.4,Petrol,Manual,Blue,3.0,"March, 2014",Hatchback
+367,Volkswagen Golf 1.6 MATCH 5DR,"2,800",2003.0,Roscommon,"119,400",1.6,Petrol,Manual,Blue,1.0,,Hatchback
+368,Volkswagen Golf GOLF 1.4 BASE 75BHP 5DR,"2,000",2003.0,Tipperary,"119,000",1.4,Petrol,Manual,Silver,3.0,,Hatchback
+369,Volkswagen Golf GOLF 1.4 MATCH 5DR,"2,300",2003.0,Sligo,"127,000",1.4,Petrol,Manual,Blue,2.0,"June, 2014",Hatchback
+370,Volkswagen Golf GOLF 1.4 75BHP COMFORT 5DR,"2,500",2003.0,Louth,"121,356",1.4,Petrol,Manual,Black,3.0,"January, 2014",Hatchback
+371,Volkswagen Golf GOLF GOLF1.4 E 75BHP 5DR,"2,600",2003.0,Dublin,"106,987",1.4,Petrol,Manual,Metallic Grey,4.0,"June, 2014",Hatchback
+372,Volkswagen Golf 1.4 75BHP 5DR NCT 02/15,"2,650",2003.0,Dublin,"93,000",1.3,Petrol,Manual,Blue,2.0,"February, 2015",Hatchback
+373,Volkswagen Golf GOLF 1.4 BASE 75BHP 5DR,"2,700",2003.0,Galway,"88,000",1.4,Petrol,Manual,Red,2.0,"April, 2014",Hatchback
+374,Volkswagen Golf GOLF 1.6 COMFORT 105BHP 03DR,"2,750",2003.0,Dublin,"87,400",1.6,Petrol,Manual,Green,5.0,,Hatchback
+375,Volkswagen Golf GOLF 1.4 MATCH 3DR,"2,750",2003.0,Galway,"110,000",1.4,Petrol,Manual,Silver,3.0,"February, 2014",Hatchback
+376,Volkswagen Golf 1.4 BASE 75BHP 5DR,"2,750",2003.0,Galway,"180,215",1.4,Petrol,Manual,Blue,2.0,"August, 2014",Hatchback
+377,Volkswagen Golf GTI,"2,000",2003.0,Cork,"74,565",1.6,Petrol,Manual,Gold,2.0,"March, 2014",Saloon
+378,Volkswagen Golf GOLF 1.4 3DR 75BHP COMFORT 03DR,"3,000",2002.0,Dublin,"76,000",1.4,Petrol,Manual,Black,1.0,,Hatchback
+379,Volkswagen Golf GOLF GTI 5DR 1.8 150 150BHP,"3,000",2002.0,Dublin,"137,000",1.8,Petrol,Manual,Silver,2.0,"June, 2014",Hatchback
+380,Volkswagen Golf GOLF 1.4 BASE 75BHP 5DR,"3,400",2002.0,Wicklow,"66,000",1.4,Petrol,Manual,Black,3.0,"May, 2014",Hatchback
+381,Volkswagen Golf GOLF GTI 5DR 1.8 150 150BHP 05DR,"3,500",2002.0,Kildare,"87,000",1.8,Petrol,Manual,Black,5.0,,Hatchback
+382,Volkswagen Golf GOLF 1.9 D TDI SE 110BHP 05DR,"3,500",2002.0,Meath,"114,324",1.9,Diesel,Manual,Grey,1.0,,Hatchback
+383,Volkswagen Golf GOLF 1.4 75BHP COMFORT 05DR,"3,900",2002.0,Dublin,"92,000",1.4,Petrol,Manual,Silver,3.0,,Hatchback
+384,Volkswagen Golf Automatic 100 BHP 5DR / Pristine Throughout / Low Mileage Cartell History Checked / ,"3,995",2002.0,Dublin,"58,409",1.5,Petrol,Automatic,Reflex Silver,1.0,"August, 2014",Hatchback
+385,Volkswagen Golf,"4,000",2002.0,Offaly,"140,000",1.9,Diesel,Manual,Red,2.0,,Hatchback
+386,Volkswagen Golf VAN 1.9 TDI*VERY CLEAN VAN*,POA,2003.0,Galway,"143,000",1.9,Diesel,Manual,Silver,2.0,,Commercial
+387,Volkswagen Golf 1.9 D TDI SPORT 100BHP 5DR,"2,850",2002.0,Dublin,"153,000",1.9,Diesel,Manual,Green,2.0,"June, 2014",Hatchback
+388,Volkswagen Golf GOLF 1.4 BASE 75BHP 5DR,"2,900",2002.0,Dublin,"81,000",1.4,Petrol,Manual,Black,3.0,,Hatchback
+389,Volkswagen Golf 1.4 BASE 75BHP 5DR / NCT PASSED TILL APRIL 2015 & TAXED TILL JUNE 2014 / IDEAL AS A ,"2,900",2002.0,Dublin,"117,000",14.0, Petrol,Manual,Silver,3.0,"April, 2015",Hatchback
+390,Volkswagen Golf 1.6 COMFORT Automatic 5 Door,"2,950",2002.0,Dublin,"61,000",1.5,Petrol,Automatic,Metallic Silver,3.0,"July, 2014",Hatchback
+391,Volkswagen Golf 1.4 3DR-1 OWNER,"2,950",2002.0,Dublin,"64,930",1.3,Petrol,Manual,Blue,1.0,,Hatchback
+392,Volkswagen Golf 1.4 3DR TRENDLINE TAX11/14 NCT 10/14 GTI ALLOYS. FACTORY. SUNROOF ....,"2,950",2002.0,Dublin,"119,000",1.3,Petrol,Manual,Green,4.0,"October, 2014",Hatchback
+393,Volkswagen Golf 1.4 75BHP COMFORT 5DR,"2,995",2002.0,Kildare,"64,000",1.4,Petrol,Manual,Silver,5.0,"May, 2014",Hatchback
+394,Volkswagen Golf NCT 01/15 BASE 1.4 75BHP 5DR,"2,999",2002.0,Dublin,"93,000",1.3,Petrol,Manual,Metallic Silver,3.0,"January, 2015",Estate
+395,Volkswagen Golf GOLF 1.4 3DR 75BHP COMFORT,"3,000",2002.0,Limerick,147,1.4,Petrol,Manual,Red,6.0,,Hatchback
+396,Volkswagen Golf GOLF 1.4 75BHP COMFORT 5DR,"3,000",2002.0,Dublin,"52,000",1.4,Petrol,Manual,Black,2.0,"September, 2014",Hatchback
+397,Volkswagen Golf GOLF 1.6 SE 5DR A,"2,750",2002.0,Dublin,"100,000",1.6,Petrol,Automatic,Black,4.0,,Hatchback
+398,Volkswagen Golf GOLF TDI COMFORT 1.9 100BHP 5DR,"2,200",2002.0,Meath,"198,000",1.9,Diesel,Manual,Silver,6.0,"April, 2014",Hatchback
+399,Volkswagen Golf L@@K MASSIVE SALE NOW ON | TOP-SPEC COMFORT | 5DR | NEW NCT FEB-16 | VERY CAREFUL LA,"2,449",2002.0,Dublin,"140,000",1.5,Petrol,Manual,Blue,1.0,"March, 2016",Hatchback
+400,"Volkswagen Golf 1.4 BASE 5DR / SERVICE HISTORY WITH T/B & WATER PUMP CHANGE @ 59,000 MILES / NCT PAS","2,495",2002.0,Dublin,"119,000",1.4,Petrol,Manual,Blue,2.0,"April, 2015",Hatchback
+401,Volkswagen Golf GOLF 1.4 75BHP COMFORT 5DR,"2,500",2002.0,Wexford,"105,000",1.4,Petrol,Manual,Blue,3.0,,Hatchback
+402,Volkswagen Golf GOLF TDI 1.9 100BHP BASE 5DR,"2,500",2002.0,Offaly,"144,000",1.9,Diesel,Manual,Silver,3.0,"June, 2014",Hatchback
+403,Volkswagen Golf GOLF 1.4 BASE 75BHP 5DR,"2,550",2002.0,Limerick,"116,000",1.4,Petrol,Manual,Red,2.0,"January, 2014",Hatchback
+404,Volkswagen Golf GOLF 1.4 BASE 75BHP 5DR,"2,700",2002.0,Cork,"96,000",1.4,Petrol,Manual,Gold,2.0,"February, 2014",Hatchback
+405,Volkswagen Golf GOLF TDI HI 130BHP HIGH 5DR,"2,700",2002.0,Wexford,"170,000",1.9,Diesel,Manual,Blue,5.0,"April, 2014",Hatchback
+406,Volkswagen Golf 1.4 3DR 75BHP COMFORT,"2,750",2002.0,Dublin,"88,000",1.3,Petrol,Manual,Blue,1.0,"March, 2015",Hatchback
+407,Volkswagen Golf GOLF GTI 3DR 1.8 150BHP 03DR,"3,400",2001.0,Cork,"124,000",1.8,Petrol,Manual,Red,5.0,,Hatchback
+408,Volkswagen Golf GOLF 1.6 COMFORT 5DR 105BHP 05DR,"6,950",2001.0,Meath,"90,000",1.6,Petrol,Manual,Blue,3.0,,Hatchback
+409,Volkswagen Golf GTI  1.8T  150BHP*SPOTLESS CAR*LOW MILEAGE*,POA,2002.0,Galway,"99,001",1.8,Petrol,Manual,Green,1.0,"March, 2012",Hatchback
+410,Volkswagen Golf GOLF 1.4 75BHP COMFORT 5DR,500,2002.0,Kildare,"80,778",1.4,Petrol,Manual,Silver,4.0,,Hatchback
+411,Volkswagen Golf 1.9 D SE TDI 90BHP 5DR,"1,800",2002.0,Wexford,"145,000",1.8,Diesel,Manual,Blue,1.0,"August, 2014",Hatchback
+412,Volkswagen Golf GOLF 1.4 75BHP COMFORT 5DR,"2,200",2002.0,Tipperary,"89,000",1.4,Petrol,Manual,Silver,3.0,"February, 2015",Hatchback
+413,Volkswagen Golf GOLF 1.4 BASE 75BHP 5DR,"2,200",2002.0,Dublin,"96,000",1.4,Petrol,Manual,Brown,6.0,"October, 2014",Hatchback
+414,Volkswagen Golf GOLF GTI 3DR 1.8 150BHP 03DR,"2,950",2001.0,Dublin,"64,001",1.8,Petrol,Manual,Black,6.0,,Hatchback
+415,Volkswagen Golf GTI 5DR 1.8 150 150BHP,"2,999",2001.0,Cork,"120,965",1.8,Petrol,Manual,Black,3.0,,Hatchback
+416,Volkswagen Golf GOLF 1.9 D GT TDI 115BHP 6SPEED 5DR,"3,200",2001.0,Dublin,"130,000",1.9,Diesel,Manual,Silver,1.0,,Hatchback
+417,Volkswagen Golf 1.6 COMFORT 105BHP 3DR = Sunroof,"2,900",2001.0,Kildare,"144,000",1.5,Petrol,Manual,Red,3.0,,Hatchback
+418,Volkswagen Golf CAB TREND 2.0 TRENDLINE 02DR,"2,350",2001.0,Dublin,"74,500",1.9,Petrol,Manual,Metallic Silver,3.0,"May, 2014",Cabriolet
+419,Volkswagen Golf 1.6 COMFORT 5DR 105BHP,"2,450",2001.0,Dublin,"88,000",1.5,Petrol,Manual,Silver,3.0,"May, 2015",Hatchback
+420,Volkswagen Golf 1.6 TREND 100BHP 3DR,"2,495",2001.0,Dublin,"125,000",1.5,Petrol,Manual,Blue,9.0,"January, 2015",Hatchback
+421,Volkswagen Golf GOLF 1.4 BASE 75BHP 5DR,"2,499",2001.0,Waterford,"109,000",1.4,Petrol,Manual,Silver,2.0,"January, 2014",Hatchback
+422,Volkswagen Golf GOLF 1.4 BASE 75BHP 05DR,"2,500",2001.0,Dublin,"122,000",1.4,Petrol,Manual,Black,5.0,,Hatchback
+423,Volkswagen Golf 1.6 COMFORT 102BHP 5DR,"2,500",2001.0,Tipperary,"136,500",1.5,Petrol,Automatic,Green,4.0,,Hatchback
+424,Volkswagen Golf GOLF 1.4 75BHP COMFORT 5DR,"2,700",2001.0,Dublin,"44,772",1.4,Petrol,Manual,Silver,3.0,"February, 2015",Hatchback
+425,Volkswagen Golf 1.4 Trendline,"2,750",2001.0,Cork,"133,837",1.4,Petrol,Manual,Silver,2.0,,Hatchback
+426,Volkswagen Golf GOLF GTI 3DR 1.8 150BHP,"2,900",2001.0,Cork,"88,000",1.8,Petrol,Manual,Gold,3.0,"September, 2014",Hatchback
+427,Volkswagen Golf L@@K MASSIVE SALE NOW ON | PANEL VAN | TDI COMFORT | ONE OWNER | DOE SEP-14 | RELIAB,"2,249",2001.0,Dublin,"160,000",1.8,Diesel,Manual,Red,1.0,"September, 2014",Commercial
+428,Volkswagen Golf GOLF SDI 3DR 1.9 BASE 68BHP,"1,599",2001.0,Cork,"200,000",1.9,Diesel,Manual,Blue,4.0,,Commercial
+429,Volkswagen Golf GOLF 1.4 BASE 75BHP 5DR,"1,700",2001.0,Meath,"121,000",1.4,Petrol,Manual,Black,2.0,,Hatchback
+430,Volkswagen Golf GOLF 1.4 BASE 75BHP 05DR,"1,700",2001.0,Dublin,"137,000",1.4,Petrol,Manual,Silver,4.0,,Hatchback
+431,Volkswagen Golf GOLF SDI doe'd,"1,900",2001.0,Longford,"153,000",1.9,Diesel,Manual,Red,6.0,,Commercial
+432,Volkswagen Golf GOLF 1.9 TDI BASE 5DR 90BHP,"1,900",2001.0,Cork,"179,000",1.9,Diesel,Manual,Green,5.0,,Hatchback
+433,Volkswagen Golf GOLF 1.9 TDI 90BHP 3DR,"1,950",2001.0,Cork,"173,000",1.9,Diesel,Manual,Black,6.0,,Commercial
+434,Volkswagen Golf GOLF 1.4 TREND 5DR TRENDLINE 75BHP,"2,000",2001.0,Dublin,"69,745",1.4,Petrol,Manual,Black,2.0,"September, 2014",Hatchback
+435,Volkswagen Golf GOLF 1.4 75BHP COMFORT 5DR,"2,150",2001.0,Kildare,"140,556",1.4,Petrol,Manual,Silver,7.0,"July, 2014",Hatchback
+436,Volkswagen Golf L@@K MASSIVE SALE NOW ON | PANEL VAN | TDI COMFORT | ONE OWNER | DOE SEP-14 | RELIAB,"2,249",2001.0,Dublin,"160,000",1.8,Diesel,Manual,Red,1.0,"September, 2014",Hatchback
+437,Volkswagen Golf 1.4,"2,300",2000.0,Dublin,"102,000",1.4,Petrol,Manual,Red,4.0,,Hatchback
+438,Volkswagen Golf GOLF 1.4,"2,500",2000.0,Dublin,"74,000",1.4,Petrol,Manual,Silver,3.0,,Hatchback
+439,Volkswagen Golf GOLF 1.4 BASE 75BHP 03DR,"2,500",2000.0,Dublin,"106,000",1.4,Petrol,Manual,Black,4.0,,Hatchback
+440,Volkswagen Golf SOLD SOLD,POA,2001.0,Dublin,"87,000",1.3,Petrol,Manual,Silver,3.0,"February, 2015",Hatchback
+441,Volkswagen Golf CAB TREND 2.0,"1,100",2001.0,Waterford,"117,646",2.0,Petrol,Manual,Blue,2.0,,Cabriolet
+442,Volkswagen Golf GOLF SDI 1.9 Comfortline,"1,250",2001.0,Kilkenny,"250,000",1.9,Diesel,Manual,Blue,3.0,,Hatchback
+443,Volkswagen Golf GOLF 1.4 75BHP COMFORT 5DR,"1,300",2001.0,Dublin,"140,000",1.4,Petrol,Manual,Blue,3.0,"August, 2014",Hatchback
+444,Volkswagen Golf GOLF 2.0 COMFORT,"1,400",2001.0,Carlow,"93,100",2.0,Petrol,Manual,Black,4.0,,Hatchback
+445,Volkswagen Golf GOLF 1.4 BASE 75BHP 5DR,"1,400",2001.0,Mayo,"163,700",1.4,Petrol,Manual,Black,5.0,"January, 2015",Hatchback
+446,Volkswagen Golf GTI 1.8T,"1,999",2000.0,Dublin,"139,000",1.7,Petrol,Manual,Metallic Metallic Blue,2.0,"February, 2015",Hatchback
+447,Volkswagen Golf GOLF GTI 1.8T,"1,500",2000.0,Dublin,"150,000",1.8,Petrol,Manual,Black,4.0,,Hatchback
+448,Volkswagen Golf,"1,600",2000.0,Limerick,"126,000",1.4,Petrol,Manual,Black,1.0,,Hatchback
+449,Volkswagen Golf GOLF GTI 5DR 1.8 150 150BHP,"1,750",2000.0,Mayo,"135,000",1.8,Petrol,Manual,Red,8.0,"November, 2014",Hatchback
+450,Volkswagen Golf 1.6,"1,950",2000.0,Meath,"89,000",1.5,Petrol,Automatic,Blue,4.0,"September, 2014",Hatchback
+451,Volkswagen Golf 1.4 (NCT-01-2015),"1,995",2000.0,Dublin,"92,000",1.3,Petrol,Manual,Metallic Red,3.0,"January, 2015",Hatchback
+452,Volkswagen Golf 1.4 BASE 75BHP 5DR,"1,995",2000.0,Dublin,"99,000",1.3,Petrol,Manual,Metallic Grey,5.0,"November, 2014",Hatchback
+453,Volkswagen Golf 1.6 NCT +TAX,"1,999",2000.0,Dublin,"99,000",1.5,Petrol,Manual,Black,0.0,"May, 2015",Hatchback
+454,Volkswagen Golf CL,"1,500",2000.0,Dublin,135,1.6,Petrol,Manual,Red,2.0,"June, 2014",Hatchback
+455,Volkswagen Golf GOLF 1.4,"1,500",2000.0,Kildare,"83,000",1.4,Petrol,Manual,Metallic Silver,3.0,"April, 2014",Hatchback
+456,"Volkswagen Golf CAB TREND 1.8  selling on behalf of a customer of ours. nct 09/14, excellent driver.","1,500",2000.0,Kildare,"113,698",1.7,Petrol,Manual,Metallic Silver,0.0,"September, 2014",Cabriolet
+457,Volkswagen Golf GOLF 1.4,"1,250",2000.0,Dublin,"115,000",1.4,Petrol,Manual,Black,4.0,"January, 2014",Hatchback
+458,Volkswagen Golf GOLF 1.4,"1,599",1999.0,Dublin,"90,900",1.4,Petrol,Manual,Blue,5.0,,Hatchback
+459,Volkswagen Golf GOLF CABRIOLET 1.8,"1,800",1999.0,Dublin,"58,000",1.8,Petrol,Manual,Green,3.0,,Cabriolet
+460,Volkswagen Golf CABRIOLET 1.8,"1,900",1999.0,Dublin,"104,000",1.7,Petrol,Manual,Blue,3.0,"August, 2014",Cabriolet
+461,Volkswagen Golf CABRIOLET 1.8.....As New ....,"1,950",1999.0,Dublin,"132,000",1.7,Petrol,Manual,Blue,4.0,"January, 2015",Cabriolet
+462,Volkswagen Golf GOLF GTI 1.8T,"2,500",1999.0,Wicklow,"103,000",1.8,Petrol,Manual,Silver,3.0,,Hatchback
+463,Volkswagen Golf GOLF CABRIOLET 1.8,"2,650",1999.0,Kerry,"68,500",1.8,Petrol,Manual,Silver,4.0,"April, 2014",Cabriolet
+464,Volkswagen Golf GOLF GTI TURBO Red i,"3,250",1999.0,Cork,"72,600",1.8,Petrol,Manual,Metallic Silver,2.0,"April, 2014",Hatchback
+465,Volkswagen Golf GOLF 1.4,400,2000.0,Monaghan,"138,000",1.4,Petrol,Manual,Black,6.0,,Hatchback
+466,Volkswagen Golf GOLF CABRIOLET 1.8,"1,200",2000.0,Wicklow,"111,193",1.8,Petrol,Manual,Black,4.0,,Cabriolet
+467,Volkswagen Golf GOLF CL 1.4 5SP PAS 05DR,550,1998.0,Dublin,"127,000",1.4,Petrol,Manual,Green,4.0,,Hatchback
+468,Volkswagen Golf GOLF 1.6,750,1998.0,Dublin,"91,000",1.6,Petrol,Manual,Grey,3.0,,Hatchback
+469,Volkswagen Golf GOLF CABRIOLET 1.8,"1,000",1998.0,Dublin,"112,000",1.8,Petrol,Manual,Red,2.0,"September, 2014",Cabriolet
+470,Volkswagen Golf,"1,150",1998.0,Cork,"205,000",1.9,Diesel,Manual,Silver,3.0,,Hatchback
+471,Volkswagen Golf GOLF CABRIOLET 1.8,"1,600",1998.0,Dublin,"62,000",1.8,Petrol,Manual,Blue,4.0,,Cabriolet
+472,Volkswagen Golf 1.4 5dr Tax 3/14 NCT 7/14 FSH Timing Belt done. Immaculate Car,"1,699",1998.0,Dublin,"91,000",1.3,Petrol,Manual,Green,3.0,"July, 2014",Hatchback
+473,Volkswagen Golf GOLF 1.4,"1,200",1999.0,Dublin,"150,000",1.4,Petrol,Manual,Grey,4.0,"February, 2014",Hatchback
+474,Volkswagen Golf 1.4 (NCT-01-2015),"1,295",1999.0,Dublin,"109,000",1.4,Petrol,Manual,Black,5.0,"January, 2015",Hatchback
+475,Volkswagen Golf GOLF CL 1.4 5SPEED PAS 5DR,800,1997.0,Dublin,"146,000",1.4,Petrol,Manual,Red,5.0,"March, 2015",Hatchback
+476,Volkswagen Golf GOLF AVANTGARDIOLET,"1,000",1997.0,Cork,"87,000",2.0,Petrol,Manual,Blue,1.0,,Cabriolet
+477,Volkswagen Golf GOLF,"1,600",1990.0,Dublin,"111,847",1.8,Petrol,Manual,Black,6.0,,Hatchback
+478,Volkswagen Golf 1.8 CABRIO ''CLIPPER'' VERY CLEAN!!! ***NCT 06/13 + TAXED 11/12***,"3,950",1990.0,Dublin,"91,000",1.7,Petrol,Manual,Black,6.0,"June, 2013",Saloon
+479,Volkswagen Golf Clipper Cabrio,"3,250",1991.0,Dublin,"101,000",1.8,Petrol,Manual,Blue,1.0,,Cabriolet
+480,Volkswagen Golf GTi MARK 111,"2,950",1992.0,Dublin,"76,026",2.0,Petrol,Manual,Grey,5.0,"June, 2014",Hatchback
+481,Volkswagen Golf GOLF CL 1.4,300,1994.0,Galway,"148,000",1.4,Petrol,Manual,White,7.0,,Hatchback
+482,Volkswagen Golf GOLF CL 1.4 5SPEED PAS 5DR,550,1997.0,Dublin,"160,000",1.4,Petrol,Manual,White,4.0,"January, 2015",Hatchback
+483,Volkswagen Golf GTI Mark 1 1.6 CLASSIC!,"8,450",1980.0,Dublin,"84,000",1.5,Petrol,Manual,Red,1.0,,Hatchback
+484,Volkswagen Golf Gti,"4,000",1984.0,Wicklow,"175,000",1.8,Petrol,Manual,Red,3.0,,Cabriolet
+485,Volkswagen Golf GTD 2.0TDI 185BHP DSG BMT,"41,712",2014.0,Dublin,6,2.0,Diesel,Automatic,Carbon Steel Grey Metallic,,,Hatchback
+486,"Volkswagen Golf GTi 2.0T 220Bhp DSG/Auto,*3.9% Finance*, Test Drive Today","44,950",2014.0,Dublin,"1,864",2.0,Petrol,Automatic,Reflex Silver Metallic,1.0,,Hatchback
+487,Volkswagen Golf 1.6 Tdi 105bhp Comfortline,"24,500",2014.0,Limerick,"2,485",1.6,Diesel,Manual,Silver,2.0,,Estate
+488,"Volkswagen Golf 1.6TDi Comfortline,3.9% Finance/PCP,3 Yrs Free Servicing,Zero mileage","24,950",2014.0,Dublin,,1.6,Diesel,Manual,Reflex Silver Metallic,1.0,,Hatchback
+489,Volkswagen Golf HIGHLINE 1.2TSI 105BHP **WWW.FRANKKEANEVOLKSWAGEN.IE**,"24,950",2014.0,Dublin,5,1.2,Petrol,Manual,Silver,1.0,,Hatchback
+490,Volkswagen Golf COMFORTLINE 1.6TDI 105BHP **WWW.FRANKKEANEVOLKSWAGEN.IE**,"24,950",2014.0,Dublin,5,1.6,Diesel,Manual,Black,1.0,,Hatchback
+491,Volkswagen Golf TDI Demonstrator Fog Lights Volkswagen Dealer Cash Price - Trade Ins Accepted,"24,950",2014.0,Westmeath,"1,242",1.6,Diesel,Manual,Silver,1.0,,Hatchback
+492,Volkswagen Golf Trendline 1.6TDI 105BHP BMT,"24,200",2014.0,Dublin,6,1.6,Diesel,Manual,Black,1.0,,Estate
+493,Volkswagen Golf 1.2TSI Trendline 105bhp,"23,738",2014.0,Cork,,1.2,Petrol,Manual,Tungsten Silver Metallic,,,Hatchback
+494,Volkswagen Golf TRENDLINE 1.6TDI M5F 5DR 105HP CURRENT DEMO MODEL SAVE THOUSANDS !!!! 3.9% Available,"23,750",2014.0,Dublin,"1,242",1.6,Diesel,Manual,Black,1.0,,Hatchback
+495,Volkswagen Golf TRENDLINE 1.6TDI M5F 5DR 105HP CURRENT DEMO MODEL SAVE THOUSANDS !!!! 3.9% Available,"23,750",2014.0,Dublin,"1,242",1.6,Diesel,Manual,Silver,1.0,,Hatchback
+496,Volkswagen Golf COMFORTLINE 1.2 TSI 105 BHP **WWW.FRANKKEANEVOLKSWAGEN.IE**,"23,950",2014.0,Dublin,5,1.2,Petrol,Manual,Silver,1.0,,Hatchback
+497,Volkswagen Golf COMFORTLINE 1.2TSI 105bhp **WWW.FRANKKEANEVOLKSWAGEN.IE**,"23,950",2014.0,Dublin,5,1.2,Petrol,Manual,Silver,1.0,,Hatchback
+498,Volkswagen Golf TL 1.6 TDI*DEMO MODEL*,"23,950",2014.0,Galway,5,1.6,Diesel,Manual,Black,1.0,,Estate
+499,Volkswagen Golf VAN TL 1.6 TDI,"23,950",2014.0,Galway,5,1.6,Diesel,Manual,Silver,0.0,,Commercial

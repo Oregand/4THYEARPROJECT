@@ -1,0 +1,138 @@
+DROP TABLE IF EXISTS test2;
+CREATE TABLE test2 (
+  guid CHAR(32) PRIMARY KEY,
+  title TEXT,
+  link TEXT,
+  year TEXT,
+  LOCATION TEXT,
+  mileage TEXT,
+  engine TEXT,
+  price TEXT,
+  updated DATETIME
+) DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE Hyundai (
+  title TEXT,
+  link TEXT,
+  price TEXT,
+  carYear TEXT,
+  location TEXT,
+  mileage TEXT,
+  engine TEXT
+) DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `honda` (
+  `honda_id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` tinytext NOT NULL,
+  `link` tinytext NOT NULL,
+  `year` tinytext NOT NULL,
+   `location` tinytext NOT NULL,
+   `mileage` tinytext NOT NULL,
+   `engine` tinytext NOT NULL,
+  `price` tinytext NOT NULL,
+  PRIMARY KEY (`honda_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1 COMMENT='latin1_swedish_ci'
+
+
+show databases
+show tables
+use "database"
+describe "table"
+
+
+DROP TABLE IF EXISTS golf;
+CREATE TABLE vw_golf (
+  ID int NOT NULL AUTO_INCREMENT,
+  title TEXT,
+  link TEXT,
+  price TEXT,
+  carYear TEXT,
+  location TEXT,
+  mileage TEXT,
+  engineSize TEXT,
+  engineType TEXT,
+  Transmission TEXT,
+  Colour TEXT,
+  Owners TEXT,
+  NCT TEXT,
+  BodyType TEXT,
+  PRIMARY KEY (ID)
+) DEFAULT CHARSET=utf8;
+
+DROP TABLE IF EXISTS vw_polo;
+CREATE TABLE vw_polo (
+  ID int NOT NULL AUTO_INCREMENT,
+  title TEXT,
+  link TEXT,
+  price TEXT,
+  carYear TEXT,
+  location TEXT,
+  mileage TEXT,
+  engineSize TEXT,
+  engineType TEXT,
+  Transmission TEXT,
+  Colour TEXT,
+  Owners TEXT,
+  NCT TEXT,
+  BodyType TEXT,
+  PRIMARY KEY (ID)
+) DEFAULT CHARSET=utf8;
+
+ALTER TABLE vw_polo
+ADD UNIQUE (link(100))
+
+DROP TABLE IF EXISTS t_avensis ;
+CREATE TABLE t_avensis (
+  ID int NOT NULL AUTO_INCREMENT,
+  title TEXT,
+  link TEXT,
+  price TEXT,
+  carYear TEXT,
+  location TEXT,
+  mileage TEXT,
+  engineSize TEXT,
+  engineType TEXT,
+  Transmission TEXT,
+  Colour TEXT,
+  Owners TEXT,
+  NCT TEXT,
+  BodyType TEXT,
+  PRIMARY KEY (ID)
+) DEFAULT CHARSET=utf8;
+
+ALTER TABLE t_avensis
+ADD UNIQUE (link(100))
+
+DROP TABLE IF EXISTS merc_e ;
+CREATE TABLE merc_e (
+  ID int NOT NULL AUTO_INCREMENT,
+  title VARCHAR(255) NOT NULL,
+  link VARCHAR(255) NOT NULL,
+  price VARCHAR(255),
+  carYear SMALLINT(50),
+  location VARCHAR(255),
+  mileage VARCHAR(255),
+  engineSize FLOAT,
+  engineType ENUM('Diesel','Petrol'),
+  Transmission ENUM('Manual','Automatic'),
+  Colour VARCHAR(255),
+  Owners TINYINT(50),
+  NCT VARCHAR(255),
+  BodyType VARCHAR(255),
+  PRIMARY KEY (ID)
+) DEFAULT CHARSET=utf8;
+
+ALTER TABLE merc_e
+ADD UNIQUE (link(100))
+
+
+Linear regression
+#Apply linear regission to the mysql database and generate an average
+
+from sklearn import linear_model
+
+clf = linear_model.LinearRegression()
+clf.fit([[getattr(t, 'x%d' % i) for i in range(1, 8)] for t in texts],
+        [t.y for t in texts])
