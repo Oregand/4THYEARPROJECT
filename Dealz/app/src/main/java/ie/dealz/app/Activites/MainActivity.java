@@ -1,6 +1,5 @@
 package ie.dealz.app.Activites;
 
-import android.content.Intent;
 import android.os.StrictMode;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -9,13 +8,11 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
 
 import java.util.List;
 
 import ie.dealz.app.Fragments.BrandListFragment;
-import ie.dealz.app.Fragments.ItemFragment;
 import ie.dealz.app.Fragments.ListFragment;
 import ie.dealz.app.R;
 import ie.dealz.app.models.Golf;
@@ -30,8 +27,7 @@ public class MainActivity extends ActionBarActivity implements ListFragment.OnFr
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-//        StrictMode.ThreadPolicy policy = new StrictMode().ThreadPolicy.Builder().permitAll().build();
-//        StrictMode.setThreadPolicy(policy);
+
 
 
 
@@ -39,7 +35,7 @@ public class MainActivity extends ActionBarActivity implements ListFragment.OnFr
         StrictMode.setThreadPolicy(policy);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-//        apiTest();
+
         Fragment listFrag = new BrandListFragment();
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
         transaction.replace(R.id.frame, listFrag);
@@ -60,17 +56,12 @@ public class MainActivity extends ActionBarActivity implements ListFragment.OnFr
         transaction.replace(R.id.frame, yoloFragment, "CarsListFrag");
         transaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
         transaction.addToBackStack("CountriesListFragment");
-//        transaction.remove(fragmentManager.findFragmentByTag("CountriesListFragment"));
 
         transaction.commit();
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-
-//        MenuInflater inflater = getMenuInflater();
-//        inflater.inflate(R.menu.main, menu);
-
 
         return true;
     }

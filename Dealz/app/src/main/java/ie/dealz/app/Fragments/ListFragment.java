@@ -2,7 +2,6 @@ package ie.dealz.app.Fragments;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.database.Cursor;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.text.TextUtils;
@@ -13,7 +12,6 @@ import android.widget.AbsListView;
 import android.widget.AdapterView;
 import android.widget.ListAdapter;
 import android.widget.SearchView;
-import android.widget.SimpleCursorAdapter;
 import android.widget.TextView;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -204,10 +202,9 @@ public class ListFragment extends Fragment implements AbsListView.OnItemClickLis
          //Create our list of cars
         List<Golf> golfs = service.listGolfs();
 
-        //Populate the screen with cars
+        //Populate the list with cars
         for (Golf golf : golfs)
             mAdapter.add(golf);
-
 
         mAdapter.notifyDataSetChanged();
     }

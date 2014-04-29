@@ -5,10 +5,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.Filterable;
 import android.widget.TextView;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.logging.Filter;
 
 import ie.dealz.app.Facade.ListItem;
 import ie.dealz.app.models.Golf;
@@ -20,10 +23,14 @@ import ie.dealz.app.R;
  */
 
 
-public class CarAdapter extends BaseAdapter {
+public class CarAdapter extends BaseAdapter implements Filterable {
+
+    //Enable filtering
+
+
 
     //Make generic, list item interface
-
+    //Origional Values
     LinkedList<ListItem> cars = new LinkedList<ListItem>();
 
     Context context;
@@ -64,6 +71,65 @@ public class CarAdapter extends BaseAdapter {
         }
         return items;
     }
+
+    @Override
+    public android.widget.Filter getFilter() {
+        Filter filter = new Filter() {
+
+            @SuppressWarnings("unchecked")
+            @Override
+            protected void publishResults(CharSequence constraint,FilterResults results) {
+
+                arrayList = (List<String>) results.values; // has the filtered values
+                notifyDataSetChanged();  // notifies the data with new filtered values
+            }
+
+            @Override
+            protected FilterResults performFiltering(CharSequence constraint) {
+                FilterResults results = new FilterResults();        // Holds the results of a filtering operation in values
+                List<String> FilteredArrList = new ArrayList<String>();
+
+                if (mOriginalValues == null) {
+                    mOriginalValues = new ArrayList<String>(arrayList); // saves the original data in mOriginalValues
+                }
+
+                /********
+                 *
+                 *  If constraint(CharSequence that is received) is null returns the mOriginalValues(Original) values
+                 *  else does the Filtering and returns FilteredArrList(Filtered)
+                 *
+                 ********/
+
+
+                if (constraint == null || constraint.length() == 0) {
+
+                    // set the Original result to return
+                    results.count = mOriginalValues.size();
+                    results.values = mOriginalValues;
+                } else {
+                    constraint = constraint.toString().toLowerCase();
+                    for (int i = 0; i < mOriginalValues.size(); i++) {
+                        String data = mOriginalValues.get(i);
+                        if (data.toLowerCase().startsWith(constraint.toString())) {
+                            FilteredArrList.add(data);
+                        }
+                    }
+                    // set the Filtered result to return
+                    results.count = FilteredArrList.size();
+                    results.values = FilteredArrList;
+                }
+                return results;
+            }
+        };
+        return (android.widget.Filter) filter;
+    }
+}
+
+
+    /**
+     * Implementing the Filterable interface.
+     */
+
 
     @Override
     public int getCount() {
