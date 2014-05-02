@@ -1,6 +1,6 @@
 <?php
 // Connect to MySQL
-$link = mysql_connect( 'mysql.raven.com:3306', 'david', 'apUJP5VxBTZ9atXD' );
+$link = mysql_connect( '192.168.100.101:3306', 'david', 'apUJP5VxBTZ9atXD' );
 if ( !$link ) {
   die( 'Could not connect: ' . mysql_error() );
 }
