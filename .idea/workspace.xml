@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3b729d6f-cc02-47a6-a2a4-6ac27f58beaa" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Machine Learning/LinearRegression/LR.py" afterPath="$PROJECT_DIR$/Machine Learning/LinearRegression/LR.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="4THYEARPROJECT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -14,7 +15,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/4THYEARPROJECT$LR.coverage" NAME="LR Coverage Results" MODIFIED="1397841287607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Machine Learning/LinearRegression" />
+    <SUITE FILE_PATH="coverage/4THYEARPROJECT$LR.coverage" NAME="LR Coverage Results" MODIFIED="1399037568857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Machine Learning/LinearRegression" />
     <SUITE FILE_PATH="coverage/4THYEARPROJECT$DataMining2.coverage" NAME="LR Coverage Results" MODIFIED="1397564692846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Machine Learning/LinearRegression" />
     <SUITE FILE_PATH="coverage/4THYEARPROJECT$pipelines.coverage" NAME="pipelines Coverage Results" MODIFIED="1395230687513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scraper/carzone/carzone" />
   </component>
@@ -33,11 +34,11 @@
       <file leaf-file-name="LR.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Machine Learning/LinearRegression/LR.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="271" column="33" selection-start="9483" selection-end="9483" vertical-scroll-proportion="0.059633028" vertical-offset="4026" max-vertical-offset="4680">
+            <state line="22" column="29" selection-start="601" selection-end="601" vertical-scroll-proportion="0.6627907" vertical-offset="45" max-vertical-offset="4680">
               <folding>
                 <element signature="e#49#68#0" expanded="true" />
-                <marker date="1397841277000" expanded="true" signature="606:639" placeholder="select * fro..vw_golf..." />
-                <marker date="1397841277000" expanded="true" signature="9613:9754" placeholder="INSERT into ..." />
+                <marker date="1399036945000" expanded="true" signature="623:656" placeholder="select * fro..vw_golf..." />
+                <marker date="1399036945000" expanded="true" signature="9630:9771" placeholder="INSERT into ..." />
               </folding>
             </state>
           </provider>
@@ -46,7 +47,7 @@
       <file leaf-file-name="vw_golfDealz.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Machine Learning/LinearRegression/vw_golfDealz.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="0" selection-start="27210" selection-end="27210" vertical-scroll-proportion="-0.0" vertical-offset="1125" max-vertical-offset="1890">
+            <state line="75" column="0" selection-start="27210" selection-end="27210" vertical-scroll-proportion="0.0" vertical-offset="1125" max-vertical-offset="1890">
               <folding />
             </state>
           </provider>
@@ -58,6 +59,9 @@
             <state line="119" column="50" selection-start="17210" selection-end="17210" vertical-scroll-proportion="0.0" vertical-offset="1236" max-vertical-offset="1890">
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
@@ -179,7 +183,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -190,61 +194,7 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4THYEARPROJECT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4THYEARPROJECT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4THYEARPROJECT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4THYEARPROJECT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4THYEARPROJECT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Machine Learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4THYEARPROJECT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4THYEARPROJECT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Machine Learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LinearRegression" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="options.lastSelected" value="editor.preferences.appearance" />
@@ -401,6 +351,9 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -422,9 +375,6 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -548,7 +498,11 @@
       <created>1397663448851</created>
       <updated>1397663448851</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update mysql credentials">
+      <created>1399036895814</created>
+      <updated>1399036895814</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -575,6 +529,7 @@
     <frame x="0" y="22" width="1280" height="774" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3219858" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991204" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -584,16 +539,15 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3973607" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.398827" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32844576" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32844576" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907802" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907802" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907802" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -612,9 +566,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.253125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32907802" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -633,7 +587,8 @@
     <MESSAGE value="Changed DB &amp; CSV writing tools" />
     <MESSAGE value="Structure Changes &#10;&#10;Andriod Applicaion Design &#10;&#10;More Machine Learning" />
     <MESSAGE value="Edited machine learning file:&#10;&#10;1) Actually evaluate if an item is a good deal&#10;2) Parse json output into mysql bd table for andriod application" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edited machine learning file:&#10;&#10;1) Actually evaluate if an item is a good deal&#10;2) Parse json output into mysql bd table for andriod application" />
+    <MESSAGE value="update mysql credentials" />
+    <option name="LAST_COMMIT_MESSAGE" value="update mysql credentials" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -870,16 +825,12 @@
     </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="337" column="0" selection-start="14231" selection-end="14231" vertical-scroll-proportion="0.0" vertical-offset="4892" max-vertical-offset="5340">
-          <folding />
-        </state>
+        <state line="337" column="0" selection-start="14231" selection-end="14231" vertical-scroll-proportion="0.0" vertical-offset="4892" max-vertical-offset="5340" />
       </provider>
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1533" column="0" selection-start="60527" selection-end="60527" vertical-scroll-proportion="0.76404494" vertical-offset="21680" max-vertical-offset="22125">
-          <folding />
-        </state>
+        <state line="1533" column="0" selection-start="60527" selection-end="60527" vertical-scroll-proportion="0.76404494" vertical-offset="21680" max-vertical-offset="22125" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scraper/src/carzone/PipeLines/pipelines.py">
@@ -889,37 +840,27 @@
     </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/encoder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="183" column="0" selection-start="6815" selection-end="6815" vertical-scroll-proportion="0.33258426" vertical-offset="2597" max-vertical-offset="6810">
-          <folding />
-        </state>
+        <state line="183" column="0" selection-start="6815" selection-end="6815" vertical-scroll-proportion="0.33258426" vertical-offset="2597" max-vertical-offset="6810" />
       </provider>
     </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/decoder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="367" column="0" selection-start="13235" selection-end="13235" vertical-scroll-proportion="0.83838385" vertical-offset="5113" max-vertical-offset="5790">
-          <folding />
-        </state>
+        <state line="367" column="0" selection-start="13235" selection-end="13235" vertical-scroll-proportion="0.83838385" vertical-offset="5113" max-vertical-offset="5790" />
       </provider>
     </entry>
     <entry file="file:///Library/Python/2.7/site-packages/pandas-0.13.1-py2.7-macosx-10.9-intel.egg/pandas/core/frame.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1469" column="0" selection-start="56834" selection-end="56834" vertical-scroll-proportion="-2.9621212" vertical-offset="23208" max-vertical-offset="72765">
-          <folding />
-        </state>
+        <state line="1469" column="0" selection-start="56834" selection-end="56834" vertical-scroll-proportion="-2.9621212" vertical-offset="23208" max-vertical-offset="72765" />
       </provider>
     </entry>
     <entry file="file:///Library/Python/2.7/site-packages/yhat/deployment/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="153" column="8" selection-start="5018" selection-end="5018" vertical-scroll-proportion="0.33159268" vertical-offset="1988" max-vertical-offset="3225">
-          <folding />
-        </state>
+        <state line="153" column="8" selection-start="5018" selection-end="5018" vertical-scroll-proportion="0.33159268" vertical-offset="1988" max-vertical-offset="3225" />
       </provider>
     </entry>
     <entry file="file:///Library/Python/2.7/site-packages/pandas-0.13.1-py2.7-macosx-10.9-intel.egg/pandas/core/common.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2226" column="0" selection-start="71242" selection-end="71242" vertical-scroll-proportion="0.29534882" vertical-offset="32978" max-vertical-offset="40845">
-          <folding />
-        </state>
+        <state line="2226" column="0" selection-start="71242" selection-end="71242" vertical-scroll-proportion="0.29534882" vertical-offset="32978" max-vertical-offset="40845" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Machine Learning/LinearRegression/vw_golfDealz.json">
@@ -935,14 +876,17 @@
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Machine Learning/LinearRegression/LR.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="271" column="33" selection-start="9483" selection-end="9483" vertical-scroll-proportion="0.059633028" vertical-offset="4026" max-vertical-offset="4680">
+        <state line="22" column="29" selection-start="601" selection-end="601" vertical-scroll-proportion="0.6627907" vertical-offset="45" max-vertical-offset="4680">
           <folding>
             <element signature="e#49#68#0" expanded="true" />
-            <marker date="1397841277000" expanded="true" signature="606:639" placeholder="select * fro..vw_golf..." />
-            <marker date="1397841277000" expanded="true" signature="9613:9754" placeholder="INSERT into ..." />
+            <marker date="1399036945000" expanded="true" signature="623:656" placeholder="select * fro..vw_golf..." />
+            <marker date="1399036945000" expanded="true" signature="9630:9771" placeholder="INSERT into ..." />
           </folding>
         </state>
       </provider>
