@@ -1,5 +1,19 @@
 <?php
 // Connect to MySQL
+
+//Everytime I change this file,
+//From terminal get into git folder(4thYEARPROGECT)
+//git commit -am 'Commit message'
+//git push
+//
+// Log into server 
+// ssh david@web.raven.com
+// cd 4THYEARPROJECT
+// git pull
+//
+//
+// david.pimyride.com
+//
 $link = mysql_connect( '192.168.100.101:3306', 'david', 'apUJP5VxBTZ9atXD' );
 if ( !$link ) {
   die( 'Could not connect: ' . mysql_error() );
