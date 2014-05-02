@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b729d6f-cc02-47a6-a2a4-6ac27f58beaa" name="Default" comment="update mysql credentials">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Machine Learning/LinearRegression/LR.py" afterPath="$PROJECT_DIR$/Machine Learning/LinearRegression/LR.py" />
+    <list default="true" id="3b729d6f-cc02-47a6-a2a4-6ac27f58beaa" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="4THYEARPROJECT.iws" />
@@ -34,7 +33,7 @@
       <file leaf-file-name="LR.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Machine Learning/LinearRegression/LR.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="277" selection-end="277" vertical-scroll-proportion="0.3488372" vertical-offset="45" max-vertical-offset="4665">
+            <state line="20" column="76" selection-start="532" selection-end="532" vertical-scroll-proportion="0.59302324" vertical-offset="45" max-vertical-offset="4665">
               <folding>
                 <element signature="e#49#68#0" expanded="true" />
                 <marker date="1399037880000" expanded="true" signature="604:637" placeholder="select * fro..vw_golf..." />
@@ -506,7 +505,11 @@
       <created>1399037618589</created>
       <updated>1399037618589</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Test">
+      <created>1399037893462</created>
+      <updated>1399037893462</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -592,7 +595,8 @@
     <MESSAGE value="Structure Changes &#10;&#10;Andriod Applicaion Design &#10;&#10;More Machine Learning" />
     <MESSAGE value="Edited machine learning file:&#10;&#10;1) Actually evaluate if an item is a good deal&#10;2) Parse json output into mysql bd table for andriod application" />
     <MESSAGE value="update mysql credentials" />
-    <option name="LAST_COMMIT_MESSAGE" value="update mysql credentials" />
+    <MESSAGE value="Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -886,7 +890,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Machine Learning/LinearRegression/LR.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="277" selection-end="277" vertical-scroll-proportion="0.3488372" vertical-offset="45" max-vertical-offset="4665">
+        <state line="20" column="76" selection-start="532" selection-end="532" vertical-scroll-proportion="0.59302324" vertical-offset="45" max-vertical-offset="4665">
           <folding>
             <element signature="e#49#68#0" expanded="true" />
             <marker date="1399037880000" expanded="true" signature="604:637" placeholder="select * fro..vw_golf..." />
