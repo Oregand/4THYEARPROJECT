@@ -11,7 +11,6 @@ from sklearn.feature_extraction import DictVectorizer
 from sklearn.linear_model import LinearRegression
 from yhat import BaseModel
 import MySQLdb
-import numpy as np
 
 
 
