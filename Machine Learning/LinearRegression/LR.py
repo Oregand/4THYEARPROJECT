@@ -19,7 +19,7 @@ import numpy as np
 # --------------------------------------------------------------------------------------------------------
 
 # connect to my DB to get data, place data into a pandas Dataframe
-db = MySQLdb.connect(host="127.0.0.1", user="root", passwd="root", port=8889,
+db = MySQLdb.connect(host="mysql.raven.com", user="david", passwd="apUJP5VxBTZ9atXD", port=3306,
                      db="carzone")
 sql = """
         select *

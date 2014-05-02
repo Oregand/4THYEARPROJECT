@@ -20,6 +20,7 @@ import android.widget.Toast;
 
 import org.androidannotations.annotations.Background;
 
+import java.util.Arrays;
 import java.util.List;
 import java.util.logging.Handler;
 
@@ -129,30 +130,28 @@ public class ListFragment extends Fragment implements AbsListView.OnItemClickLis
 
         queryListener = new SearchView.OnQueryTextListener() {
 
-        @Override
-        public boolean onQueryTextChange(String newText) {
-
+            @Override
+            public boolean onQueryTextChange(String newText) {
 
 
                 if (TextUtils.isEmpty(newText)) {
+                    // mAdapter.getFilter().filter("");
                     getActivity().getActionBar().setSubtitle("List");
                     grid_currentQuery = null;
                 } else {
                     getActivity().getActionBar().setSubtitle("List - Searching for: " + newText);
                     grid_currentQuery = newText;
+                    // mAdapter.getFilter().filter(newText.toString());
+
+                    mAdapter.findByColor(grid_currentQuery);
+//                    List<ListItem> itemsLoc = mAdapter.findByLocation(grid_currentQuery);
+//                    List<ListItem> itemsPrice = mAdapter.findByPrice(grid_currentQuery);
 
                 }
 
-                List<ListItem> itemsCol = mAdapter.findByColor(grid_currentQuery);
-                List<ListItem> itemsLoc = mAdapter.findByLocation(grid_currentQuery);
-                List<ListItem> itemsPrice = mAdapter.findByPrice(grid_currentQuery);
 
-
-
-
-
-            return false;
-        }
+                return true;
+            }
 
             @Override
             public boolean onQueryTextSubmit(String query) {
@@ -194,12 +193,12 @@ public class ListFragment extends Fragment implements AbsListView.OnItemClickLis
     void apiTest() {
 
         //When MAMP starts, I need to change the ip to my public IP in order to access the files.
-        RestAdapter restAdapter = new RestAdapter.Builder().setServer("http://136.206.167.4:8888").build();
+        RestAdapter restAdapter = new RestAdapter.Builder().setServer("http://192.168.44.9:8888").build();
 
         //Create link to gold service
         GolfService service = restAdapter.create(GolfService.class);
 
-         //Create our list of cars
+        //Create our list of cars
         List<Golf> golfs = service.listGolfs();
 
         //Populate the list with cars
