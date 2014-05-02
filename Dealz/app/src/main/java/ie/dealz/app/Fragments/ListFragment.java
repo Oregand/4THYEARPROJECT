@@ -193,7 +193,7 @@ public class ListFragment extends Fragment implements AbsListView.OnItemClickLis
     void apiTest() {
 
         //When MAMP starts, I need to change the ip to my public IP in order to access the files.
-        RestAdapter restAdapter = new RestAdapter.Builder().setServer("http://192.168.44.9:8888").build();
+        RestAdapter restAdapter = new RestAdapter.Builder().setServer("http://david.pimyride.com").build();
 
         //Create link to gold service
         GolfService service = restAdapter.create(GolfService.class);

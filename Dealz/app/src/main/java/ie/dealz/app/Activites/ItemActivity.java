@@ -69,7 +69,7 @@ public class ItemActivity extends ActionBarActivity implements  ItemFragment.OnF
         List<Golf> golfs;
 
         restAdapter = new RestAdapter.Builder()
-                .setServer("http://127.0.0.1")
+                .setServer("http://david.pimyride.com")
                 .build();
 
         GolfService golfService = restAdapter.create(GolfService.class);

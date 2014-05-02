@@ -167,7 +167,7 @@ public class ItemFragment extends Fragment {
     void apiTest() {
 
         //When MAMP starts, I need to change the ip to my public IP in order to access the files.
-        RestAdapter restAdapter = new RestAdapter.Builder().setServer("http://192.168.44.9:8888").build();
+        RestAdapter restAdapter = new RestAdapter.Builder().setServer("http://david.pimyride.com").build();
         GolfService service = restAdapter.create(GolfService.class);
         List<Golf> golfs = service.listGolfs();
         //tO DEBUG, CLICK ON SIDE BAR TO GET RED DOT, THEN CNTRL D to run debug mode
