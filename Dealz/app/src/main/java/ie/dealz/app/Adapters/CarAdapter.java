@@ -5,17 +5,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.Filterable;
 import android.widget.TextView;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Locale;
-import java.util.logging.Filter;
 
-import ie.dealz.app.Activites.MainActivity;
 import ie.dealz.app.Facade.ListItem;
 import ie.dealz.app.models.Golf;
 import ie.dealz.app.R;
@@ -52,44 +46,100 @@ public class CarAdapter extends BaseAdapter {
     public Boolean findByColor(String color) {
         List<ListItem> items = new LinkedList<ListItem>();
         for (ListItem car : cars) {
-            if (car.getColour().equalsIgnoreCase(color))
+            String carColor = car.getColour();
+            if (carColor.trim().equalsIgnoreCase(color.trim()))
                 items.add(car);
         }
 
         if (items.size() > 0) {
 
-            cars = items;
-            this.notifyDataSetChanged();
             originalList = cars;
+            cars = items;
+
+            this.notifyDataSetChanged();
+
             return true;
         } else {
+            if (originalList != null) {
+                if (originalList.size() > 0) {
+
+                    cars = originalList;
+                    this.notifyDataSetChanged();
+                }
+            }
+
             return false;
         }
 
     }
 
-    public List<ListItem> findByLocation(String location) {
+    public boolean findByAnything(String anything) {
         List<ListItem> items = new LinkedList<ListItem>();
         for (ListItem car : cars) {
-            if (car.getLocation().equalsIgnoreCase(location))
-                items.add(car);
-        }
-        return items;
-    }
+            String carColour = car.getColour();
+            String carLocation = car.getLocation();
+            String carPrice = car.getPrice();
 
-    public List<ListItem> findByPrice(String price) {
+            if (carLocation.trim().equalsIgnoreCase(anything.trim())) {
+                items.add(car);
+            } else if ((carColour.trim().equalsIgnoreCase(anything.trim()))) {
+                items.add(car);
+            }
+//          else if ((carPrice.trim().equalsIgnoreCase(anything.trim()))) {
+//                items.add(car);
+//            }
+        }
+
+        if (items.size() > 0) {
+
+            originalList = cars;
+            cars = items;
+
+            this.notifyDataSetChanged();
+
+            return true;
+        } else {
+            if (originalList != null) {
+                if (originalList.size() > 0) {
+
+                    cars = originalList;
+                    this.notifyDataSetChanged();
+                }
+            }
+
+            return false;
+        }
+
+    }
+    public boolean findByPrice(String price) {
         List<ListItem> items = new LinkedList<ListItem>();
         for (ListItem car : cars) {
-            if (car.getPrice().equalsIgnoreCase(price))
+            String carPrice = car.getPrice();
+            if (carPrice.trim().equalsIgnoreCase(price.trim()))
                 items.add(car);
         }
-        return items;
+
+        if (items.size() > 0) {
+
+            originalList = cars;
+            cars = items;
+
+            this.notifyDataSetChanged();
+
+            return true;
+        } else {
+            if (originalList != null) {
+                if (originalList.size() > 0) {
+
+                    cars = originalList;
+                    this.notifyDataSetChanged();
+                }
+            }
+
+            return false;
+        }
+
     }
-
-
-    /**
-     * Implementing the Filterable interface.
-     */
 
 
     @Override

@@ -26,7 +26,7 @@ public class Golf implements ListItem{
 
     @Override
     public String getPrice() {
-        return predictedPrice;
+        return String.format("%.2f", predictedPrice);
     }
 
     @Override

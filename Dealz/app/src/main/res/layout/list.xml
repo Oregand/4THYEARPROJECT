@@ -11,5 +11,5 @@
         android:id="@+id/listView"
         android:layout_gravity="center_horizontal"
         tools:listitem="@layout/list_item"
-        android:layout_weight="10" />
+        android:layout_weight="10"/>
 </LinearLayout>

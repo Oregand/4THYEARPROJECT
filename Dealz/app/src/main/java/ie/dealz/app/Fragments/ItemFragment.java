@@ -139,27 +139,6 @@ public class ItemFragment extends Fragment {
         wv.getSettings().setJavaScriptEnabled(true);
         wv.loadUrl(bundle.getString("link"));
 
-
-
-
-
-
-        // Set the adapter
-//        mListView = (AbsListView) view.findViewById(android.R.id.list);
-//        ((AdapterView<ListAdapter>) mListView).setAdapter(mAdapter);
-
-        // Set OnItemClickListener so we can be notified on item clicks
-//        mListView.setOnItemClickListener(this);
-
-//        apiTest();
-
-
-//        Golf item2 = new Golf();
-//        item2.title = "Nigger";
-//        mAdapter.add(item2);
-//        mAdapter.notifyDataSetChanged();
-
-
         return view;
     }
 

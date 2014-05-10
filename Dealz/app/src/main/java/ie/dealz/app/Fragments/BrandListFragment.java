@@ -156,9 +156,6 @@ public class BrandListFragment extends Fragment implements AbsListView.OnItemCli
         mAdapter.notifyDataSetChanged();
 
 
-
-
-
         return view;
 
     }

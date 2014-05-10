@@ -141,9 +141,12 @@ public class ListFragment extends Fragment implements AbsListView.OnItemClickLis
                 } else {
                     getActivity().getActionBar().setSubtitle("List - Searching for: " + newText);
                     grid_currentQuery = newText;
-                    // mAdapter.getFilter().filter(newText.toString());
 
-                    mAdapter.findByColor(grid_currentQuery);
+
+                    mAdapter.findByAnything(grid_currentQuery);
+//                    mAdapter.findByLocaton(grid_currentQuery);
+//                    mAdapter.findByPrice(grid_currentQuery);
+
 //                    List<ListItem> itemsLoc = mAdapter.findByLocation(grid_currentQuery);
 //                    List<ListItem> itemsPrice = mAdapter.findByPrice(grid_currentQuery);
 
@@ -156,6 +159,7 @@ public class ListFragment extends Fragment implements AbsListView.OnItemClickLis
             @Override
             public boolean onQueryTextSubmit(String query) {
                 Toast.makeText(getActivity(), "Searching for: " + query + "...", Toast.LENGTH_SHORT).show();
+
                 return false;
             }
         };
@@ -193,9 +197,10 @@ public class ListFragment extends Fragment implements AbsListView.OnItemClickLis
     void apiTest() {
 
         //When MAMP starts, I need to change the ip to my public IP in order to access the files.
+        //Began using server Alan provide, connect to VPN, find web address, access php file
         RestAdapter restAdapter = new RestAdapter.Builder().setServer("http://david.pimyride.com").build();
 
-        //Create link to gold service
+        //Create link to golf service
         GolfService service = restAdapter.create(GolfService.class);
 
         //Create our list of cars

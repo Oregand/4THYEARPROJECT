@@ -85,7 +85,7 @@ public class MainActivity extends ActionBarActivity implements ListFragment.OnFr
         List<Golf> golfs;
 
         restAdapter = new RestAdapter.Builder()
-                .setServer("http://127.0.0.1")
+                .setServer("http://david.pimyride.com")
                 .build();
 
         GolfService golfService = restAdapter.create(GolfService.class);
