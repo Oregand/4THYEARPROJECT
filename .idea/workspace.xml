@@ -31,7 +31,7 @@
       <file leaf-file-name="LR.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Machine Learning/LinearRegression/LR.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="83" selection-start="523" selection-end="539" vertical-scroll-proportion="-4.9174314" vertical-offset="3516" max-vertical-offset="4665">
+            <state line="230" column="46" selection-start="8191" selection-end="8191" vertical-scroll-proportion="0.7477064" vertical-offset="2961" max-vertical-offset="4665">
               <folding>
                 <element signature="e#49#68#0" expanded="true" />
                 <marker date="1399037880000" expanded="true" signature="604:637" placeholder="select * fro..vw_golf..." />
@@ -888,7 +888,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Machine Learning/LinearRegression/LR.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="83" selection-start="523" selection-end="539" vertical-scroll-proportion="-4.9174314" vertical-offset="3516" max-vertical-offset="4665">
+        <state line="230" column="46" selection-start="8191" selection-end="8191" vertical-scroll-proportion="0.7477064" vertical-offset="2961" max-vertical-offset="4665">
           <folding>
             <element signature="e#49#68#0" expanded="true" />
             <marker date="1399037880000" expanded="true" signature="604:637" placeholder="select * fro..vw_golf..." />
