@@ -8,8 +8,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
 import android.widget.AbsListView;
-import android.widget.AdapterView;
-import android.widget.ListAdapter;
 import android.widget.TextView;
 
 
@@ -19,9 +17,8 @@ import java.util.List;
 
 import ie.dealz.app.Adapters.CarAdapter;
 import ie.dealz.app.R;
-import ie.dealz.app.dummy.DummyContent;
-import ie.dealz.app.models.Golf;
-import ie.dealz.app.services.GolfService;
+import ie.dealz.app.models.Cars;
+import ie.dealz.app.services.CarService;
 import retrofit.RestAdapter;
 
 /**
@@ -145,12 +142,15 @@ public class ItemFragment extends Fragment {
     @Background
     void apiTest() {
 
-        //When MAMP starts, I need to change the ip to my public IP in order to access the files.
+        String makeQ = "golf";
+
+
         RestAdapter restAdapter = new RestAdapter.Builder().setServer("http://david.pimyride.com").build();
-        GolfService service = restAdapter.create(GolfService.class);
-        List<Golf> golfs = service.listGolfs();
-        //tO DEBUG, CLICK ON SIDE BAR TO GET RED DOT, THEN CNTRL D to run debug mode
-        for (Golf golf : golfs)
+        CarService service = restAdapter.create(CarService.class);
+        List<Cars> golfs = service.listGolfs(makeQ);
+
+
+        for (Cars golf : golfs)
             mAdapter.add(golf);
 
         mAdapter.notifyDataSetChanged();

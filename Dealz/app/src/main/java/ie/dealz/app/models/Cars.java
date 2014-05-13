@@ -5,7 +5,7 @@ import ie.dealz.app.Facade.ListItem;
 /**
  * Created by davidoregan on 09/04/2014.
  */
-public class Golf implements ListItem{
+public class Cars implements ListItem{
     public long id;
     public String title;
     public String link;
@@ -26,7 +26,7 @@ public class Golf implements ListItem{
 
     @Override
     public String getPrice() {
-        return String.format("%.2f", predictedPrice);
+        return  predictedPrice;
     }
 
     @Override

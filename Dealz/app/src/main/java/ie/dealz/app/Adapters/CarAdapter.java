@@ -11,7 +11,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 import ie.dealz.app.Facade.ListItem;
-import ie.dealz.app.models.Golf;
+import ie.dealz.app.models.Cars;
 import ie.dealz.app.R;
 
 
@@ -38,7 +38,7 @@ public class CarAdapter extends BaseAdapter {
     }
 
 
-    public void add(Golf object) {
+    public void add(Cars object) {
         cars.add(object);
 
     }

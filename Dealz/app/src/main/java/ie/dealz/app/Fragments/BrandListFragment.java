@@ -1,6 +1,7 @@
 package ie.dealz.app.Fragments;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -11,16 +12,11 @@ import android.widget.AdapterView;
 import android.widget.ListAdapter;
 import android.widget.TextView;
 
-import org.androidannotations.annotations.Background;
-
-import java.util.List;
-
+import ie.dealz.app.Activites.ItemActivity;
 import ie.dealz.app.Adapters.CarAdapter;
 import ie.dealz.app.Facade.ListItem;
 import ie.dealz.app.R;
-import ie.dealz.app.models.Golf;
-import ie.dealz.app.services.GolfService;
-import retrofit.RestAdapter;
+import ie.dealz.app.models.Cars;
 
 /**
  * A fragment representing a list of Items.
@@ -100,57 +96,57 @@ public class BrandListFragment extends Fragment implements AbsListView.OnItemCli
         mListView.setOnItemClickListener(this);
 
 
-        Golf item = new Golf();
+        Cars item = new Cars();
         item.title = "Golf";
         mAdapter.add(item);
 
-        Golf item2 = new Golf();
+        Cars item2 = new Cars();
         item2.title = "Audi A4";
         mAdapter.add(item2);
         mAdapter.notifyDataSetChanged();
 
-        Golf item3 = new Golf();
+        Cars item3 = new Cars();
         item3.title = "BMW 3 Series";
         mAdapter.add(item3);
         mAdapter.notifyDataSetChanged();
 
-        Golf item4 = new Golf();
+        Cars item4 = new Cars();
         item4.title = "BMW 5 Series";
         mAdapter.add(item4);
         mAdapter.notifyDataSetChanged();
 
-        Golf item5 = new Golf();
+        Cars item5 = new Cars();
         item5.title = "Ford Fiesta";
         mAdapter.add(item5);
         mAdapter.notifyDataSetChanged();
 
-        Golf item6 = new Golf();
+        Cars item6 = new Cars();
         item6.title = "Ford Focus";
         mAdapter.add(item6);
         mAdapter.notifyDataSetChanged();
 
-        Golf item7 = new Golf();
+        Cars item7 = new Cars();
         item7.title = "Ford Mondeo";
         mAdapter.add(item7);
         mAdapter.notifyDataSetChanged();
 
-        Golf item8 = new Golf();
+        Cars item8 = new Cars();
         item8.title = "Mercedaes E Class";
         mAdapter.add(item8);
         mAdapter.notifyDataSetChanged();
 
-        Golf item9 = new Golf();
+        Cars item9 = new Cars();
         item9.title = "Tyoyta Avensis";
         mAdapter.add(item9);
         mAdapter.notifyDataSetChanged();
 
-        Golf item10 = new Golf();
+        Cars item10 = new Cars();
         item10.title = "Tyoyta Corolla";
         mAdapter.add(item10);
         mAdapter.notifyDataSetChanged();
 
 
-        Golf item11 = new Golf();
+        Cars item11 = new Cars();
         item11.title = "WV Polo";
         mAdapter.add(item11);
         mAdapter.notifyDataSetChanged();
@@ -159,9 +155,6 @@ public class BrandListFragment extends Fragment implements AbsListView.OnItemCli
         return view;
 
     }
-
-
-
 
     @Override
     public void onAttach(Activity activity) {
@@ -188,6 +181,13 @@ public class BrandListFragment extends Fragment implements AbsListView.OnItemCli
             // fragment is attached to one) that an item has been selected.
             ListItem item = (ListItem) mAdapter.getItem(position);
             mListener.onFragmentInteraction(item.getTitle());
+
+            Intent intent = new Intent(this.getActivity(), ItemActivity.class);
+            Bundle arguments2 = new Bundle();
+
+            arguments2.putString("title", item.getTitle());
+            intent.putExtra("arguements", arguments2);
+
         }
     }
 

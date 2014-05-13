@@ -13,8 +13,8 @@ import android.view.MenuItem;
 import java.util.List;
 import ie.dealz.app.Fragments.ItemFragment;
 import ie.dealz.app.R;
-import ie.dealz.app.models.Golf;
-import ie.dealz.app.services.GolfService;
+import ie.dealz.app.models.Cars;
+import ie.dealz.app.services.CarService;
 import retrofit.RestAdapter;
 
 public class ItemActivity extends ActionBarActivity implements  ItemFragment.OnFragmentInteractionListener {
@@ -66,16 +66,17 @@ public class ItemActivity extends ActionBarActivity implements  ItemFragment.OnF
 
     public static void getGolfs() {
         RestAdapter restAdapter;
-        List<Golf> golfs;
+        List<Cars> golfs;
+        String makeQ = "golf";
 
         restAdapter = new RestAdapter.Builder()
                 .setServer("http://david.pimyride.com")
                 .build();
 
-        GolfService golfService = restAdapter.create(GolfService.class);
-        golfs = golfService.listGolfs();
+        CarService golfService = restAdapter.create(CarService.class);
+        golfs = golfService.listGolfs(makeQ);
 
-        for (Golf golf : golfs) {
+        for (Cars golf : golfs) {
             Log.d("title", golf.title);
         }
     }

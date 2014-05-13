@@ -20,16 +20,14 @@ import android.widget.Toast;
 
 import org.androidannotations.annotations.Background;
 
-import java.util.Arrays;
 import java.util.List;
-import java.util.logging.Handler;
 
 import ie.dealz.app.Adapters.CarAdapter;
 import ie.dealz.app.Activites.ItemActivity;
 import ie.dealz.app.Facade.ListItem;
 import ie.dealz.app.R;
-import ie.dealz.app.models.Golf;
-import ie.dealz.app.services.GolfService;
+import ie.dealz.app.models.Cars;
+import ie.dealz.app.services.CarService;
 import retrofit.RestAdapter;
 
 /**
@@ -201,15 +199,19 @@ public class ListFragment extends Fragment implements AbsListView.OnItemClickLis
         RestAdapter restAdapter = new RestAdapter.Builder().setServer("http://david.pimyride.com").build();
 
         //Create link to golf service
-        GolfService service = restAdapter.create(GolfService.class);
+        CarService service = restAdapter.create(CarService.class);
 
         //Create our list of cars
         //TO DO: Make dynamic per car brand
-        String golfParam = "golf";
-        List<Golf> golfs = service.listGolfs(golfParam);
+
+        Bundle b = getArguments();
+        String make = b.getString("make of car");
+
+        String golfParam = "tdi";
+        List<Cars> golfs = service.listGolfs(make);
 
         //Populate the list with cars
-        for (Golf golf : golfs)
+        for (Cars golf : golfs)
             mAdapter.add(golf);
 
         mAdapter.notifyDataSetChanged();

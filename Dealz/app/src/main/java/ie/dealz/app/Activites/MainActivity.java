@@ -15,8 +15,8 @@ import java.util.List;
 import ie.dealz.app.Fragments.BrandListFragment;
 import ie.dealz.app.Fragments.ListFragment;
 import ie.dealz.app.R;
-import ie.dealz.app.models.Golf;
-import ie.dealz.app.services.GolfService;
+import ie.dealz.app.models.Cars;
+import ie.dealz.app.services.CarService;
 import retrofit.RestAdapter;
 
 public class MainActivity extends ActionBarActivity implements ListFragment.OnFragmentInteractionListener, BrandListFragment.OnFragmentInteractionListener {
@@ -55,7 +55,7 @@ public class MainActivity extends ActionBarActivity implements ListFragment.OnFr
         FragmentTransaction transaction = fragmentManager.beginTransaction();
         transaction.replace(R.id.frame, yoloFragment, "CarsListFrag");
         transaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
-        transaction.addToBackStack("CountriesListFragment");
+        transaction.addToBackStack("CarsListFrag");
 
         transaction.commit();
     }
@@ -82,16 +82,17 @@ public class MainActivity extends ActionBarActivity implements ListFragment.OnFr
 
     public static void getGolfs() {
         RestAdapter restAdapter;
-        List<Golf> golfs;
+        List<Cars> golfs;
+        String makeQ = "golf";
 
         restAdapter = new RestAdapter.Builder()
                 .setServer("http://david.pimyride.com")
                 .build();
 
-        GolfService golfService = restAdapter.create(GolfService.class);
-        golfs = golfService.listGolfs();
+        CarService golfService = restAdapter.create(CarService.class);
+        golfs = golfService.listGolfs(makeQ);
 
-        for (Golf golf : golfs) {
+        for (Cars golf : golfs) {
             Log.d("title", golf.title);
         }
     }
@@ -99,10 +100,9 @@ public class MainActivity extends ActionBarActivity implements ListFragment.OnFr
     @Override
     public void onFragmentInteraction(String id) {
 
-        if (id.equals("Golf")) {
+//        if (id.equals("Golf")) {
             replaceListWithCars(id); // Brings to list
-
-        }
+//        }
     }
 
 
