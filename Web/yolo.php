@@ -28,7 +28,7 @@ if ( !$db ) {
 // Fetch the data
 $query = "
   SELECT *
-  FROM dealz2
+  FROM dealz2 WHERE title LIKE '%".$_GET['make']."%'
   ORDER BY title ASC";
 $result = mysql_query( $query );
 

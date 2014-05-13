@@ -9,6 +9,7 @@ import pandas.io.sql as psql
 import json
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.linear_model import LinearRegression
+from sklearn import svm
 from yhat import BaseModel
 import MySQLdb
 
@@ -171,8 +172,15 @@ LR = LinearRegression()
 # Train the model using the training sets(DataFrame without title, link or price and then price by itself)
 LR.fit(dv.transform(df_no_ID.T.to_dict().values()), df.price)
 
+clf = svm.SVC()
+
+clf.fit(dv.transform(df_no_ID.T.to_dict().values()), df.price)
+
 # Explained variance score: 1 is perfect prediction
 print ('Variance score: %.2f' % LR.score(dv.transform(df_no_ID.T.to_dict().values()), df.price))
+
+print ('Variance score: %.2f' % clf.score(dv.transform(df_no_ID.T.to_dict().values()), df.price))
+
 
 # --------------------------------------------------------------------------------------------------------
 
@@ -194,13 +202,13 @@ class predictFunction(BaseModel):
     #Predicted price is what our model determines based on the LR
     def predict(self, x):
         doc = self.dv.inverse_transform(x)[0]
-        predicted = self.lr.predict(x)[0]
+        predicted = self.svm .predict(x)[0]
 
         # err = abs(predicted - doc['price'])
 
         goodDeal = (doc['price'] < predicted)
 
-        return {'predictedPrice': predicted,
+        return {'predictedPrice': str(round(predicted)),
                 # 'Details': doc,
                 "title" : [(k, v) for (k, v) in doc.iteritems() if 'title' in k],
                 'link' : [(k, v) for (k, v) in doc.iteritems() if 'link' in k],
@@ -228,10 +236,10 @@ class predictFunction(BaseModel):
 
 
 
-predictedPrice = predictFunction(dv=dv, lr=LR)
+predictedPrice = predictFunction(dv=dv, svm=clf)
 print " "
 with open('vw_golfDealz.json', 'w') as outfile:
-    for i in range(120):
+    for i in range(10):
         outputPrice = predictedPrice.predict(predictedPrice.transform(df_no_ID.T.to_dict()[i]))
         # print outputPrice[0]
         json.dump(outputPrice, outfile)

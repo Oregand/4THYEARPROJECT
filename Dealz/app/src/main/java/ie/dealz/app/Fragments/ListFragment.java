@@ -204,7 +204,9 @@ public class ListFragment extends Fragment implements AbsListView.OnItemClickLis
         GolfService service = restAdapter.create(GolfService.class);
 
         //Create our list of cars
-        List<Golf> golfs = service.listGolfs();
+        //TO DO: Make dynamic per car brand
+        String golfParam = "golf";
+        List<Golf> golfs = service.listGolfs(golfParam);
 
         //Populate the list with cars
         for (Golf golf : golfs)
