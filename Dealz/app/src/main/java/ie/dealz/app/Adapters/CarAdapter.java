@@ -73,12 +73,16 @@ public class CarAdapter extends BaseAdapter {
 
     }
 
+    //If I put a space after the word, the search bar does not work anymore.
+    //Fix
+
+
     public boolean findByAnything(String anything) {
         List<ListItem> items = new LinkedList<ListItem>();
         for (ListItem car : cars) {
             String carColour = car.getColour();
             String carLocation = car.getLocation();
-            String carPrice = car.getPrice();
+//            String carPrice = car.getPrice();
 
             if (carLocation.trim().equalsIgnoreCase(anything.trim())) {
                 items.add(car);
@@ -94,10 +98,10 @@ public class CarAdapter extends BaseAdapter {
 
             originalList = cars;
             cars = items;
-
             this.notifyDataSetChanged();
 
             return true;
+
         } else {
             if (originalList != null) {
                 if (originalList.size() > 0) {
@@ -106,11 +110,10 @@ public class CarAdapter extends BaseAdapter {
                     this.notifyDataSetChanged();
                 }
             }
-
             return false;
         }
-
     }
+
     public boolean findByPrice(String price) {
         List<ListItem> items = new LinkedList<ListItem>();
         for (ListItem car : cars) {

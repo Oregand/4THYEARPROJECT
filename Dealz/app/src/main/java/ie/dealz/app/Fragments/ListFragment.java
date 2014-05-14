@@ -142,8 +142,7 @@ public class ListFragment extends Fragment implements AbsListView.OnItemClickLis
 
 
                     mAdapter.findByAnything(grid_currentQuery);
-//                    mAdapter.findByLocaton(grid_currentQuery);
-//                    mAdapter.findByPrice(grid_currentQuery);
+
 
 //                    List<ListItem> itemsLoc = mAdapter.findByLocation(grid_currentQuery);
 //                    List<ListItem> itemsPrice = mAdapter.findByPrice(grid_currentQuery);
