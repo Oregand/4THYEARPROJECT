@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b729d6f-cc02-47a6-a2a4-6ac27f58beaa" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/sitemap.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Machine Learning/LinearRegression/Dealz.csv" afterPath="$PROJECT_DIR$/Machine Learning/LinearRegression/Dealz.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Machine Learning/LinearRegression/LR.py" afterPath="$PROJECT_DIR$/Machine Learning/LinearRegression/LR.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web/about-us.html" afterPath="$PROJECT_DIR$/Web/about-us.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web/blog.html" afterPath="$PROJECT_DIR$/Web/blog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web/contact-us.html" afterPath="$PROJECT_DIR$/Web/contact-us.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web/home.html" afterPath="$PROJECT_DIR$/Web/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web/support.html" afterPath="$PROJECT_DIR$/Web/support.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Machine Learning/LinearRegression/vw_golfDealz.json" afterPath="$PROJECT_DIR$/Machine Learning/LinearRegression/vw_golfDealz.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="3b729d6f-cc02-47a6-a2a4-6ac27f58beaa" name="Default" comment="" />
     <ignored path="4THYEARPROJECT.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,7 +31,7 @@
       <file leaf-file-name="LR.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Machine Learning/LinearRegression/LR.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="214" column="0" selection-start="7394" selection-end="7394" vertical-scroll-proportion="1.4461883" vertical-offset="2565" max-vertical-offset="4860">
+            <state line="190" column="0" selection-start="6650" selection-end="6650" vertical-scroll-proportion="0.63901347" vertical-offset="2565" max-vertical-offset="4860">
               <folding>
                 <element signature="e#49#68#0" expanded="true" />
                 <marker date="1400141292000" expanded="true" signature="628:661" placeholder="select * fro..vw_golf..." />
@@ -910,7 +899,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Machine Learning/LinearRegression/LR.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="214" column="0" selection-start="7394" selection-end="7394" vertical-scroll-proportion="1.4461883" vertical-offset="2565" max-vertical-offset="4860">
+        <state line="190" column="0" selection-start="6650" selection-end="6650" vertical-scroll-proportion="0.63901347" vertical-offset="2565" max-vertical-offset="4860">
           <folding>
             <element signature="e#49#68#0" expanded="true" />
             <marker date="1400141292000" expanded="true" signature="628:661" placeholder="select * fro..vw_golf..." />
