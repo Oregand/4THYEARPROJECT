@@ -170,16 +170,21 @@ dv.fit(df.T.to_dict().values())
 LR = LinearRegression()
 
 # Train the model using the training sets(DataFrame without title, link or price and then price by itself)
-LR.fit(dv.transform(df_no_ID.T.to_dict().values()), df.price)
+LR = LR.fit(dv.transform(df_no_priceLinkTitle.T.to_dict().values()), df.price)
+
+print LR
+print ' + '.join([format(LR.intercept_, '0.2f')] + map(lambda (f,c): "(%0.2f %s)" % (c, f), zip(dv.feature_names_, LR.coef_)))
 
 clf = svm.SVC()
 
-clf.fit(dv.transform(df_no_ID.T.to_dict().values()), df.price)
+clf = clf.fit(dv.transform(df_no_priceLinkTitle.T.to_dict().values()), df.price)
+
+
 
 # Explained variance score: 1 is perfect prediction
-print ('Variance score: %.2f' % LR.score(dv.transform(df_no_ID.T.to_dict().values()), df.price))
+print ('Variance score: %.2f' % LR.score(dv.transform(df_no_priceLinkTitle.T.to_dict().values()), df.price))
 
-print ('Variance score: %.2f' % clf.score(dv.transform(df_no_ID.T.to_dict().values()), df.price))
+print ('Variance score: %.2f' % clf.score(dv.transform(df_no_priceLinkTitle.T.to_dict().values()), df.price))
 
 
 # --------------------------------------------------------------------------------------------------------
@@ -239,7 +244,7 @@ class predictFunction(BaseModel):
 predictedPrice = predictFunction(dv=dv, svm=clf)
 print " "
 with open('vw_golfDealz.json', 'w') as outfile:
-    for i in range(10):
+    for i in range(200):
         outputPrice = predictedPrice.predict(predictedPrice.transform(df_no_ID.T.to_dict()[i]))
         # print outputPrice[0]
         json.dump(outputPrice, outfile)

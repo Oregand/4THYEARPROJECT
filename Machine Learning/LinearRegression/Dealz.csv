@@ -1,10 +1,200 @@
-41712.0,False,le=Volkswagen Golf GTD 2.0TD,http://www.carzone.ie/search/Volkswagen/Golf/GTD-2.0T/36313713047288160/advert?channel=CAR
-44950.0,False,le=Volkswagen Golf GTi 2.0T ,http://www.carzone.ie/search/Volkswagen/Golf/GTi-2.0T/38213911069016580/advert?channel=CAR
-58950.0,False,le=Volkswagen Golf GOLF R 2.,http://www.carzone.ie/search/Volkswagen/Golf/GOLF-R-2/42913940456933040/advert?channel=CAR
-39631.0,False,le=Volkswagen Golf GTD 5 DOO,http://www.carzone.ie/search/Volkswagen/Golf/GTD-5-DO/38513903292926230/advert?channel=CAR
-39750.0,False,"le=Volkswagen Golf GTI', 1.0","http://www.carzone.ie/search/Volkswagen/Golf/GTI/39913900602011030/advert?channel=CARS', 1"
-39995.0,False,le=Volkswagen Golf GTi Perfo,http://www.carzone.ie/search/Volkswagen/Golf/GTi-Perf/42713945436489250/advert?channel=CAR
-40000.0,False,le=Volkswagen Golf GTD 2.0TD,http://www.carzone.ie/search/Volkswagen/Golf/GTD-2.0T/38513899640889900/advert?channel=CAR
-40160.0,False,le=Volkswagen Golf GTD 2.0TD,http://www.carzone.ie/search/Volkswagen/Golf/GTD-2.0T/43313945436487840/advert?channel=CAR
-40615.0,False,le=Volkswagen Golf GTD 2.0TD,http://www.carzone.ie/search/Volkswagen/Golf/GTD-2.0T/42813948988464640/advert?channel=CAR
-41325.0,False,le=Volkswagen Golf GTD 2.0TD,http://www.carzone.ie/search/Volkswagen/Golf/GTD-2.0T/44113933533578790/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf GTD 2.0TD,http://www.carzone.ie/search/Volkswagen/Golf/GTD-2.0T/36313713047288160/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf GTi 2.0T ,http://www.carzone.ie/search/Volkswagen/Golf/GTi-2.0T/38213911069016580/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf GOLF R 2.,http://www.carzone.ie/search/Volkswagen/Golf/GOLF-R-2/42913940456933040/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf GTD 5 DOO,http://www.carzone.ie/search/Volkswagen/Golf/GTD-5-DO/38513903292926230/advert?channel=CAR
+14950.0,False,"le=Volkswagen Golf GTI', 1.0","http://www.carzone.ie/search/Volkswagen/Golf/GTI/39913900602011030/advert?channel=CARS', 1"
+14950.0,False,le=Volkswagen Golf GTi Perfo,http://www.carzone.ie/search/Volkswagen/Golf/GTi-Perf/42713945436489250/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf GTD 2.0TD,http://www.carzone.ie/search/Volkswagen/Golf/GTD-2.0T/38513899640889900/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf GTD 2.0TD,http://www.carzone.ie/search/Volkswagen/Golf/GTD-2.0T/43313945436487840/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf GTD 2.0TD,http://www.carzone.ie/search/Volkswagen/Golf/GTD-2.0T/42813948988464640/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf GTD 2.0TD,http://www.carzone.ie/search/Volkswagen/Golf/GTD-2.0T/44113933533578790/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf GTi Perfo,http://www.carzone.ie/search/Volkswagen/Golf/GTi-Perf/39313918758392590/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf GTI 2.0TS,http://www.carzone.ie/search/Volkswagen/Golf/GTI-2.0T/37313834223270260/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf GTI 2.0 T,http://www.carzone.ie/search/Volkswagen/Golf/GTI-2.0-/38213916920035170/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf GTD 2.0 1,http://www.carzone.ie/search/Volkswagen/Golf/GTD-2.0-/37013863353787080/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf GTD 2.0TD,http://www.carzone.ie/search/Volkswagen/Golf/GTD-2.0T/37713834223271840/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf GTI 5 DOO,http://www.carzone.ie/search/Volkswagen/Golf/GTI-5-DO/43613951583084140/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf GTI 2.0 2,http://www.carzone.ie/search/Volkswagen/Golf/GTI-2.0-/37713834223275410/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf GTD 2.0TD,http://www.carzone.ie/search/Volkswagen/Golf/GTD-2.0T/38313920473580390/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf GTI 2.0 T,http://www.carzone.ie/search/Volkswagen/Golf/GTI-2.0-/38113863353784930/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf GOLF GTI ,http://www.carzone.ie/search/Volkswagen/Golf/GOLF-GTI/43713954376978930/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf HIGHLINE ,http://www.carzone.ie/search/Volkswagen/Golf/HIGHLINE/37313837432353620/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 2.0TDi Hi,http://www.carzone.ie/search/Volkswagen/Golf/2.0TDi-H/39113921339249700/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf GTi from ,http://www.carzone.ie/search/Volkswagen/Golf/GTi-from/37213834222635620/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.6Tdi 10,http://www.carzone.ie/search/Volkswagen/Golf/1.6Tdi-1/37713858166985170/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.6 Tdi 3,http://www.carzone.ie/search/Volkswagen/Golf/1.6-Tdi-/36613847133087870/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf Highline ,http://www.carzone.ie/search/Volkswagen/Golf/Highline/36813834222808460/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.6Tdi 10,http://www.carzone.ie/search/Volkswagen/Golf/1.6Tdi-1/36813834222679350/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.4 ACT D,http://www.carzone.ie/search/Volkswagen/Golf/1.4-ACT-/39313903292839010/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf Highline ,http://www.carzone.ie/search/Volkswagen/Golf/Highline/38613922202938240/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf HIGHLINE ,http://www.carzone.ie/search/Volkswagen/Golf/HIGHLINE/37113834223272030/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf Highline ,http://www.carzone.ie/search/Volkswagen/Golf/Highline/37313837628384850/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf HL 1.6 TD,http://www.carzone.ie/search/Volkswagen/Golf/HL-1.6-T/43313953288037590/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.6 TDi 9,http://www.carzone.ie/search/Volkswagen/Golf/1.6-TDi-/37713856538756060/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf Highline ,http://www.carzone.ie/search/Volkswagen/Golf/Highline/38613916253377220/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf HL 1.6 TD,http://www.carzone.ie/search/Volkswagen/Golf/HL-1.6-T/38813916946717180/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.6TDi 10,http://www.carzone.ie/search/Volkswagen/Golf/1.6TDi-1/43613954285896220/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf Highline ,http://www.carzone.ie/search/Volkswagen/Golf/Highline/39713905687961010/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf HL 1.6TDI,http://www.carzone.ie/search/Volkswagen/Golf/HL-1.6TD/37213869399218050/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf Highline ,http://www.carzone.ie/search/Volkswagen/Golf/Highline/37713834222807160/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf T D I Hig,http://www.carzone.ie/search/Volkswagen/Golf/T-D-I-Hi/37113834222806450/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.6 Tdi C,http://www.carzone.ie/search/Volkswagen/Golf/1.6-Tdi-/37113834222947160/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf VW GOLF 7,http://www.carzone.ie/search/Volkswagen/Golf/VW-GOLF-/37113834222840590/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.6 TDI 1,http://www.carzone.ie/search/Volkswagen/Golf/1.6-TDI-/38013892924673160/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf New Golf ,http://www.carzone.ie/search/Volkswagen/Golf/New-Golf/37213850292477380/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.6TDI 10,http://www.carzone.ie/search/Volkswagen/Golf/1.6TDI-1/43813942080610700/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.6TDI 10,http://www.carzone.ie/search/Volkswagen/Golf/1.6TDI-1/44213942080615980/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.6 TDi C,http://www.carzone.ie/search/Volkswagen/Golf/1.6-TDi-/38613919512608630/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.6 TDI C,http://www.carzone.ie/search/Volkswagen/Golf/1.6-TDI-/39313919512604790/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.6Tdi Co,http://www.carzone.ie/search/Volkswagen/Golf/1.6Tdi-C/36613834222930180/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.6 TDi 1,http://www.carzone.ie/search/Volkswagen/Golf/1.6-TDi-/39913922969009080/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf TRENDLINE,http://www.carzone.ie/search/Volkswagen/Golf/TRENDLIN/39913924696261160/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf COMFORTLI,http://www.carzone.ie/search/Volkswagen/Golf/COMFORTL/39713917030801090/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf Comfortli,http://www.carzone.ie/search/Volkswagen/Golf/Comfortl/42713935169329570/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf COMFORTLI,http://www.carzone.ie/search/Volkswagen/Golf/COMFORTL/39713924696261920/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.2Tsi 10,http://www.carzone.ie/search/Volkswagen/Golf/1.2Tsi-1/37613866141240180/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf CL 1.6 TD,http://www.carzone.ie/search/Volkswagen/Golf/CL-1.6-T/42713945320137290/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf Comfortli,http://www.carzone.ie/search/Volkswagen/Golf/Comfortl/43213933335618790/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf Comfortli,http://www.carzone.ie/search/Volkswagen/Golf/Comfortl/39713917786124210/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf Comfortli,http://www.carzone.ie/search/Volkswagen/Golf/Comfortl/44413950053479340/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf Comfortli,http://www.carzone.ie/search/Volkswagen/Golf/Comfortl/38713917786118000/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.6 TDI 1,http://www.carzone.ie/search/Volkswagen/Golf/1.6-TDI-/39313916253020120/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf sport 1.6,http://www.carzone.ie/search/Volkswagen/Golf/sport-1./38813922301471690/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.6 Tdi T,http://www.carzone.ie/search/Volkswagen/Golf/1.6-Tdi-/37313844541040330/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.6 tdi C,http://www.carzone.ie/search/Volkswagen/Golf/1.6-tdi-/43313946200620710/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf Trendline,http://www.carzone.ie/search/Volkswagen/Golf/Trendlin/36513834222805450/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf COMFORTLI,http://www.carzone.ie/search/Volkswagen/Golf/COMFORTL/39313922969802410/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.6Tdi 10,http://www.carzone.ie/search/Volkswagen/Golf/1.6Tdi-1/37213834222973700/advert?channel=CAR
+14950.0,False,"le=Volkswagen Golf CL TDI', ",http://www.carzone.ie/search/Volkswagen/Golf/CL-TDI/39913914524638200/advert?channel=CARS'
+14950.0,False,le=Volkswagen Golf 1.2Tsi Co,http://www.carzone.ie/search/Volkswagen/Golf/1.2Tsi-C/37013834222973470/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.2Tsi Co,http://www.carzone.ie/search/Volkswagen/Golf/1.2Tsi-C/36513834222976570/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf HIGHLINE ,http://www.carzone.ie/search/Volkswagen/Golf/HIGHLINE/42313954376985250/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf TL SPORTS,http://www.carzone.ie/search/Volkswagen/Golf/TL-SPORT/38313916193558770/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf TL 1.6TDI,http://www.carzone.ie/search/Volkswagen/Golf/TL-1.6TD/39313916153849100/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf Highline ,http://www.carzone.ie/search/Volkswagen/Golf/Highline/43213951485056640/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.6Tdi 10,http://www.carzone.ie/search/Volkswagen/Golf/1.6Tdi-1/44113946200626150/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.6 Tdi 1,http://www.carzone.ie/search/Volkswagen/Golf/1.6-Tdi-/42613946200634020/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.6TDi Co,http://www.carzone.ie/search/Volkswagen/Golf/1.6TDi-C/44213946395528610/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf HIGHLINE ,http://www.carzone.ie/search/Volkswagen/Golf/HIGHLINE/39913927189798770/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf COMFORTLI,http://www.carzone.ie/search/Volkswagen/Golf/COMFORTL/44313941984039710/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf TDI Demon,http://www.carzone.ie/search/Volkswagen/Golf/TDI-Demo/43313933335612810/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf Trendline,http://www.carzone.ie/search/Volkswagen/Golf/Trendlin/42813935169331990/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.2TSI Tr,http://www.carzone.ie/search/Volkswagen/Golf/1.2TSI-T/37213834222947310/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf TRENDLINE,http://www.carzone.ie/search/Volkswagen/Golf/TRENDLIN/38813924029478120/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf TRENDLINE,http://www.carzone.ie/search/Volkswagen/Golf/TRENDLIN/38213924029480260/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf COMFORTLI,http://www.carzone.ie/search/Volkswagen/Golf/COMFORTL/44113941984041490/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf COMFORTLI,http://www.carzone.ie/search/Volkswagen/Golf/COMFORTL/39313927189799170/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf TL 1.6 TD,http://www.carzone.ie/search/Volkswagen/Golf/TL-1.6-T/43713935907401230/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf VAN TL 1.,http://www.carzone.ie/search/Volkswagen/Golf/VAN-TL-1/38513905634140400/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf Comfortli,http://www.carzone.ie/search/Volkswagen/Golf/Comfortl/43213935169335050/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.6 TDI D,http://www.carzone.ie/search/Volkswagen/Golf/1.6-TDI-/44313944572006860/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf TL 1.6 TD,http://www.carzone.ie/search/Volkswagen/Golf/TL-1.6-T/39713916190231160/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.2 Tsi T,http://www.carzone.ie/search/Volkswagen/Golf/1.2-Tsi-/44513946200625680/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf TL 1.2 TS,http://www.carzone.ie/search/Volkswagen/Golf/TL-1.2-T/44713953290497660/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.2TSI 85,http://www.carzone.ie/search/Volkswagen/Golf/1.2TSI-8/37213834223271090/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.2Tsi Tr,http://www.carzone.ie/search/Volkswagen/Golf/1.2Tsi-T/36513834222971760/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf COMFORTLI,http://www.carzone.ie/search/Volkswagen/Golf/COMFORTL/39113924029485660/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf Comfortli,http://www.carzone.ie/search/Volkswagen/Golf/Comfortl/38813917786120020/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf COMFORTLI,http://www.carzone.ie/search/Volkswagen/Golf/COMFORTL/39113924029479200/advert?channel=CAR
+14950.0,False,"le=Volkswagen Golf GTi', 1.0","http://www.carzone.ie/search/Volkswagen/Golf/GTi/38713903292831760/advert?channel=CARS', 1"
+14950.0,False,"le=Volkswagen Golf', 1.0]]","http://www.carzone.ie/search/Volkswagen/Golf/36513856538467080/advert?channel=CARS', 1.0]]"
+14950.0,False,le=Volkswagen Golf HIGHLINE ,http://www.carzone.ie/search/Volkswagen/Golf/HIGHLINE/43713937390889320/advert?channel=CAR
+14950.0,False,"le=Volkswagen Golf ""132"" TDI",http://www.carzone.ie/search/Volkswagen/Golf/%22132%22-TD/36513735360825430/advert?channel
+14950.0,False,le=Volkswagen Golf GTI 2.0TS,http://www.carzone.ie/search/Volkswagen/Golf/GTI-2.0T/38813927189756800/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf TL 1.6 TD,http://www.carzone.ie/search/Volkswagen/Golf/TL-1.6-T/42713933415197430/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf TDI 105BH,http://www.carzone.ie/search/Volkswagen/Golf/TDI-105B/36513862685056830/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf TRENDLINE,http://www.carzone.ie/search/Volkswagen/Golf/TRENDLIN/38213924893620160/advert?channel=CAR
+14950.0,False,"le=Volkswagen Golf 1.6 TDI, ","http://www.carzone.ie/search/Volkswagen/Golf/1.6-TDI,/37713862388910260/advert?channel=CAR"
+14950.0,False,"le=Volkswagen Golf 1.6 TDI, ","http://www.carzone.ie/search/Volkswagen/Golf/1.6-TDI,/37113834223183220/advert?channel=CAR"
+14950.0,False,le=Volkswagen Golf TRENDLINE,http://www.carzone.ie/search/Volkswagen/Golf/TRENDLIN/37313867770857270/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf CL 1.6 TD,http://www.carzone.ie/search/Volkswagen/Golf/CL-1.6-T/37613765835502070/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf Sold..Com,http://www.carzone.ie/search/Volkswagen/Golf/Sold..Co/43213932471884650/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf HIGHLINE ,http://www.carzone.ie/search/Volkswagen/Golf/HIGHLINE/43613956878298470/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf HIGHLINE ,http://www.carzone.ie/search/Volkswagen/Golf/HIGHLINE/201411222319092/advert?channel=CARS'
+14950.0,False,le=Volkswagen Golf 1.6 TDI 1,http://www.carzone.ie/search/Volkswagen/Golf/1.6-TDI-/37313834223148880/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf CL 1.6 TD,http://www.carzone.ie/search/Volkswagen/Golf/CL-1.6-T/37013782267924920/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf Trendline,http://www.carzone.ie/search/Volkswagen/Golf/Trendlin/43413948987327680/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf TRENDLINE,http://www.carzone.ie/search/Volkswagen/Golf/TRENDLIN/43413941320437840/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf TRENDLINE,http://www.carzone.ie/search/Volkswagen/Golf/TRENDLIN/44213941320432330/advert?channel=CAR
+14950.0,False,"le=Volkswagen Golf', 1.0]]","http://www.carzone.ie/search/Volkswagen/Golf/44713957742882000/advert?channel=CARS', 1.0]]"
+14950.0,False,le=Volkswagen Golf TL 1.6 TD,http://www.carzone.ie/search/Volkswagen/Golf/TL-1.6-T/42713928936329800/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf TDI 105BH,http://www.carzone.ie/search/Volkswagen/Golf/TDI-105B/38113862685057730/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf BLUEMOTIO,http://www.carzone.ie/search/Volkswagen/Golf/BLUEMOTI/37013854711901940/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf CL 1.6 TD,http://www.carzone.ie/search/Volkswagen/Golf/CL-1.6-T/39113905657880730/advert?channel=CAR
+14950.0,False,"le=Volkswagen Golf 132 Reg',",http://www.carzone.ie/search/Volkswagen/Golf/132-Reg/39113911735112580/advert?channel=CARS
+14950.0,False,le=Volkswagen Golf TSI **AS ,http://www.carzone.ie/search/Volkswagen/Golf/TSI-**AS/37213862685057700/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 132 Reg T,http://www.carzone.ie/search/Volkswagen/Golf/132-Reg-/37713862685060570/advert?channel=CAR
+14950.0,False,"le=Volkswagen Golf', 1.0]]","http://www.carzone.ie/search/Volkswagen/Golf/43813952251790670/advert?channel=CARS', 1.0]]"
+14950.0,False,le=Volkswagen Golf Highline ,http://www.carzone.ie/search/Volkswagen/Golf/Highline/38713910204673660/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.6TDI Hi,http://www.carzone.ie/search/Volkswagen/Golf/1.6TDI-H/39713922202450400/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.6TDI Hi,http://www.carzone.ie/search/Volkswagen/Golf/1.6TDI-H/42913935662132680/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf Highline ,http://www.carzone.ie/search/Volkswagen/Golf/Highline/42313940358102750/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf HIGHLINE ,http://www.carzone.ie/search/Volkswagen/Golf/HIGHLINE/43613937390894800/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 132 Reg T,http://www.carzone.ie/search/Volkswagen/Golf/132-Reg-/37013867869105800/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf Golf High,http://www.carzone.ie/search/Volkswagen/Golf/Golf-Hig/43413936031710380/advert?channel=CAR
+14950.0,False,"le=Volkswagen Golf', 1.0]]","http://www.carzone.ie/search/Volkswagen/Golf/42313945435766380/advert?channel=CARS', 1.0]]"
+14950.0,False,le=Volkswagen Golf GOLF 1.6 ,http://www.carzone.ie/search/Volkswagen/Golf/GOLF-1.6/39713911906810960/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.6TDi Hi,http://www.carzone.ie/search/Volkswagen/Golf/1.6TDi-H/38013892159818590/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf Highline ,http://www.carzone.ie/search/Volkswagen/Golf/Highline/42313941320723510/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf COMFORTLI,http://www.carzone.ie/search/Volkswagen/Golf/COMFORTL/39113905021147090/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.6TDi Hi,http://www.carzone.ie/search/Volkswagen/Golf/1.6TDi-H/38213912031866330/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf TL 1.6TDI,http://www.carzone.ie/search/Volkswagen/Golf/TL-1.6TD/32013578346992520/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf CL 1.6 TD,http://www.carzone.ie/search/Volkswagen/Golf/CL-1.6-T/37313872973843820/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf HL 1.6 TD,http://www.carzone.ie/search/Volkswagen/Golf/HL-1.6-T/38613910959029160/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf PLUS LIFE,http://www.carzone.ie/search/Volkswagen/Golf/PLUS-LIF/38313914239832350/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf COMFORTLI,http://www.carzone.ie/search/Volkswagen/Golf/COMFORTL/39313910007505710/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf Hl 1.6tdi,http://www.carzone.ie/search/Volkswagen/Golf/Hl-1.6td/38213915195066610/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf HL 1.6 TD,http://www.carzone.ie/search/Volkswagen/Golf/HL-1.6-T/37313827197511540/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf CL 1.6 TD,http://www.carzone.ie/search/Volkswagen/Golf/CL-1.6-T/39113921408453270/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf Highline ,http://www.carzone.ie/search/Volkswagen/Golf/Highline/42813945531452930/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.6 TDI H,http://www.carzone.ie/search/Volkswagen/Golf/1.6-TDI-/43613946161686940/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf GOLF HIGH,http://www.carzone.ie/search/Volkswagen/Golf/GOLF-HIG/42713936031699260/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf TDI COMFO,http://www.carzone.ie/search/Volkswagen/Golf/TDI-COMF/42713944473009810/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.6 TDI T,http://www.carzone.ie/search/Volkswagen/Golf/1.6-TDI-/36813834223148800/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf CL 1.6 TD,http://www.carzone.ie/search/Volkswagen/Golf/CL-1.6-T/42813935899238530/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf HL 1.6 TD,http://www.carzone.ie/search/Volkswagen/Golf/HL-1.6-T/36513838443337530/advert?channel=CAR
+14950.0,False,"le=Volkswagen Golf 1.6 TDI, ","http://www.carzone.ie/search/Volkswagen/Golf/1.6-TDI,/37613834223186840/advert?channel=CAR"
+14950.0,False,"le=Volkswagen Golf 1.6 TDI, ","http://www.carzone.ie/search/Volkswagen/Golf/1.6-TDI,/38213897245146050/advert?channel=CAR"
+14950.0,False,"le=Volkswagen Golf 1.6 TDI, ","http://www.carzone.ie/search/Volkswagen/Golf/1.6-TDI,/36313834223188280/advert?channel=CAR"
+14950.0,False,"le=Volkswagen Golf 250, 1.6 ","http://www.carzone.ie/search/Volkswagen/Golf/250,-1.6/38813905786639830/advert?channel=CAR"
+14950.0,False,le=Volkswagen Golf BlueMotio,http://www.carzone.ie/search/Volkswagen/Golf/BlueMoti/43413939592699910/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf COMFORTLI,http://www.carzone.ie/search/Volkswagen/Golf/COMFORTL/37713856637294690/advert?channel=CAR
+14950.0,False,"le=Volkswagen Golf Match', 1","http://www.carzone.ie/search/Volkswagen/Golf/Match/37713793528556890/advert?channel=CARS',"
+14950.0,False,le=Volkswagen Golf PLUS LIFE,http://www.carzone.ie/search/Volkswagen/Golf/PLUS-LIF/37113834222871890/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.6 TDI T,http://www.carzone.ie/search/Volkswagen/Golf/1.6-TDI-/42613947376821580/advert?channel=CAR
+14950.0,False,"le=Volkswagen Golf MK7, 1.6 ","http://www.carzone.ie/search/Volkswagen/Golf/MK7,-1.6/37313834223182110/advert?channel=CAR"
+14950.0,False,"le=Volkswagen Golf 1.6 TDI, ","http://www.carzone.ie/search/Volkswagen/Golf/1.6-TDI,/36513834223186780/advert?channel=CAR"
+14950.0,False,le=Volkswagen Golf TRENDLINE,http://www.carzone.ie/search/Volkswagen/Golf/TRENDLIN/38813904922869250/advert?channel=CAR
+14950.0,False,"le=Volkswagen Golf 1.6 TDI, ","http://www.carzone.ie/search/Volkswagen/Golf/1.6-TDI,/37613834223187650/advert?channel=CAR"
+14950.0,False,le=Volkswagen Golf 1.6 Tdi C,http://www.carzone.ie/search/Volkswagen/Golf/1.6-Tdi-/36313834223079440/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf Match & P,http://www.carzone.ie/search/Volkswagen/Golf/Match-&-/37313834223147110/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.6 TDI 1,http://www.carzone.ie/search/Volkswagen/Golf/1.6-TDI-/38613928052038710/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.6 TDi 5,http://www.carzone.ie/search/Volkswagen/Golf/1.6-TDi-/37713834222977450/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.6 TDI A,http://www.carzone.ie/search/Volkswagen/Golf/1.6-TDI-/38013893591756040/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.6 TDI 1,http://www.carzone.ie/search/Volkswagen/Golf/1.6-TDI-/36813834222864710/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.6 TDI 1,http://www.carzone.ie/search/Volkswagen/Golf/1.6-TDI-/37113834222878050/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.6 TDI 1,http://www.carzone.ie/search/Volkswagen/Golf/1.6-TDI-/36813834222880820/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.6 105BH,http://www.carzone.ie/search/Volkswagen/Golf/1.6-105B/44113947164899060/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf *1.2 Tsi ,http://www.carzone.ie/search/Volkswagen/Golf/*1.2-Tsi/43313938727954670/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.6 TDI B,http://www.carzone.ie/search/Volkswagen/Golf/1.6-TDI-/38313918531035810/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.6 Tdi C,http://www.carzone.ie/search/Volkswagen/Golf/1.6-Tdi-/36813834223079480/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf TL 1.6 TD,http://www.carzone.ie/search/Volkswagen/Golf/TL-1.6-T/38313898948937640/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.6 TDi 5,http://www.carzone.ie/search/Volkswagen/Golf/1.6-TDi-/37913854810186940/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf COMFORTLI,http://www.carzone.ie/search/Volkswagen/Golf/COMFORTL/37113834223248490/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf CL 1.6 TD,http://www.carzone.ie/search/Volkswagen/Golf/CL-1.6-T/38313916191656280/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.2 TSi P,http://www.carzone.ie/search/Volkswagen/Golf/1.2-TSi-/42613953282479050/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.6 TDI *,http://www.carzone.ie/search/Volkswagen/Golf/1.6-TDI-/42913947917997650/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.6TDI 90,http://www.carzone.ie/search/Volkswagen/Golf/1.6TDI-9/43813941114924510/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf SPORTS 1.,http://www.carzone.ie/search/Volkswagen/Golf/SPORTS-1/36613796940892160/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf TL 1.6 TD,http://www.carzone.ie/search/Volkswagen/Golf/TL-1.6-T/37613801929216320/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf TRENDLINE,http://www.carzone.ie/search/Volkswagen/Golf/TRENDLIN/38613899640050790/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.6 TDI 1,http://www.carzone.ie/search/Volkswagen/Golf/1.6-TDI-/37313834222882070/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf TL(SPORTS,http://www.carzone.ie/search/Volkswagen/Golf/TL(SPORT/37313824549638680/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf TL SPORTS,http://www.carzone.ie/search/Volkswagen/Golf/TL-SPORT/38213916204053480/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf TRENDLINE,http://www.carzone.ie/search/Volkswagen/Golf/TRENDLIN/43413954285943420/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf TRENDLINE,http://www.carzone.ie/search/Volkswagen/Golf/TRENDLIN/36613834223250090/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf TRENDLINE,http://www.carzone.ie/search/Volkswagen/Golf/TRENDLIN/37613834223253020/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.6TDi 10,http://www.carzone.ie/search/Volkswagen/Golf/1.6TDi-1/42813946497478570/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf 1.6TDi Tr,http://www.carzone.ie/search/Volkswagen/Golf/1.6TDi-T/37113834223030260/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf COMFORTLI,http://www.carzone.ie/search/Volkswagen/Golf/COMFORTL/36613834222765780/advert?channel=CAR
+14950.0,False,le=Volkswagen Golf Sport Mod,http://www.carzone.ie/search/Volkswagen/Golf/Sport-Mo/39713911287837310/advert?channel=CAR
