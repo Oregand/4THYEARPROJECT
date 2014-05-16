@@ -12,6 +12,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn import svm
 from yhat import BaseModel
 import MySQLdb
+import pytest
 
 
 
@@ -30,7 +31,6 @@ df = psql.frame_query(sql, db)
 
 
 
-
 # Do some basic file editing to make my data work with algorithm
 # -------------------Training Set Management(From DB)------------------------------------------------
 
@@ -44,9 +44,6 @@ df['carYear'] = age
 df['price'] = df['price'].str.replace(',', '')
 # df['price'] = df['price'].str.replace('POA', '1')
 df['price'] = df['price'].astype('float64')
-
-
-
 
 
 # --------------------------------------------------------------------------------------------------------
@@ -244,7 +241,7 @@ class predictFunction(BaseModel):
 predictedPrice = predictFunction(dv=dv, svm=clf)
 print " "
 with open('vw_golfDealz.json', 'w') as outfile:
-    for i in range(200):
+    for i in range(10):
         outputPrice = predictedPrice.predict(predictedPrice.transform(df_no_ID.T.to_dict()[i]))
         # print outputPrice[0]
         json.dump(outputPrice, outfile)
