@@ -10,9 +10,19 @@ import json
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.linear_model import LinearRegression
 from sklearn import svm
+from sklearn.neural_network import BernoulliRBM
+from sklearn import linear_model
+from sklearn import tree
+from sklearn.naive_bayes import MultinomialNB
 from yhat import BaseModel
 import MySQLdb
 import pytest
+
+# Notes
+
+#  DELETE FROM bar WHERE col1 LIKE '%foo%' OR col2 LIKE '%foo%'....etc
+# Golf worked best with LR
+# SELECT * FROM `audi_a4` WHERE `mileage` = ""
 
 
 
@@ -24,7 +34,7 @@ db = MySQLdb.connect(host="mysql.raven.com", user="david", passwd="apUJP5VxBTZ9a
                      db="david")
 sql = """
         select *
-            from vw_golf
+            from audi_a4
       """
 df = psql.frame_query(sql, db)
 # db.close()
@@ -172,16 +182,35 @@ LR = LR.fit(dv.transform(df_no_priceLinkTitle.T.to_dict().values()), df.price)
 print LR
 print ' + '.join([format(LR.intercept_, '0.2f')] + map(lambda (f,c): "(%0.2f %s)" % (c, f), zip(dv.feature_names_, LR.coef_)))
 
+# Support Vector Machine
+
 clf = svm.SVC()
 
 clf = clf.fit(dv.transform(df_no_priceLinkTitle.T.to_dict().values()), df.price)
 
+# Naive Bayers
+
+NB = MultinomialNB()
+
+NB = NB.fit(dv.transform(df_no_priceLinkTitle.T.to_dict().values()), df.price)
+
+
+log = linear_model.LogisticRegression()
+
+log = log.fit(dv.transform(df_no_priceLinkTitle.T.to_dict().values()), df.price)
+
+
 
 
 # Explained variance score: 1 is perfect prediction
-print ('Variance score: %.2f' % LR.score(dv.transform(df_no_priceLinkTitle.T.to_dict().values()), df.price))
+print ('Variance score LR: %.2f' % LR.score(dv.transform(df_no_priceLinkTitle.T.to_dict().values()), df.price))
 
-print ('Variance score: %.2f' % clf.score(dv.transform(df_no_priceLinkTitle.T.to_dict().values()), df.price))
+print ('Variance score SVM: %.2f' % clf.score(dv.transform(df_no_priceLinkTitle.T.to_dict().values()), df.price))
+
+print ('Variance score NB: %.2f' % NB.score(dv.transform(df_no_priceLinkTitle.T.to_dict().values()), df.price))
+
+print ('Variance score log: %.2f' % log.score(dv.transform(df_no_priceLinkTitle.T.to_dict().values()), df.price))
+
 
 
 # --------------------------------------------------------------------------------------------------------
@@ -204,7 +233,7 @@ class predictFunction(BaseModel):
     #Predicted price is what our model determines based on the LR
     def predict(self, x):
         doc = self.dv.inverse_transform(x)[0]
-        predicted = self.svm .predict(x)[0]
+        predicted = self.lr .predict(x)[0]
 
         # err = abs(predicted - doc['price'])
 
@@ -238,10 +267,10 @@ class predictFunction(BaseModel):
 
 
 
-predictedPrice = predictFunction(dv=dv, svm=clf)
+predictedPrice = predictFunction(dv=dv, lr=LR)
 print " "
-with open('vw_golfDealz.json', 'w') as outfile:
-    for i in range(10):
+with open('audi_a4.json', 'w') as outfile:
+    for i in range(200):
         outputPrice = predictedPrice.predict(predictedPrice.transform(df_no_ID.T.to_dict()[i]))
         # print outputPrice[0]
         json.dump(outputPrice, outfile)
@@ -252,7 +281,7 @@ with open('vw_golfDealz.json', 'w') as outfile:
 # Write Json data to csv for db insert
 
 data = []
-with open('vw_golfDealz.json') as f:
+with open('audi_a4.json') as f:
     for line in f:
         data.append(json.loads(line))
 print 'yolo'
