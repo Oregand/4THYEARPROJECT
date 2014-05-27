@@ -241,6 +241,8 @@ class predictFunction(BaseModel):
 
         return {'predictedPrice': str(round(predicted)),
                 # 'Details': doc,
+                # Return iteritem of each dict section,
+                # This is dont over doc.items to avoid a long and wasteful item tuple
                 "title" : [(k, v) for (k, v) in doc.iteritems() if 'title' in k],
                 'link' : [(k, v) for (k, v) in doc.iteritems() if 'link' in k],
                 'location' : [(k, v) for (k, v) in doc.iteritems() if 'location' in k],

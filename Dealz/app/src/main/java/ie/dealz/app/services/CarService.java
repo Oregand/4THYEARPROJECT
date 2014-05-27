@@ -12,6 +12,13 @@ import retrofit.http.Query;
 public interface CarService {
     @GET("/yolo.php")
     List<Cars> listGolfs(@Query("make") String makeQ);
+
+
+
+
+
+
+
     //?make={golf}
 //    @GET("/yolo.php?make={makeQuery}")
 //    List<Cars> listGolfs(@Path("makeQuery") @Query("make") String make); //String make);

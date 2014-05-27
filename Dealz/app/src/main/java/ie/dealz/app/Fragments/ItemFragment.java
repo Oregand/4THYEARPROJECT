@@ -3,6 +3,9 @@ package ie.dealz.app.Fragments;
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.text.Html;
+import android.text.method.LinkMovementMethod;
+import android.text.util.Linkify;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,6 +17,7 @@ import android.widget.TextView;
 import org.androidannotations.annotations.Background;
 
 import java.util.List;
+import java.util.regex.Pattern;
 
 import ie.dealz.app.Adapters.CarAdapter;
 import ie.dealz.app.R;
@@ -125,6 +129,18 @@ public class ItemFragment extends Fragment {
         TextView cv = (TextView) view.findViewById(R.id.sc_colour);
         TextView pv = (TextView) view.findViewById(R.id.sc_PP);
         TextView lv = (TextView) view.findViewById(R.id.sc_location);
+        TextView linkv = (TextView) view.findViewById(R.id.sc_link);
+        linkv.setMovementMethod(LinkMovementMethod.getInstance());
+
+
+        String text = "Dealz";
+        String link = bundle.getString("link");
+        Pattern pattern = Pattern.compile(link);
+        Linkify.addLinks(linkv, pattern, "");
+        linkv.setText(Html.fromHtml(text));
+
+
+
         WebView wv = (WebView) view.findViewById(R.id.sc_webView);
 
 
@@ -135,6 +151,7 @@ public class ItemFragment extends Fragment {
         lv.setText(bundle.getString("predictedPrice"));
         wv.getSettings().setJavaScriptEnabled(true);
         wv.loadUrl(bundle.getString("link"));
+//        linkv.setText(bundle.getString("link"));
 
         return view;
     }

@@ -29,8 +29,6 @@ public class MainActivity extends ActionBarActivity implements ListFragment.OnFr
     protected void onCreate(Bundle savedInstanceState) {
 
 
-
-
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(policy);
         super.onCreate(savedInstanceState);
@@ -43,7 +41,7 @@ public class MainActivity extends ActionBarActivity implements ListFragment.OnFr
     }
 
 
-    private void replaceListWithCars(String title) {
+    public void replaceListWithCars(String title) {
         ListFragment yoloFragment = new ListFragment();
         Bundle arguments = new Bundle();
         arguments.putString("make of car",title);
