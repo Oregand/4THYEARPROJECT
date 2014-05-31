@@ -10,5 +10,6 @@
     <string name="Login">Login</string>
     <string name="password">password</string>
     <string name="username">username</string>
+    <string name="CarDealz">CarDealz</string>
 
 </resources>

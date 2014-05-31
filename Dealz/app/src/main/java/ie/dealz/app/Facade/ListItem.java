@@ -10,13 +10,20 @@ public interface ListItem {
 
     public String getTitle();
 
-    public String getPrice();
+    public String getpredictedPrice();
 
     public String getLink();
 
     public String getLocation();
 
 
+    String getAskingPrice();
 
+    String getDifference();
 
+    String getCarYear();
+
+    String getMileage();
+
+    String getOwners();
 }

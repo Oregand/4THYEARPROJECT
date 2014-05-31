@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b729d6f-cc02-47a6-a2a4-6ac27f58beaa" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine Learning/LinearRegression/Plot.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine Learning/LinearRegression/bmw_3.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Machine Learning/LinearRegression/test_predictFunction.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Machine Learning/LinearRegression/Dealz.csv" afterPath="$PROJECT_DIR$/Machine Learning/LinearRegression/Dealz.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dealz/Dealz.iml" afterPath="$PROJECT_DIR$/Dealz/Dealz.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Fragments/ItemFragment.java" afterPath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Fragments/ItemFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Machine Learning/LinearRegression/LR.py" afterPath="$PROJECT_DIR$/Machine Learning/LinearRegression/LR.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scraper/src/carzone/spiders/__init__.py" afterPath="$PROJECT_DIR$/Scraper/src/carzone/spiders/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Machine Learning/LinearRegression/audi_a4.json" afterPath="$PROJECT_DIR$/Machine Learning/LinearRegression/audi_a4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dealz/app/src/main/res/layout/login.xml" afterPath="$PROJECT_DIR$/Dealz/app/src/main/res/layout/login.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dealz/app/src/main/res/layout/singlecar.xml" afterPath="$PROJECT_DIR$/Dealz/app/src/main/res/layout/singlecar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dealz/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/Dealz/app/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="4THYEARPROJECT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -15,11 +29,11 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/4THYEARPROJECT$Testing.coverage" NAME="Testing Coverage Results" MODIFIED="1400147831781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/4THYEARPROJECT$LR.coverage" NAME="LR Coverage Results" MODIFIED="1400570891909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Machine Learning/LinearRegression" />
+    <SUITE FILE_PATH="coverage/4THYEARPROJECT$LR.coverage" NAME="LR Coverage Results" MODIFIED="1401537301775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Machine Learning/LinearRegression" />
     <SUITE FILE_PATH="coverage/4THYEARPROJECT$DataMining2.coverage" NAME="LR Coverage Results" MODIFIED="1397564692846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Machine Learning/LinearRegression" />
     <SUITE FILE_PATH="coverage/4THYEARPROJECT$Testing2.coverage" NAME="Testing2 Coverage Results" MODIFIED="1400239210581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/4THYEARPROJECT$pipelines.coverage" NAME="pipelines Coverage Results" MODIFIED="1395230687513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scraper/carzone/carzone" />
-    <SUITE FILE_PATH="coverage/4THYEARPROJECT$PyTest.coverage" NAME="PyTest Coverage Results" MODIFIED="1400324915678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/4THYEARPROJECT$PyTest.coverage" NAME="PyTest Coverage Results" MODIFIED="1401463708637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -36,59 +50,12 @@
       <file leaf-file-name="LR.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Machine Learning/LinearRegression/LR.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="295" column="11" selection-start="10319" selection-end="10319" vertical-scroll-proportion="0.61445785" vertical-offset="3807" max-vertical-offset="5070">
+            <state line="280" column="0" selection-start="9983" selection-end="9983" vertical-scroll-proportion="0.58429563" vertical-offset="3947" max-vertical-offset="6120">
               <folding>
-                <marker date="1400852972000" expanded="true" signature="949:982" placeholder="select * fro..audi_a4..." />
-                <marker date="1400852972000" expanded="true" signature="10981:11122" placeholder="INSERT into ..." />
+                <element signature="e#49#58#0" expanded="true" />
+                <marker date="1401537301000" expanded="true" signature="994:1025" placeholder="select * fro..bmw_3..." />
+                <marker date="1401537301000" expanded="true" signature="12524:12723" placeholder="INSERT into ..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="audi_a4.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Machine Learning/LinearRegression/audi_a4.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="200" column="0" selection-start="65069" selection-end="65069" vertical-scroll-proportion="-125.0" vertical-offset="0" max-vertical-offset="3090">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vw_golfDealz.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Machine Learning/LinearRegression/vw_golfDealz.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1476" column="143" selection-start="504835" selection-end="504835" vertical-scroll-proportion="-7.9166665" vertical-offset="21950" max-vertical-offset="22590">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dealz.csv" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Machine Learning/LinearRegression/Dealz.csv">
-          <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state line="200" column="0" selection-start="27233" selection-end="27233" vertical-scroll-proportion="0.0" vertical-offset="2594" max-vertical-offset="3090">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scraper/src/carzone/spiders/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="601" selection-end="601" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1035">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pipelines.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scraper/src/carzone/PipeLines/pipelines.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="6" selection-start="168" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="172" max-vertical-offset="1080">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -106,9 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Machine Learning/cartarget.csv" />
-        <option value="$PROJECT_DIR$/Scraper/carzone/output.csv" />
-        <option value="$PROJECT_DIR$/Scraper/carzone/carzone/MiscCode" />
         <option value="$PROJECT_DIR$/Machine Learning/DataProcessing.py" />
         <option value="$PROJECT_DIR$/Machine Learning/DataProcessing2" />
         <option value="$PROJECT_DIR$/Machine Learning/output2.csv" />
@@ -138,9 +102,7 @@
         <option value="$PROJECT_DIR$/Scraper/src/carzone/items.py" />
         <option value="$PROJECT_DIR$/Scraper/src/carzone/settings.py" />
         <option value="$PROJECT_DIR$/Scraper/src/wv_golf.csv" />
-        <option value="$PROJECT_DIR$/Scraper/src/Mysql Table" />
         <option value="$PROJECT_DIR$/Scraper/src/carzone/pipelines.py" />
-        <option value="$PROJECT_DIR$/Scraper/src/carzone/spiders/__init__.py" />
         <option value="$PROJECT_DIR$/Machine Learning/Winning.py" />
         <option value="$PROJECT_DIR$/Machine Learning/LetsTryAgain.py" />
         <option value="$PROJECT_DIR$/Machine Learning/wv_golfTraining.csv" />
@@ -151,12 +113,17 @@
         <option value="$PROJECT_DIR$/Machine Learning/DataMining2.py" />
         <option value="$PROJECT_DIR$/Machine Learning/vw_golfDealz.txt" />
         <option value="$PROJECT_DIR$/Machine Learning/LinearRegression/vw_golfDealz.txt" />
-        <option value="$PROJECT_DIR$/Machine Learning/LinearRegression/Dealz.csv" />
         <option value="$PROJECT_DIR$/Testing/PyTest/SimpleTest.py" />
         <option value="$PROJECT_DIR$/Testing/PyTest/SimpleTest2.py" />
         <option value="$PROJECT_DIR$/Testing/PyTest/test_predictFunction.py" />
         <option value="$PROJECT_DIR$/Machine Learning/LinearRegression/test_predictFunction.py" />
+        <option value="$PROJECT_DIR$/Scraper/src/carzone/spiders/test_scrapyDemoSpider.py" />
+        <option value="$PROJECT_DIR$/Scraper/src/carzone/spiders/__init__.py" />
+        <option value="$PROJECT_DIR$/Scraper/src/Mysql Table" />
+        <option value="$PROJECT_DIR$/Machine Learning/LinearRegression/bmw_3.json" />
+        <option value="$PROJECT_DIR$/Machine Learning/LinearRegression/Dealz.csv" />
         <option value="$PROJECT_DIR$/Machine Learning/LinearRegression/LR.py" />
+        <option value="$PROJECT_DIR$/Machine Learning/LinearRegression/Plot.csv" />
       </list>
     </option>
   </component>
@@ -223,7 +190,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -242,8 +208,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4THYEARPROJECT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4THYEARPROJECT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Machine Learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -290,11 +271,11 @@
       <recent name="$PROJECT_DIR$/Scraper/carzone/carzone" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Testing/PyTest" />
       <recent name="$PROJECT_DIR$/Machine Learning/DataMining" />
       <recent name="$PROJECT_DIR$/Machine Learning/LinearRegression" />
       <recent name="$PROJECT_DIR$/Scraper/src/CSVFiles" />
       <recent name="$PROJECT_DIR$/Scraper/src/carzone/PipeLines" />
-      <recent name="$PROJECT_DIR$/Scraper/src/carzone/Items" />
     </key>
   </component>
   <component name="RunManager" selected="Python.LR">
@@ -401,9 +382,6 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
-      <method />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -425,6 +403,9 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -632,12 +613,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907802" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907802" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -656,9 +637,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.253125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32907802" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32907802" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -684,148 +665,21 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/Machine Learning/LinearRegression/LR.py</url>
-          <line>239</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="35" />
+      <option name="time" value="44" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Machine Learning/MiscIdeas/cartarget.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="0" selection-start="1013" selection-end="1013" vertical-scroll-proportion="0.86238533" vertical-offset="1221" max-vertical-offset="1875" />
-      </provider>
-    </entry>
-    <entry file="file:///Library/Python/2.7/site-packages/MySQLdb/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="52" selection-start="881" selection-end="881" vertical-scroll-proportion="0.8429319" vertical-offset="143" max-vertical-offset="1560" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Machine Learning/SVM's/output2.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="436" selection-end="436" vertical-scroll-proportion="0.035714287" vertical-offset="0" max-vertical-offset="420" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Machine Learning/SVM's/LinearSVM.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="27" selection-start="710" selection-end="710" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1005" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Machine Learning/SVM's/LinearSVM2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="855" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Machine Learning/DataMining/DataProcessing2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="28" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="1755" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Machine Learning/DataMining/DataProcessing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="33" selection-start="1078" selection-end="1078" vertical-scroll-proportion="-0.39099526" vertical-offset="510" max-vertical-offset="1845" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Machine Learning/SVM's/output.csv">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="147" selection-start="1691" selection-end="1691" vertical-scroll-proportion="0.4177215" vertical-offset="0" max-vertical-offset="395" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scraper/src/scrapy.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="1" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Machine Learning/LinearIdeas(Failed)/Basic5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="410" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Machine Learning/DataMining/DataProcessing4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="1353" selection-end="1463" vertical-scroll-proportion="0.35714287" vertical-offset="0" max-vertical-offset="1590" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scraper/src/carzone/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="433" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scraper/src/carzone/PipeLines/Mysql Table">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="32" selection-start="1275" selection-end="1275" vertical-scroll-proportion="-13.925926" vertical-offset="629" max-vertical-offset="1170" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scraper/src/CSVFiles/wv_golf.csv">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scraper/src/carzone/PipeLines/MiscCode">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1950" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scraper/src/CSVFiles/merc_e.csv">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="171109" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11505" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scraper/src/carzone/Items/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="446" selection-end="446" vertical-scroll-proportion="0.69284064" vertical-offset="0" max-vertical-offset="433" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scraper/src/Mysql Table">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="18" selection-start="1752" selection-end="1752" vertical-scroll-proportion="0.10344828" vertical-offset="1383" max-vertical-offset="2160" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Machine Learning/MiscIdeas/LetsTryAgain.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="153" selection-end="153" vertical-scroll-proportion="0.24249423" vertical-offset="0" max-vertical-offset="433" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scraper/src/carzone/spiders/MiscSpiders">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="47" selection-start="1695" selection-end="1695" vertical-scroll-proportion="0.5060827" vertical-offset="392" max-vertical-offset="1590" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scraper/src/carzone/Settings/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="49" selection-start="501" selection-end="501" vertical-scroll-proportion="0.2281106" vertical-offset="261" max-vertical-offset="915" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Machine Learning/SVM's/SVC.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="0" selection-start="560" selection-end="560" vertical-scroll-proportion="0.55069125" vertical-offset="211" max-vertical-offset="645" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Machine Learning/SVM's/test_churn.csv">
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7605" />
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Machine Learning/MiscIdeas/KNN.py">
@@ -834,11 +688,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Machine Learning/DataMining/wv_golfTraining.csv">
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state line="18" column="95" selection-start="0" selection-end="120640" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8670" />
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Machine Learning/DataMining/DataProcessing3.py">
@@ -857,34 +711,24 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Machine Learning/DataMining/wv_golf.csv">
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state line="572" column="0" selection-start="120640" selection-end="120640" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8670" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Machine Learning/DataMining/vw_golfDealz.txt">
       <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning/DataMining/vw_golfDealz.txt">
       <provider editor-type-id="text-editor">
         <state line="40" column="0" selection-start="9373" selection-end="9373" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="840" />
       </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="337" column="0" selection-start="14231" selection-end="14231" vertical-scroll-proportion="0.0" vertical-offset="4892" max-vertical-offset="5340" />
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1533" column="0" selection-start="60527" selection-end="60527" vertical-scroll-proportion="0.76404494" vertical-offset="21680" max-vertical-offset="22125" />
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/encoder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="183" column="0" selection-start="6815" selection-end="6815" vertical-scroll-proportion="0.33258426" vertical-offset="2597" max-vertical-offset="6810" />
       </provider>
     </entry>
     <entry file="file:///Library/Python/2.7/site-packages/pandas-0.13.1-py2.7-macosx-10.9-intel.egg/pandas/core/frame.py">
@@ -953,11 +797,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Machine Learning/LinearRegression/test_predictFunction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330" />
-      </provider>
-    </entry>
     <entry file="uml://Python/#/Users/davidoregan/Documents/Development/4THYEARPROJECT/Machine Learning/LinearRegression/LR.py">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -965,10 +804,10 @@
           <OriginalElement>#/Users/davidoregan/Documents/Development/4THYEARPROJECT/Machine Learning/LinearRegression/LR.py</OriginalElement>
           <nodes>
             <node x="" y="">null.predictFunction</node>
-            <node x="" y="">object</node>
             <node x="" y="">yhat.deployment.models.Model</node>
-            <node x="" y="">yhat.deployment.models.BaseModel</node>
+            <node x="" y="">object</node>
             <node x="" y="">_abcoll.Hashable</node>
+            <node x="" y="">yhat.deployment.models.BaseModel</node>
           </nodes>
           <notes />
           <edges />
@@ -981,48 +820,198 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Machine Learning/LinearRegression/vw_golfDealz.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1476" column="143" selection-start="504835" selection-end="504835" vertical-scroll-proportion="-7.9166665" vertical-offset="21950" max-vertical-offset="22590">
+        <state line="1476" column="143" selection-start="504835" selection-end="504835" vertical-scroll-proportion="0.0" vertical-offset="21950" max-vertical-offset="22590" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning/LinearIdeas(Failed)/Basic1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="654" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning/LinearIdeas(Failed)/LR1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="28" selection-end="131" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testing/PyTest/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="677" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scraper/src/carzone/Items/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="17" selection-start="170" selection-end="181" vertical-scroll-proportion="0.15509601" vertical-offset="0" max-vertical-offset="677" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scraper/src/carzone/PipeLines/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="6" selection-start="168" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="172" max-vertical-offset="1080" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scraper/src/carzone/spiders/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="0" selection-start="3323" selection-end="3323" vertical-scroll-proportion="0.0" vertical-offset="598" max-vertical-offset="1275" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scraper/src/carzone/spiders/MiscSpiders">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="47" selection-start="1695" selection-end="1695" vertical-scroll-proportion="-0.49096385" vertical-offset="926" max-vertical-offset="1590" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scraper/src/Mysql Table">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="0" selection-start="1922" selection-end="1922" vertical-scroll-proportion="0.31846154" vertical-offset="1383" max-vertical-offset="2160" />
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scraper/src/MiscCode">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1950" />
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="178" column="0" selection-start="6423" selection-end="6423" vertical-scroll-proportion="0.3324937" vertical-offset="2523" max-vertical-offset="5340" />
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/encoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="221" column="0" selection-start="8213" selection-end="8213" vertical-scroll-proportion="0.3324937" vertical-offset="3183" max-vertical-offset="6810" />
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/MySQLdb/cursors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="186" column="0" selection-start="5515" selection-end="5515" vertical-scroll-proportion="0.0" vertical-offset="2627" max-vertical-offset="8190" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning/LinearRegression/audi_a4.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="61" selection-start="42272" selection-end="42272" vertical-scroll-proportion="-0.036674816" vertical-offset="1515" max-vertical-offset="3090">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning/LinearIdeas(Failed)/Basic5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="677">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning/LinearIdeas(Failed)/Basic4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="677">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning/LinearIdeas(Failed)/Basic3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning/LinearIdeas(Failed)/Basic2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning/LinearIdeas(Failed)/LR6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="677">
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning/LinearIdeas(Failed)/Regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1215">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning/LinearIdeas(Failed)/LR5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="664">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning/LinearIdeas(Failed)/LR4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="677">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning/LinearIdeas(Failed)/LR3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="677">
+          <folding>
+            <element signature="e#0#19#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning/LinearIdeas(Failed)/SimpleRegresson.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="677">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning/LinearIdeas(Failed)/Regression2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.31024095" vertical-offset="206" max-vertical-offset="870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning/LinearIdeas(Failed)/Regression3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="677">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning/LinearRegression/Plot.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="13" selection-start="15779" selection-end="15779" vertical-scroll-proportion="0.0" vertical-offset="1337" max-vertical-offset="1770">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Machine Learning/LinearRegression/Dealz.csv">
+      <provider editor-type-id="text-editor">
+        <state line="1480" column="0" selection-start="0" selection-end="241984" vertical-scroll-proportion="0.0" vertical-offset="22184" max-vertical-offset="22590">
+          <folding />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
-      <provider editor-type-id="text-editor">
-        <state line="200" column="0" selection-start="27233" selection-end="27233" vertical-scroll-proportion="0.0" vertical-offset="2594" max-vertical-offset="3090">
-          <folding />
-        </state>
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scraper/src/carzone/spiders/__init__.py">
+    <entry file="file://$PROJECT_DIR$/Machine Learning/LinearRegression/bmw_3.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="601" selection-end="601" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1035">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Machine Learning/LinearRegression/audi_a4.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="200" column="0" selection-start="65069" selection-end="65069" vertical-scroll-proportion="-125.0" vertical-offset="0" max-vertical-offset="3090">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scraper/src/carzone/PipeLines/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="6" selection-start="168" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="172" max-vertical-offset="1080">
+        <state line="1480" column="0" selection-start="672942" selection-end="672942" vertical-scroll-proportion="54.27873" vertical-offset="0" max-vertical-offset="22590">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Machine Learning/LinearRegression/LR.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="295" column="11" selection-start="10319" selection-end="10319" vertical-scroll-proportion="0.61445785" vertical-offset="3807" max-vertical-offset="5070">
+        <state line="280" column="0" selection-start="9983" selection-end="9983" vertical-scroll-proportion="0.58429563" vertical-offset="3947" max-vertical-offset="6120">
           <folding>
-            <marker date="1400852972000" expanded="true" signature="949:982" placeholder="select * fro..audi_a4..." />
-            <marker date="1400852972000" expanded="true" signature="10981:11122" placeholder="INSERT into ..." />
+            <element signature="e#49#58#0" expanded="true" />
+            <marker date="1401537301000" expanded="true" signature="994:1025" placeholder="select * fro..bmw_3..." />
+            <marker date="1401537301000" expanded="true" signature="12524:12723" placeholder="INSERT into ..." />
           </folding>
         </state>
       </provider>

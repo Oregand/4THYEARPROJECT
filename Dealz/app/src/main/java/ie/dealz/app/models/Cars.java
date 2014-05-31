@@ -10,8 +10,13 @@ public class Cars implements ListItem{
     public String title;
     public String link;
     public String predictedPrice;
+    public String askingPrice;
+    public String difference;
+    public String carYear;
     public String location;
+    public String mileage;
     public String Colour;
+    public String Owners;
 
 
 
@@ -25,7 +30,7 @@ public class Cars implements ListItem{
     }
 
     @Override
-    public String getPrice() {
+    public String getpredictedPrice() {
         return  predictedPrice;
     }
 
@@ -42,6 +47,31 @@ public class Cars implements ListItem{
     @Override
     public String getColour() {
         return Colour;
+    }
+
+    @Override
+    public String getAskingPrice() {
+        return askingPrice;
+    }
+
+    @Override
+    public String getDifference() {
+        return difference;
+    }
+
+    @Override
+    public String getCarYear() {
+        return carYear;
+    }
+
+    @Override
+    public String getMileage() {
+        return mileage;
+    }
+
+    @Override
+    public String getOwners() {
+        return Owners;
     }
 
 }

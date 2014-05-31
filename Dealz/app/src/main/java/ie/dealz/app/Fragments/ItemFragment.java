@@ -130,14 +130,14 @@ public class ItemFragment extends Fragment {
         TextView pv = (TextView) view.findViewById(R.id.sc_PP);
         TextView lv = (TextView) view.findViewById(R.id.sc_location);
         TextView linkv = (TextView) view.findViewById(R.id.sc_link);
-        linkv.setMovementMethod(LinkMovementMethod.getInstance());
-
-
-        String text = "Dealz";
-        String link = bundle.getString("link");
-        Pattern pattern = Pattern.compile(link);
-        Linkify.addLinks(linkv, pattern, "");
-        linkv.setText(Html.fromHtml(text));
+//        linkv.setMovementMethod(LinkMovementMethod.getInstance());
+//
+//
+//        String text = "Dealz";
+//        String link = bundle.getString("link");
+//        Pattern pattern = Pattern.compile(link);
+//        Linkify.addLinks(linkv, pattern, "");
+//        linkv.setText(Html.fromHtml(text));
 
 
 
@@ -151,7 +151,7 @@ public class ItemFragment extends Fragment {
         lv.setText(bundle.getString("predictedPrice"));
         wv.getSettings().setJavaScriptEnabled(true);
         wv.loadUrl(bundle.getString("link"));
-//        linkv.setText(bundle.getString("link"));
+        linkv.setText(bundle.getString("link"));
 
         return view;
     }

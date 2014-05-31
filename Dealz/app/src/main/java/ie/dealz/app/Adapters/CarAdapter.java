@@ -82,7 +82,7 @@ public class CarAdapter extends BaseAdapter {
         for (ListItem car : cars) {
             String carColour = car.getColour();
             String carLocation = car.getLocation();
-//            String carPrice = car.getPrice();
+//            String carPrice = car.getpredictedPrice();
 
             if (carLocation.trim().equalsIgnoreCase(anything.trim())) {
                 items.add(car);
@@ -117,7 +117,7 @@ public class CarAdapter extends BaseAdapter {
     public boolean findByPrice(String price) {
         List<ListItem> items = new LinkedList<ListItem>();
         for (ListItem car : cars) {
-            String carPrice = car.getPrice();
+            String carPrice = car.getpredictedPrice();
             if (carPrice.trim().equalsIgnoreCase(price.trim()))
                 items.add(car);
         }
@@ -184,14 +184,14 @@ public class CarAdapter extends BaseAdapter {
             title.setText(titleText);
         }
 
-        TextView PP = (TextView) view.findViewById(R.id.carPP);
-        PP.setText(cars.get(position).getPrice());
+        TextView PP = (TextView) view.findViewById(R.id.carDiff);
+        PP.setText(cars.get(position).getDifference());
 
-        TextView Location = (TextView) view.findViewById(R.id.carLocation);
-        Location.setText(cars.get(position).getLocation());
+        TextView Age = (TextView) view.findViewById(R.id.carAge);
+        Age.setText(cars.get(position).getCarYear());
 
-        TextView Colour = (TextView) view.findViewById(R.id.carColour);
-        Colour.setText(cars.get(position).getColour());
+        TextView Mileage = (TextView) view.findViewById(R.id.carMileage);
+        Mileage.setText(cars.get(position).getMileage());
 
 
         return view;

@@ -1,18 +1,19 @@
-from scrapy.spider import BaseSpider
 from scrapy.contrib.spiders import CrawlSpider, Rule
 from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor
 from scrapy.selector import HtmlXPathSelector
 from scrapy.http.request import Request
 from carzone.items import CarzoneItem
-
+from scrapy.contracts import Contract
+from scrapy.exceptions import ContractFail
 
 
 class ScrapyDemoSpider(CrawlSpider):
     name = "car3"
     allowed_domains = ["carzone.ie"]
-    start_urls = ["http://www.carzone.ie/search/results?nParam=4294911044%2B200590&searchsource=browse&cacheBuster=1396019161046889"]
+    start_urls = [
+        "http://www.carzone.ie/search/results?nParam=4294911044%2B200590&searchsource=browse&cacheBuster=1396019161046889"]
 
-    rules = (Rule(SgmlLinkExtractor(allow=('\\&page=\\d')),'parse_start_url',follow=True),)
+    rules = (Rule(SgmlLinkExtractor(allow=('\\&page=\\d')), 'parse_start_url', follow=True),)
 
 
     def __init__(self, name=None, **kwargs):
@@ -27,23 +28,24 @@ class ScrapyDemoSpider(CrawlSpider):
 
         #Extract the link and add it to the array of links for current page
         for listing in listings:
-            link=listing.select("div[@class='vehicle-make-model']/h3/a/@href").extract()[0]
+            link = listing.select("div[@class='vehicle-make-model']/h3/a/@href").extract()[0]
             links.append(link)
 
         #use listing url to get content of the listing page
         for link in links:
-            item=CarzoneItem()
-            item['link']=link
+            item = CarzoneItem()
+            item['link'] = link
 
         #Finally, return the link as a meta object and call our second scraping function for futher details
         for link in links:
-            yield Request(link, meta={'item':item} ,callback=self.parse_listing_page)
+            yield Request(link, meta={'item': item}, callback=self.parse_listing_page)
 
 
 
-    # return None
+            # return None
 
-     #scrap listing page to get content
+            #scrap listing page to get content
+
     def parse_listing_page(self, response):
 
         hxs = HtmlXPathSelector(response)
@@ -65,5 +67,13 @@ class ScrapyDemoSpider(CrawlSpider):
         item['NCT'] = hxs.select('//*[@id="advertDetailsNCTExpiry"]/text()').extract()[0].strip()
         item['BodyType'] = hxs.select('//*[@id="advertDetailsBodyType"]/text()').extract()[0].strip()
 
-
         yield item
+
+    class HasHeaderContract(Contract):
+        URL = 'http://www.carzone.ie/search/Audi/A4/2.0TDI-1/49614000719014160/advert?channel=CARS'
+
+        def pre_process(self, response):
+            for URL in self.args:
+                if URL not in response.url:
+                    raise ContractFail('URL not present')
+

@@ -18,6 +18,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Link"
         android:id="@+id/sc_link"
+        android:autoLink="web"
         android:layout_weight="0.41"/>
     <!--android:autoLink="web"-->
 

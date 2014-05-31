@@ -15,7 +15,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="18dp"
-        android:text="@string/hello_world"
+        android:text="@string/CarDealz"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView

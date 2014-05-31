@@ -2,7 +2,6 @@ __author__ = 'davidoregan'
 
 
 # Import my libarys
-import pandas as pd
 import re
 import csv
 import pandas.io.sql as psql
@@ -10,17 +9,20 @@ import json
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.linear_model import LinearRegression
 from sklearn import svm
-from sklearn.neural_network import BernoulliRBM
 from sklearn import linear_model
-from sklearn import tree
 from sklearn.naive_bayes import MultinomialNB
 from yhat import BaseModel
 import MySQLdb
-import pytest
+from scipy import stats
+from pylab import *
+from numpy import *
+import pandas as pd
+import numpy as np
 
 # Notes
 
 #  DELETE FROM bar WHERE col1 LIKE '%foo%' OR col2 LIKE '%foo%'....etc
+# DELETE FROM `bmw_3` WHERE `price` LIKE '%POA%'
 # Golf worked best with LR
 # SELECT * FROM `audi_a4` WHERE `mileage` = ""
 
@@ -34,7 +36,7 @@ db = MySQLdb.connect(host="mysql.raven.com", user="david", passwd="apUJP5VxBTZ9a
                      db="david")
 sql = """
         select *
-            from audi_a4
+            from bmw_3
       """
 df = psql.frame_query(sql, db)
 # db.close()
@@ -180,7 +182,8 @@ LR = LinearRegression()
 LR = LR.fit(dv.transform(df_no_priceLinkTitle.T.to_dict().values()), df.price)
 
 print LR
-print ' + '.join([format(LR.intercept_, '0.2f')] + map(lambda (f,c): "(%0.2f %s)" % (c, f), zip(dv.feature_names_, LR.coef_)))
+print ' + '.join(
+    [format(LR.intercept_, '0.2f')] + map(lambda (f, c): "(%0.2f %s)" % (c, f), zip(dv.feature_names_, LR.coef_)))
 
 # Support Vector Machine
 
@@ -193,7 +196,6 @@ clf = clf.fit(dv.transform(df_no_priceLinkTitle.T.to_dict().values()), df.price)
 NB = MultinomialNB()
 
 NB = NB.fit(dv.transform(df_no_priceLinkTitle.T.to_dict().values()), df.price)
-
 
 log = linear_model.LogisticRegression()
 
@@ -215,10 +217,15 @@ print ('Variance score log: %.2f' % log.score(dv.transform(df_no_priceLinkTitle.
 
 # --------------------------------------------------------------------------------------------------------
 
+
+
+# --------------------------------------------------------------------------------------------------------
+
+
 # Predict function that uses yhat's basemodel
 # This function allows me to use the transform method
 #  This will map my input to the numpy array needed by the LR model
-#  The predict function will then evaluate my LR model based on the numpy array
+#  My predict function will then evaluate my LR model based on the numpy array
 
 goodDeal = ''
 
@@ -233,7 +240,7 @@ class predictFunction(BaseModel):
     #Predicted price is what our model determines based on the LR
     def predict(self, x):
         doc = self.dv.inverse_transform(x)[0]
-        predicted = self.lr .predict(x)[0]
+        predicted = self.lr.predict(x)[0]
 
         # err = abs(predicted - doc['price'])
 
@@ -243,11 +250,15 @@ class predictFunction(BaseModel):
                 # 'Details': doc,
                 # Return iteritem of each dict section,
                 # This is dont over doc.items to avoid a long and wasteful item tuple
-                "title" : [(k, v) for (k, v) in doc.iteritems() if 'title' in k],
-                'link' : [(k, v) for (k, v) in doc.iteritems() if 'link' in k],
-                'location' : [(k, v) for (k, v) in doc.iteritems() if 'location' in k],
-                'Colour' : [(k, v) for (k, v) in doc.iteritems() if 'Colour' in k],
-                'Asking Price' : doc['price'],
+                "title": [(k, v) for (k, v) in doc.iteritems() if 'title' in k],
+                'link': [(k, v) for (k, v) in doc.iteritems() if 'link' in k],
+                'carYear': [(k, v) for (k, v) in doc.iteritems() if 'carYear' in k],
+                'mileage': [(k, v) for (k, v) in doc.iteritems() if 'mileage' in k],
+                'Owners': [(k, v) for (k, v) in doc.iteritems() if 'Owners' in k],
+                'location': [(k, v) for (k, v) in doc.iteritems() if 'location' in k],
+                'Colour': [(k, v) for (k, v) in doc.iteritems() if 'Colour' in k],
+                'askingPrice': doc['price'],
+                'difference': predicted - doc['price'],
                 # 'predictedDifference': err,
                 'GoodDeal': str(goodDeal),
         }
@@ -271,32 +282,67 @@ class predictFunction(BaseModel):
 
 predictedPrice = predictFunction(dv=dv, lr=LR)
 print " "
-with open('audi_a4.json', 'w') as outfile:
-    for i in range(200):
+with open('bmw_3.json', 'w') as outfile:
+    for i in range(1500):
         outputPrice = predictedPrice.predict(predictedPrice.transform(df_no_ID.T.to_dict()[i]))
         # print outputPrice[0]
         json.dump(outputPrice, outfile)
         outfile.write('\n')
+
+# --------------------------------------------------------------------------------------------------------
+#
+# #Graph
+# xi = arange(0,3)
+# A = array([ xi, ones(3)])
+#
+# # linearly generated sequence
+# y = [df['location']]
+#
+#
+#
+#
+#
+# slope, intercept, r_value, p_value, std_err = stats.linregress(xi,y)
+#
+# print 'r value', r_value
+# print  'p_value', p_value
+# print 'standard deviation', std_err
+#
+# line = slope*xi+intercept
+# plot(xi,line,'r-',xi,y,'o')
+# plt.ylabel('Location Of Car')
+# plt.xlabel('Associated Prediction For Feature')
+# show()
+
+
 
 
 # --------------------------------------------------------------------------------------------------------
 # Write Json data to csv for db insert
 
 data = []
-with open('audi_a4.json') as f:
+with open('bmw_3.json') as f:
     for line in f:
         data.append(json.loads(line))
-print 'yolo'
 print data[0]
 
 f = csv.writer(open('Dealz.csv', 'wb+'))
 # use encode to convert non-ASCII characters
 for item in data:
     # values = [x.encode('utf8') for x in it;em['Predicted Difference:'].values()]
-    f.writerow([item['predictedPrice'], item['GoodDeal'], str(item['title'])[7:35], str(item['link'])[9:99]])
+    f.writerow(
+        [item['predictedPrice'], str(item['mileage'])[14:20], item['difference'], item['askingPrice'], str(item['carYear'])[14:16],
+         str(item['Owners'])[13:14], item['GoodDeal'], str(item['title'])[10:35], str(item['link'])[9:92]])
 
 
 # --------------------------------------------------------------------------------------------------------
+
+
+
+# --------------------------------------------------------------------------------------------------------
+
+
+
 # #Open database connection
 # prepare a cursor object using cursor() method
 cursor = db.cursor()
@@ -304,26 +350,36 @@ cursor = db.cursor()
 #SQL query to INSERT a record into the table FACTRESTTBL.
 for item in data:
 
-    t = str(item['title'])[10:35]
-    l = str(item['location'])[13:21]
-    c = str(item['Colour'])[11:17].strip()
+    make = str(item['title'])[10:35]
+    URL = str(item['link'])[9:92].strip()
+    askingPrice = str(item['askingPrice'])
+    difference = str(item['difference'])
+    carAge = str(item['carYear'])[14:15]
+    location = str(item['location'])[13:21]
+    mileage = str(item['mileage'])[13:21]
+    colour = str(item['Colour'])[11:17].strip()
+    owners = str(item['Owners'])[13:14]
 
 
     # l = re.sub(r'^"|"$', '', l)
 
-    l = re.sub(r'[^\w]', ' ', l)
-    c = re.sub(r'[^\w]', ' ', c)
+    location = re.sub(r'[^\w]', ' ', location)
+    colour = re.sub(r'[^\w]', ' ', colour)
 
     if item['GoodDeal'] == 'True':
-        cursor.execute('''INSERT into dealz2 (title, link ,location  ,Colour, predictedPrice, GoodDeal)
-                                values (%s, %s, %s, %s, %s, %s)''',
-                            (
-                            t,
-                            str(item['link'])[9:99].strip(),
-                            l,
-                            c,
-                            item['predictedPrice'],
-                            item['GoodDeal']))
+        cursor.execute('''INSERT into CarDealz (title, link, askingPrice, predictedPrice, difference, carYear, location, mileage, Colour, Owners)
+                                values (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)''',
+                       (
+                           make,
+                           URL,
+                           askingPrice,
+                           item['predictedPrice'],
+                           difference,
+                           carAge,
+                           location,
+                           mileage,
+                           colour,
+                           owners))
 
 # Commit your changes in the database
 db.commit()

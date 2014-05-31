@@ -166,7 +166,6 @@ public class ListFragment extends Fragment implements AbsListView.OnItemClickLis
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         inflater.inflate(R.menu.main, menu);
-
         // Add SearchWidget.
         SearchView searchView = (SearchView) menu.findItem(R.id.grid_default_search).getActionView();
         searchView.setOnQueryTextListener(queryListener);
@@ -206,7 +205,7 @@ public class ListFragment extends Fragment implements AbsListView.OnItemClickLis
         Bundle b = getArguments();
         String make = b.getString("make of car");
 
-        String golfParam = "tdi";
+//        String golfParam = "tdi";
         List<Cars> golfs = service.listGolfs(make);
 
         //Populate the list with cars
@@ -245,7 +244,7 @@ public class ListFragment extends Fragment implements AbsListView.OnItemClickLis
             Bundle arguments = new Bundle();
             arguments.putString("title", item.getTitle());
             arguments.putString("link", item.getLink());
-            arguments.putString("predictedPrice", item.getPrice());
+            arguments.putString("predictedPrice", item.getpredictedPrice());
             arguments.putString("location", item.getLocation());
             arguments.putString("Colour", item.getColour());
 
