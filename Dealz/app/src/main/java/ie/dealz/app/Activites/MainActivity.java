@@ -19,6 +19,7 @@ import ie.dealz.app.models.Cars;
 import ie.dealz.app.services.CarService;
 import retrofit.RestAdapter;
 
+
 public class MainActivity extends ActionBarActivity implements ListFragment.OnFragmentInteractionListener, BrandListFragment.OnFragmentInteractionListener {
 
 

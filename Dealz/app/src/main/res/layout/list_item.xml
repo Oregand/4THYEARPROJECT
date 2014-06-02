@@ -9,7 +9,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Golf"
+        android:text="@string/Title"
         android:id="@+id/carTitle" />
 
     <TextView
@@ -17,19 +17,19 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:id="@+id/carDiff"
-        android:text="difference"
+        android:text="@string/Saving"
         android:singleLine="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Age"
+        android:text="@string/Age"
         android:id="@+id/carAge" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Mileage"
+        android:text="@string/Mileage"
         android:id="@+id/carMileage" />
 
 </LinearLayout>

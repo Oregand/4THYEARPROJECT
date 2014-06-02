@@ -184,14 +184,17 @@ public class CarAdapter extends BaseAdapter {
             title.setText(titleText);
         }
 
+        String savings = "You Save: ";
         TextView PP = (TextView) view.findViewById(R.id.carDiff);
-        PP.setText(cars.get(position).getDifference());
+        PP.setText(savings + cars.get(position).getDifference());
 
+        String age = "Years old: ";
         TextView Age = (TextView) view.findViewById(R.id.carAge);
-        Age.setText(cars.get(position).getCarYear());
+        Age.setText(age + cars.get(position).getCarYear());
 
+        String mil = "Mileage: ";
         TextView Mileage = (TextView) view.findViewById(R.id.carMileage);
-        Mileage.setText(cars.get(position).getMileage());
+        Mileage.setText(mil + cars.get(position).getMileage());
 
 
         return view;

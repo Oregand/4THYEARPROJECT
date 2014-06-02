@@ -10,7 +10,7 @@ import retrofit.http.Query;
  * Created by davidoregan on 09/04/2014.
  */
 public interface CarService {
-    @GET("/yolo.php")
+    @GET("/info.php")
     List<Cars> listGolfs(@Query("make") String makeQ);
 
 

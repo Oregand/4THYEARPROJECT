@@ -11,5 +11,9 @@
     <string name="password">password</string>
     <string name="username">username</string>
     <string name="CarDealz">CarDealz</string>
+    <string name="Title">Title</string>
+    <string name="Saving">difference</string>
+    <string name="Age">Age</string>
+    <string name="Mileage">Mileage</string>
 
 </resources>

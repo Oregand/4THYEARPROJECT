@@ -174,6 +174,11 @@ dv.fit(df.T.to_dict().values())
 
 
 # --------------------------------------------------------------------------------------------------------
+# We specifiy a LR model to predict a price for each unique feature from our DictV
+# This leaves us with a model that has the asking price on one side,
+#  and a prediction for each feature on the other
+# 
+
 
 # Create linear regression object
 LR = LinearRegression()
