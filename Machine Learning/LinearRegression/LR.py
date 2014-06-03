@@ -139,6 +139,7 @@ df.fillna(0, inplace=True)
 # --------------------------------------------------------------------------------------------------------
 
 # Edit our dataframe to drop colums we dont need and seerate the price colum already there
+df_noID = df.drop(['ID'],1)
 df_no_priceLinkTitle = df.drop(['ID', 'price', 'link', 'title'], 1)
 
 
@@ -191,10 +192,11 @@ print ('Variance score SVM: %.2f' % clf.score(dv.transform(df_no_priceLinkTitle.
 #  This will map my input to the numpy array needed by the LR model
 #  My predict function will then evaluate my LR model based on the numpy array
 
+
 goodDeal = ''
 
 
-class predictFunction(YhatModel):
+class predictFunction(BaseModel):
     #Place transformed data into numpy array for use
     def transform(self, doc):
         return self.dv.transform(doc)
@@ -239,8 +241,8 @@ class predictFunction(YhatModel):
 predictedPrice = predictFunction(dv=dv, lr=LR)
 print " "
 with open('bmw_3.json', 'w') as outfile:
-    for i in range(1500):
-        outputPrice = predictedPrice.predict(predictedPrice.transform(df_no_ID.T.to_dict()[i]))
+    for i in range(10):
+        outputPrice = predictedPrice.predict(predictedPrice.transform(df_noID.T.to_dict()[i]))
         # print outputPrice[0]
         json.dump(outputPrice, outfile)
         outfile.write('\n')
