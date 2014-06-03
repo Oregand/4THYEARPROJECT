@@ -15,7 +15,7 @@ class ScrapyDemoSpider(CrawlSpider):
     name = "car4"
     allowed_domains = ["carzone.ie"]
     start_urls = [
-"http://www.carzone.ie/search/results?nParam=4294911133%2B200590&searchsource=browse&cacheBuster=1401792077845644"]
+"http://www.carzone.ie/search/results?nParam=4294911142%2B200590&searchsource=browse&cacheBuster=1401792072856302"]
     rules = (Rule(SgmlLinkExtractor(allow=('\\&page=\\d')), 'parse_start_url', follow=True),)
 
 

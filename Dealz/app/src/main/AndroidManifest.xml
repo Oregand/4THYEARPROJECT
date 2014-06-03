@@ -31,7 +31,7 @@
 
 
         <activity
-            android:name=".Activites.LoginActivity"
+            android:name=".Activites.LoginRegActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -42,6 +42,14 @@
                 android:resource="@xml/string" />
 
         </activity>
+
+        <!--  Register Activity -->
+        <activity
+            android:label="Register New Account"
+            android:name="ie.dealz.app.Activites.RegisterActivity">
+
+        </activity>
+
 
 
     </application>

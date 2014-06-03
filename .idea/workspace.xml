@@ -2,52 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b729d6f-cc02-47a6-a2a4-6ac27f58beaa" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/.idea/carzone.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/.idea/dataSources.ids" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/.idea/dataSources.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/CSVFiles/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/CSVFiles/audi_a4.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/CSVFiles/bmw_3.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/CSVFiles/bmw_5.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/CSVFiles/f_fiesta.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/CSVFiles/f_focus.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/CSVFiles/f_mondeo.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/CSVFiles/merc_e.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/CSVFiles/t_avensis.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/CSVFiles/t_corolla.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/CSVFiles/vw_polo.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/CSVFiles/wv_golf.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/MiscCode" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/Mysql Table" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/carzone/Items/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/carzone/Items/items.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/carzone/PipeLines/MiscCode" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/carzone/PipeLines/Mysql Table" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/carzone/PipeLines/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/carzone/PipeLines/pipelines.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/carzone/Settings/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/carzone/Settings/settings.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/carzone/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/carzone/spiders/MiscSpiders" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/carzone/spiders/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/scrapy.cfg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Test2.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/start.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Fragments/BrandListFragment.java" afterPath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Fragments/BrandListFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Adapters/CarAdapter.java" afterPath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Adapters/CarAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Fragments/ItemFragment.java" afterPath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Fragments/ItemFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Machine Learning/LinearRegression/LR.py" afterPath="$PROJECT_DIR$/Machine Learning/LinearRegression/LR.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Fragments/ListFragment.java" afterPath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Fragments/ListFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dealz/app/src/main/res/layout/singlecar.xml" afterPath="$PROJECT_DIR$/Dealz/app/src/main/res/layout/singlecar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Registration/DatabaseHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Registration/JSONParser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Activites/LoginRegActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Activites/RegisterActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Registration/UserFunctions.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dealz/app/src/main/res/layout/loginreg.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dealz/app/src/main/res/layout/register.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/DB_Connect.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/DB_Functions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/index.php" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Scraper/carzone/bmw_3.csv" afterPath="$PROJECT_DIR$/Scraper/carzone/CSVFiles/bmw_3.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Scraper/carzone/bmw_5.csv" afterPath="$PROJECT_DIR$/Scraper/carzone/CSVFiles/bmw_5.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dealz/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Dealz/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scraper/carzone/carzone/pipelines.py" afterPath="$PROJECT_DIR$/Scraper/carzone/carzone/pipelines.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scraper/carzone/carzone/spiders/spider.py" afterPath="$PROJECT_DIR$/Scraper/carzone/carzone/spiders/spider.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="4THYEARPROJECT.iws" />
@@ -80,10 +50,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="spider.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="spider.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Scraper/carzone/carzone/spiders/spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="4" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="1320">
+            <state line="17" column="113" selection-start="549" selection-end="549" vertical-scroll-proportion="0.5862069" vertical-offset="0" max-vertical-offset="1320">
               <folding>
                 <element signature="e#0#52#0" expanded="true" />
               </folding>
@@ -94,16 +64,16 @@
       <file leaf-file-name="pipelines.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scraper/carzone/carzone/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="59" selection-start="1869" selection-end="1869" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1065">
+            <state line="43" column="61" selection-start="1873" selection-end="1873" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1065">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LR.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="LR.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Machine Learning/LinearRegression/LR.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="200" column="0" selection-start="7138" selection-end="7138" vertical-scroll-proportion="-0.24881516" vertical-offset="3105" max-vertical-offset="4950">
+            <state line="200" column="0" selection-start="7138" selection-end="7138" vertical-scroll-proportion="0.0" vertical-offset="3105" max-vertical-offset="4950">
               <folding>
                 <element signature="e#49#58#0" expanded="true" />
                 <marker date="1401807304000" expanded="true" signature="864:895" placeholder="select * fro..bmw_3..." />
@@ -174,9 +144,9 @@
         <option value="$PROJECT_DIR$/Scraper/src/carzone/Items/items.py" />
         <option value="$PROJECT_DIR$/Scraper/src/carzone/spiders/spider.py" />
         <option value="$PROJECT_DIR$/Scraper/carzone/CSVFiles/wv_golf.csv" />
+        <option value="$PROJECT_DIR$/Machine Learning/LinearRegression/LR.py" />
         <option value="$PROJECT_DIR$/Scraper/carzone/carzone/spiders/spider.py" />
         <option value="$PROJECT_DIR$/Scraper/carzone/carzone/pipelines.py" />
-        <option value="$PROJECT_DIR$/Machine Learning/LinearRegression/LR.py" />
       </list>
     </option>
   </component>
@@ -295,24 +265,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Machine Learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4THYEARPROJECT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4THYEARPROJECT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Machine Learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LinearRegression" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1117,29 +1069,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scraper/carzone/carzone/spiders/spider.py">
+    <entry file="file://$PROJECT_DIR$/Machine Learning/LinearRegression/LR.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="4" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="1320">
+        <state line="200" column="0" selection-start="7138" selection-end="7138" vertical-scroll-proportion="0.0" vertical-offset="3105" max-vertical-offset="4950">
           <folding>
-            <element signature="e#0#52#0" expanded="true" />
+            <element signature="e#49#58#0" expanded="true" />
+            <marker date="1401807304000" expanded="true" signature="864:895" placeholder="select * fro..bmw_3..." />
+            <marker date="1401807304000" expanded="true" signature="10679:10878" placeholder="INSERT into ..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scraper/carzone/carzone/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="59" selection-start="1869" selection-end="1869" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1065">
+        <state line="43" column="61" selection-start="1873" selection-end="1873" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1065">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Machine Learning/LinearRegression/LR.py">
+    <entry file="file://$PROJECT_DIR$/Scraper/carzone/carzone/spiders/spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="200" column="0" selection-start="7138" selection-end="7138" vertical-scroll-proportion="-0.24881516" vertical-offset="3105" max-vertical-offset="4950">
+        <state line="17" column="113" selection-start="549" selection-end="549" vertical-scroll-proportion="0.5862069" vertical-offset="0" max-vertical-offset="1320">
           <folding>
-            <element signature="e#49#58#0" expanded="true" />
-            <marker date="1401807304000" expanded="true" signature="864:895" placeholder="select * fro..bmw_3..." />
-            <marker date="1401807304000" expanded="true" signature="10679:10878" placeholder="INSERT into ..." />
+            <element signature="e#0#52#0" expanded="true" />
           </folding>
         </state>
       </provider>
