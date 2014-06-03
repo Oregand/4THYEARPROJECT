@@ -2,34 +2,19 @@
  
 class DB_Connect {
  
-    // constructor
-    function __construct() {
-         
-    }
- 
-    // destructor
-    function __destruct() {
-        // $this->close();
-    }
- 
-    // Connecting to database
-    public function connect() {
-        require_once 'config.php';
-        // connecting to mysql
-        $con = mysql_connect(DB_HOST, DB_USER, DB_PASSWORD);
-        // selecting database
-        mysql_select_db(DB_DATABASE);
+  $link = mysql_connect( '192.168.100.101:3306', 'david', 'apUJP5VxBTZ9atXD' );
+  echo "Made it into db"
+if ( !$link ) {
+  die( 'Could not connect: ' . mysql_error() );
+}
 
+// Select the data base
+$db = mysql_select_db( 'david', $link );
+echo "double made it"
+if ( !$db ) {
+  die ( 'Error selecting database \'david\' : ' . mysql_error() );
+}
 
-         // return database handler
-        return $con;
-    }
- 
-    // Closing database connection
-    public function close() {
-        mysql_close();
-    }
- 
 }
  
 ?>
