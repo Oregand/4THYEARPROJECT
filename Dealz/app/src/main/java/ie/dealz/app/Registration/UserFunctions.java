@@ -16,8 +16,7 @@ public class UserFunctions {
 
     private JSONParser jsonParser;
 
-    // Testing in localhost using wamp or xampp
-    // use http://10.0.2.2/ to connect to your localhost ie http://localhost/
+
     private static String loginURL = "http://david.pimyride.com/android_login_api/";
     private static String registerURL = "http://david.pimyride.com/android_login_api/";
 
@@ -29,11 +28,7 @@ public class UserFunctions {
         jsonParser = new JSONParser();
     }
 
-    /**
-     * function make Login Request
-     * @param email
-     * @param password
-     * */
+
     public JSONObject loginUser(String email, String password){
         // Building Parameters
         List<NameValuePair> params = new ArrayList<NameValuePair>();
@@ -46,12 +41,7 @@ public class UserFunctions {
         return json;
     }
 
-    /**
-     * function make Login Request
-     * @param name
-     * @param email
-     * @param password
-     * */
+
     public JSONObject registerUser(String name, String email, String password){
         // Building Parameters
         List<NameValuePair> params = new ArrayList<NameValuePair>();
