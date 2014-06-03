@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b729d6f-cc02-47a6-a2a4-6ac27f58beaa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web/android_login_api/DB_Connect.php" afterPath="$PROJECT_DIR$/Web/android_login_api/DB_Connect.php" />
-    </list>
+    <list default="true" id="3b729d6f-cc02-47a6-a2a4-6ac27f58beaa" name="Default" comment="" />
     <ignored path="4THYEARPROJECT.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
