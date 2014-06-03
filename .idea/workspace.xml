@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b729d6f-cc02-47a6-a2a4-6ac27f58beaa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dealz/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Dealz/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Registration/DatabaseHandler.java" afterPath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Registration/DatabaseHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Scraper/carzone/f_fiesta.csv" afterPath="$PROJECT_DIR$/Scraper/carzone/CSVFiles/f_fiesta.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Scraper/carzone/f_focus.csv" afterPath="$PROJECT_DIR$/Scraper/carzone/CSVFiles/f_focus.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web/android_login_api/DB_Connect.php" afterPath="$PROJECT_DIR$/Web/android_login_api/DB_Connect.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Registration/JSONParser.java" afterPath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Registration/JSONParser.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Activites/LoginRegActivity.java" afterPath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Activites/LoginRegActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Activites/RegisterActivity.java" afterPath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Activites/RegisterActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Registration/UserFunctions.java" afterPath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Registration/UserFunctions.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web/android_login_api/config.php" afterPath="$PROJECT_DIR$/Web/android_login_api/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scraper/carzone/f_focus.csv" afterPath="$PROJECT_DIR$/Scraper/carzone/f_focus.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scraper/carzone/carzone/pipelines.py" afterPath="$PROJECT_DIR$/Scraper/carzone/carzone/pipelines.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scraper/carzone/carzone/spiders/spider.py" afterPath="$PROJECT_DIR$/Scraper/carzone/carzone/spiders/spider.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="4THYEARPROJECT.iws" />
@@ -56,7 +57,7 @@
       <file leaf-file-name="pipelines.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scraper/carzone/carzone/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="61" selection-start="1873" selection-end="1873" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1065">
+            <state line="13" column="47" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="1065">
               <folding />
             </state>
           </provider>
@@ -137,8 +138,8 @@
         <option value="$PROJECT_DIR$/Scraper/src/carzone/spiders/spider.py" />
         <option value="$PROJECT_DIR$/Scraper/carzone/CSVFiles/wv_golf.csv" />
         <option value="$PROJECT_DIR$/Machine Learning/LinearRegression/LR.py" />
-        <option value="$PROJECT_DIR$/Scraper/carzone/carzone/spiders/spider.py" />
         <option value="$PROJECT_DIR$/Scraper/carzone/carzone/pipelines.py" />
+        <option value="$PROJECT_DIR$/Scraper/carzone/carzone/spiders/spider.py" />
       </list>
     </option>
   </component>
@@ -1074,7 +1075,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Scraper/carzone/carzone/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="61" selection-start="1873" selection-end="1873" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1065">
+        <state line="13" column="47" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="1065">
           <folding />
         </state>
       </provider>

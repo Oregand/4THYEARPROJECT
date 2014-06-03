@@ -12,6 +12,7 @@ import ie.dealz.app.Registration.UserFunctions;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.StrictMode;
 import android.util.Log;
@@ -40,9 +41,9 @@ public class RegisterActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
 
-        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
-
-        StrictMode.setThreadPolicy(policy);
+//
+//        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+//        StrictMode.setThreadPolicy(policy);
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.register);
@@ -61,56 +62,60 @@ public class RegisterActivity extends Activity {
                 String name = inputFullName.getText().toString();
                 String email = inputEmail.getText().toString();
                 String password = inputPassword.getText().toString();
-                UserFunctions userFunction = new UserFunctions();
-                JSONObject json = userFunction.registerUser(name, email, password);
+                new MyAsyncTask().execute(name, email, password);
+        }
+    });
 
-                // check for login response
-                try {
-                    if (json.getString(KEY_SUCCESS) != null) {
-                        registerErrorMsg.setText("");
-                        String res = json.getString(KEY_SUCCESS);
-                        if(Integer.parseInt(res) == 1){
-                            // user successfully registred
-                            // Store user details in SQLite Database
-                            DatabaseHandler db = new DatabaseHandler(getApplicationContext());
-                            JSONObject json_user = json.getJSONObject("user");
+        btnLinkToLogin.setOnClickListener(new View.OnClickListener(){
 
-                            // Clear all previous data in database
-                            userFunction.logoutUser(getApplicationContext());
-                            db.addUser(json_user.getString(KEY_NAME), json_user.getString(KEY_EMAIL), json.getString(KEY_UID), json_user.getString(KEY_CREATED_AT));
-                            // Launch Dashboard Screen
-//                            Intent dashboard = new Intent(getApplicationContext(), DashboardActivity.class);
-//                            // Close all views before launching Dashboard
-//                            dashboard.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-//                            startActivity(dashboard);
-
-                            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-                            startActivity(intent);
-
-
-                            // Close Registration Screen
-                            finish();
-                        }else{
-                            // Error in registration
-                            registerErrorMsg.setText("Error occured in registration");
-                        }
-                    }
-                } catch (JSONException e) {
-                    e.printStackTrace();
-                }
-            }
-        });
-
-        // Link to Login Screen
-        btnLinkToLogin.setOnClickListener(new View.OnClickListener() {
-
-            public void onClick(View view) {
-                Intent i = new Intent(getApplicationContext(),
-                        LoginActivity.class);
+            public void onClick (View view){
+                Intent i = new Intent(getApplicationContext(),LoginRegActivity.class);
                 startActivity(i);
-                // Close Registration View
                 finish();
             }
         });
+
+    }
+
+class MyAsyncTask extends AsyncTask<String, Void, JSONObject> {
+
+        protected JSONObject doInBackground(String... params) {
+            UserFunctions userFunction = new UserFunctions();
+            if (params.length != 3)
+                return null;
+            JSONObject json = userFunction.registerUser(params[0], params[1], params[2]);
+            return json;
+        }
+
+        protected void onPostExecute(JSONObject json) {
+            // check for login response
+            try {
+                if (json != null && json.getString(KEY_SUCCESS) != null) {
+                    registerErrorMsg.setText("");
+                    String res = json.getString(KEY_SUCCESS);
+                    if(Integer.parseInt(res) == 1){
+                        // user successfully registred
+                        // Store user details in SQLite Database
+                        DatabaseHandler db = new DatabaseHandler(getApplicationContext());
+                        JSONObject json_user = json.getJSONObject("user");
+
+                        // Clear all previous data in database
+                        UserFunctions userFunction = new UserFunctions();
+                        userFunction.logoutUser(getApplicationContext());
+                        db.addUser(json_user.getString(KEY_NAME), json_user.getString(KEY_EMAIL), json.getString(KEY_UID), json_user.getString(KEY_CREATED_AT));
+
+                        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                        startActivity(intent);
+
+                        finish();
+                    }else{
+                        // Error in registration
+                        registerErrorMsg.setText("Error occured in registration");
+                    }
+                }
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+        }
     }
 }
