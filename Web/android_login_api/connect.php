@@ -1,6 +1,6 @@
 <?php
 
-str == "Made it!";
+$str = "Hello world!";
 
 $link = mysql_connect( '192.168.100.101:3306', 'david', 'apUJP5VxBTZ9atXD' );
 echo $str;
