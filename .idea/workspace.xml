@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b729d6f-cc02-47a6-a2a4-6ac27f58beaa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scraper/carzone/ f_mondeo.csv" afterPath="$PROJECT_DIR$/Scraper/carzone/ f_mondeo.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Scraper/carzone/ f_mondeo.csv" afterPath="$PROJECT_DIR$/Scraper/carzone/CSVFiles/ f_mondeo.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Scraper/carzone/t_corolla.csv" afterPath="$PROJECT_DIR$/Scraper/carzone/CSVFiles/t_corolla.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web/android_login_api/DB_Connect.php" afterPath="$PROJECT_DIR$/Web/android_login_api/DB_Connect.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="4THYEARPROJECT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,30 +37,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="spider.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Scraper/carzone/carzone/spiders/spider.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="113" selection-start="549" selection-end="549" vertical-scroll-proportion="0.20689656" vertical-offset="165" max-vertical-offset="1320">
-              <folding>
-                <element signature="e#0#52#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pipelines.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scraper/carzone/carzone/pipelines.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="47" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="1065">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LR.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="LR.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Machine Learning/LinearRegression/LR.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="200" column="0" selection-start="7138" selection-end="7138" vertical-scroll-proportion="0.0" vertical-offset="3105" max-vertical-offset="4950">
+            <state line="220" column="16" selection-start="8039" selection-end="8039" vertical-scroll-proportion="0.30421218" vertical-offset="3105" max-vertical-offset="4950">
               <folding>
                 <element signature="e#49#58#0" expanded="true" />
                 <marker date="1401807304000" expanded="true" signature="864:895" placeholder="select * fro..bmw_3..." />
@@ -208,33 +191,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Scraper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="carzone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4THYEARPROJECT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4THYEARPROJECT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Scraper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="carzone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CSVFiles" />
+              <option name="myItemId" value="Machine Learning" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -249,6 +206,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Machine Learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LinearRegression" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -651,7 +612,7 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32111436" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32111436" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991204" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32844576" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1053,29 +1014,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Machine Learning/LinearRegression/LR.py">
+    <entry file="file://$PROJECT_DIR$/Scraper/carzone/carzone/spiders/spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="200" column="0" selection-start="7138" selection-end="7138" vertical-scroll-proportion="0.0" vertical-offset="3105" max-vertical-offset="4950">
+        <state line="17" column="113" selection-start="549" selection-end="549" vertical-scroll-proportion="0.20689656" vertical-offset="165" max-vertical-offset="1320">
           <folding>
-            <element signature="e#49#58#0" expanded="true" />
-            <marker date="1401807304000" expanded="true" signature="864:895" placeholder="select * fro..bmw_3..." />
-            <marker date="1401807304000" expanded="true" signature="10679:10878" placeholder="INSERT into ..." />
+            <element signature="e#0#52#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scraper/carzone/carzone/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="47" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="1065">
+        <state line="13" column="47" selection-start="301" selection-end="301" vertical-scroll-proportion="0.035545025" vertical-offset="165" max-vertical-offset="1065">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scraper/carzone/carzone/spiders/spider.py">
+    <entry file="file://$PROJECT_DIR$/Machine Learning/LinearRegression/LR.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="113" selection-start="549" selection-end="549" vertical-scroll-proportion="0.20689656" vertical-offset="165" max-vertical-offset="1320">
+        <state line="220" column="16" selection-start="8039" selection-end="8039" vertical-scroll-proportion="0.30421218" vertical-offset="3105" max-vertical-offset="4950">
           <folding>
-            <element signature="e#0#52#0" expanded="true" />
+            <element signature="e#49#58#0" expanded="true" />
+            <marker date="1401807304000" expanded="true" signature="864:895" placeholder="select * fro..bmw_3..." />
+            <marker date="1401807304000" expanded="true" signature="10679:10878" placeholder="INSERT into ..." />
           </folding>
         </state>
       </provider>
