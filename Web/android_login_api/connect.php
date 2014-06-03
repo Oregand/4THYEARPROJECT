@@ -3,8 +3,7 @@
 /**
 * 
 */
-class connect 
-{
+
 	
 $str = "Hello world!";
 
@@ -21,5 +20,5 @@ if ( !$db ) {
   die ( 'Error selecting database \'david\' : ' . mysql_error() );
 }
 }
- 
+
 ?>
