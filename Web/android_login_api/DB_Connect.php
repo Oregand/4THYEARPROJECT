@@ -16,20 +16,5 @@ echo $str;
 if ( !$db ) {
   die ( 'Error selecting database \'david\' : ' . mysql_error() );
 }
- 
-$query = "
-  SELECT *
-  FROM users WHERE title LIKE '%".$_GET['email']."%'
-  ORDER BY name ASC";
-$result = mysql_query( $query );
-
-// All good?
-if ( !$result ) {
-  // Nope
-  $message  = 'Invalid query: ' . mysql_error() . "\n";
-  $message .= 'Whole query: ' . $query;
-  die( $message );
-}
-
 
 ?>
