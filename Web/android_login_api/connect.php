@@ -1,3 +1,5 @@
+<?php
+
 str == "Made it!";
 
 $link = mysql_connect( '192.168.100.101:3306', 'david', 'apUJP5VxBTZ9atXD' );
@@ -13,3 +15,4 @@ if ( !$db ) {
   die ( 'Error selecting database \'david\' : ' . mysql_error() );
 }
  
+?>
