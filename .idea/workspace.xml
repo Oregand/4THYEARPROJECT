@@ -2,27 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b729d6f-cc02-47a6-a2a4-6ac27f58beaa" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documents/TechSpec/CarDealz Design Specification.pages/Data/image-16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documents/TechSpec/CarDealz Design Specification.pages/Data/image-small-17.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documents/User Manual/User Manual.pages/Data/155378728_572x381-small-22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documents/User Manual/User Manual.pages/Data/200445369_361x240-small-24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documents/User Manual/User Manual.pages/Data/86236875_383x576-small-20.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documents/TechSpec/CarDealz Design Specification.pages/Index.zip" afterPath="$PROJECT_DIR$/Documents/TechSpec/CarDealz Design Specification.pages/Index.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documents/User Manual/User Manual.pages/Index.zip" afterPath="$PROJECT_DIR$/Documents/User Manual/User Manual.pages/Index.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documents/TechSpec/CarDealz Design Specification.pages/Metadata/Properties.plist" afterPath="$PROJECT_DIR$/Documents/TechSpec/CarDealz Design Specification.pages/Metadata/Properties.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documents/User Manual/User Manual.pages/Metadata/Properties.plist" afterPath="$PROJECT_DIR$/Documents/User Manual/User Manual.pages/Metadata/Properties.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documents/TechSpec/CarDealz Design Specification.pages/preview-micro.jpg" afterPath="$PROJECT_DIR$/Documents/TechSpec/CarDealz Design Specification.pages/preview-micro.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documents/User Manual/User Manual.pages/preview-micro.jpg" afterPath="$PROJECT_DIR$/Documents/User Manual/User Manual.pages/preview-micro.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documents/TechSpec/CarDealz Design Specification.pages/preview-web.jpg" afterPath="$PROJECT_DIR$/Documents/TechSpec/CarDealz Design Specification.pages/preview-web.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documents/User Manual/User Manual.pages/preview-web.jpg" afterPath="$PROJECT_DIR$/Documents/User Manual/User Manual.pages/preview-web.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documents/TechSpec/CarDealz Design Specification.pages/preview.jpg" afterPath="$PROJECT_DIR$/Documents/TechSpec/CarDealz Design Specification.pages/preview.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documents/User Manual/User Manual.pages/preview.jpg" afterPath="$PROJECT_DIR$/Documents/User Manual/User Manual.pages/preview.jpg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/.idea/carzone.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/.idea/dataSources.ids" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/.idea/dataSources.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/.idea/scopes/scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/CSVFiles/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/CSVFiles/audi_a4.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/CSVFiles/bmw_3.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/CSVFiles/bmw_5.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/CSVFiles/f_fiesta.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/CSVFiles/f_focus.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/CSVFiles/f_mondeo.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/CSVFiles/merc_e.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/CSVFiles/t_avensis.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/CSVFiles/t_corolla.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/CSVFiles/vw_polo.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/CSVFiles/wv_golf.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/MiscCode" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/Mysql Table" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/carzone/Items/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/carzone/Items/items.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/carzone/PipeLines/MiscCode" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/carzone/PipeLines/Mysql Table" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/carzone/PipeLines/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/carzone/PipeLines/pipelines.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/carzone/Settings/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/carzone/Settings/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/carzone/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/carzone/spiders/MiscSpiders" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/carzone/spiders/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/src/scrapy.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Test2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/start.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Fragments/BrandListFragment.java" afterPath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Fragments/BrandListFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Adapters/CarAdapter.java" afterPath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Adapters/CarAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/services/CarService.java" afterPath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/services/CarService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Fragments/ItemFragment.java" afterPath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Fragments/ItemFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Machine Learning/LinearRegression/LR.py" afterPath="$PROJECT_DIR$/Machine Learning/LinearRegression/LR.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Activites/MainActivity.java" afterPath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Activites/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dealz/app/src/main/res/layout/list_item.xml" afterPath="$PROJECT_DIR$/Dealz/app/src/main/res/layout/list_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dealz/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/Dealz/app/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Fragments/ListFragment.java" afterPath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Fragments/ListFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dealz/app/src/main/res/layout/singlecar.xml" afterPath="$PROJECT_DIR$/Dealz/app/src/main/res/layout/singlecar.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="4THYEARPROJECT.iws" />
@@ -35,6 +60,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/4THYEARPROJECT$Spider.coverage" NAME="Spider Coverage Results" MODIFIED="1401790677575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scraper/src/carzone/spiders" />
     <SUITE FILE_PATH="coverage/4THYEARPROJECT$Testing.coverage" NAME="Testing Coverage Results" MODIFIED="1400147831781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/4THYEARPROJECT$LR.coverage" NAME="LR Coverage Results" MODIFIED="1401537301775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Machine Learning/LinearRegression" />
     <SUITE FILE_PATH="coverage/4THYEARPROJECT$DataMining2.coverage" NAME="LR Coverage Results" MODIFIED="1397564692846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Machine Learning/LinearRegression" />
@@ -54,14 +80,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="spider.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scraper/carzone/carzone/spiders/spider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="4" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="1320">
+              <folding>
+                <element signature="e#0#52#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pipelines.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scraper/carzone/carzone/pipelines.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="59" selection-start="1869" selection-end="1869" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1065">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="LR.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Machine Learning/LinearRegression/LR.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="7" selection-start="471" selection-end="471" vertical-scroll-proportion="-5.4849396" vertical-offset="3957" max-vertical-offset="6195">
+            <state line="200" column="0" selection-start="7138" selection-end="7138" vertical-scroll-proportion="-0.24881516" vertical-offset="3105" max-vertical-offset="4950">
               <folding>
                 <element signature="e#49#58#0" expanded="true" />
-                <marker date="1401621604000" expanded="true" signature="994:1025" placeholder="select * fro..bmw_3..." />
-                <marker date="1401621604000" expanded="true" signature="12730:12929" placeholder="INSERT into ..." />
+                <marker date="1401807304000" expanded="true" signature="864:895" placeholder="select * fro..bmw_3..." />
+                <marker date="1401807304000" expanded="true" signature="10679:10878" placeholder="INSERT into ..." />
               </folding>
             </state>
           </provider>
@@ -80,20 +126,12 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Machine Learning/DataProcessing.py" />
-        <option value="$PROJECT_DIR$/Machine Learning/DataProcessing2" />
-        <option value="$PROJECT_DIR$/Machine Learning/output2.csv" />
-        <option value="$PROJECT_DIR$/Machine Learning/DataProcessing3.py" />
-        <option value="$PROJECT_DIR$/Machine Learning/DataProcessing4.py" />
-        <option value="$PROJECT_DIR$/Machine Learning/LinearSVM.py" />
-        <option value="$PROJECT_DIR$/Machine Learning/LinearSVM2.py" />
         <option value="$PROJECT_DIR$/Machine Learning/output.csv" />
         <option value="$PROJECT_DIR$/Scraper/carzone/golf.csv" />
         <option value="$PROJECT_DIR$/Scraper/carzone/carzone/Mysql Table" />
         <option value="$PROJECT_DIR$/Scraper/carzone/carzone/items.py" />
         <option value="$PROJECT_DIR$/Scraper/carzone/wv_golf.csv" />
         <option value="$PROJECT_DIR$/Scraper/carzone/carzone/settings.py" />
-        <option value="$PROJECT_DIR$/Scraper/carzone/carzone/pipelines.py" />
         <option value="$PROJECT_DIR$/Scraper/carzone/spiders/spider3.py" />
         <option value="$PROJECT_DIR$/Scraper/carzone/spiders/__init__.py" />
         <option value="$PROJECT_DIR$/Scraper/carzone/carzone/spiders/__init__.py" />
@@ -125,11 +163,19 @@
         <option value="$PROJECT_DIR$/Testing/PyTest/test_predictFunction.py" />
         <option value="$PROJECT_DIR$/Machine Learning/LinearRegression/test_predictFunction.py" />
         <option value="$PROJECT_DIR$/Scraper/src/carzone/spiders/test_scrapyDemoSpider.py" />
-        <option value="$PROJECT_DIR$/Scraper/src/carzone/spiders/__init__.py" />
         <option value="$PROJECT_DIR$/Scraper/src/Mysql Table" />
         <option value="$PROJECT_DIR$/Machine Learning/LinearRegression/bmw_3.json" />
         <option value="$PROJECT_DIR$/Machine Learning/LinearRegression/Dealz.csv" />
         <option value="$PROJECT_DIR$/Machine Learning/LinearRegression/Plot.csv" />
+        <option value="$PROJECT_DIR$/Scraper/src/carzone/PipeLines/pipelines.py" />
+        <option value="$PROJECT_DIR$/Scraper/src/carzone/spiders/__init__.py" />
+        <option value="$PROJECT_DIR$/Scraper/src/carzone/PipeLines/spider.py" />
+        <option value="$PROJECT_DIR$/Scraper/src/carzone/__init__.py" />
+        <option value="$PROJECT_DIR$/Scraper/src/carzone/Items/items.py" />
+        <option value="$PROJECT_DIR$/Scraper/src/carzone/spiders/spider.py" />
+        <option value="$PROJECT_DIR$/Scraper/carzone/CSVFiles/wv_golf.csv" />
+        <option value="$PROJECT_DIR$/Scraper/carzone/carzone/spiders/spider.py" />
+        <option value="$PROJECT_DIR$/Scraper/carzone/carzone/pipelines.py" />
         <option value="$PROJECT_DIR$/Machine Learning/LinearRegression/LR.py" />
       </list>
     </option>
@@ -147,25 +193,7 @@
             <id />
           </State>
           <State>
-            <id>Bitwise operation issuesJavaScript</id>
-          </State>
-          <State>
-            <id>Control flow issuesJavaScript</id>
-          </State>
-          <State>
-            <id>GeneralJavaScript</id>
-          </State>
-          <State>
-            <id>Internationalization issues</id>
-          </State>
-          <State>
-            <id>JavaScript</id>
-          </State>
-          <State>
-            <id>Potentially confusing code constructsJavaScript</id>
-          </State>
-          <State>
-            <id>SQL</id>
+            <id>Python</id>
           </State>
         </expanded-state>
       </profile-state>
@@ -197,6 +225,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -215,19 +244,90 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4THYEARPROJECT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4THYEARPROJECT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scraper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carzone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4THYEARPROJECT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4THYEARPROJECT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scraper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carzone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSVFiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4THYEARPROJECT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4THYEARPROJECT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Machine Learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4THYEARPROJECT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4THYEARPROJECT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Machine Learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LinearRegression" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.lastSelected" value="editor.preferences.appearance" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Documents/TechSpec" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Scraper/src/carzone/spiders/spider.py" />
     <property name="dynamic.classpath" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="SearchEverywhereHistory" value="" />
@@ -260,18 +360,19 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Scraper/src/carzone/PipeLines" />
       <recent name="$PROJECT_DIR$/Scraper/carzone" />
       <recent name="$PROJECT_DIR$/Scraper/carzone/carzone" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Testing/PyTest" />
-      <recent name="$PROJECT_DIR$/Machine Learning/DataMining" />
-      <recent name="$PROJECT_DIR$/Machine Learning/LinearRegression" />
-      <recent name="$PROJECT_DIR$/Scraper/src/CSVFiles" />
+      <recent name="$PROJECT_DIR$/Scraper/carzone/CSVFiles" />
+      <recent name="$PROJECT_DIR$/Scraper/src/carzone/Settings" />
       <recent name="$PROJECT_DIR$/Scraper/src/carzone/PipeLines" />
+      <recent name="$PROJECT_DIR$/Scraper/src/carzone/Items" />
+      <recent name="$PROJECT_DIR$/Scraper/src/carzone/spiders" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.LR">
+  <component name="RunManager" selected="Python.Spider">
     <configuration default="false" name="pipelines" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -468,6 +569,25 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
+    <configuration default="false" name="Spider" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/2.7/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scraper/src/carzone/spiders" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="4THYEARPROJECT" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scraper/src/carzone/spiders/spider.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
     <configuration default="false" name="PyTest" type="tests" factoryName="py.test">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -495,10 +615,11 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.LR" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.PyTest" />
-      <item index="2" class="java.lang.String" itemvalue="Python.pipelines" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Spider" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.PyTest" />
+      <item index="3" class="java.lang.String" itemvalue="Python.pipelines" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -594,20 +715,20 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32111436" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32111436" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991204" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32844576" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.253125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2657512" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39716312" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39716312" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32765958" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907802" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3240469" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32844576" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907802" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -616,21 +737,21 @@
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3219858" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32111436" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907802" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39858156" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39716312" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.398827" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39716312" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907802" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991204" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.253125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32907802" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26171243" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32551318" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout-to-restore>
@@ -662,16 +783,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Machine Learning/DataMining/DataProcessing3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="18" selection-start="148" selection-end="176" vertical-scroll-proportion="0.17281106" vertical-offset="0" max-vertical-offset="1695" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Machine Learning/DataMining/DataMining.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="130" column="11" selection-start="3665" selection-end="3665" vertical-scroll-proportion="0.20737328" vertical-offset="1740" max-vertical-offset="2190" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Machine Learning/DataMining/Winning.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="19" selection-start="0" selection-end="32" vertical-scroll-proportion="-0.99769586" vertical-offset="433" max-vertical-offset="1110" />
@@ -782,24 +893,6 @@
     <entry file="file://$PROJECT_DIR$/Testing/PyTest/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="677" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scraper/src/carzone/Items/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="17" selection-start="170" selection-end="181" vertical-scroll-proportion="0.15509601" vertical-offset="0" max-vertical-offset="677" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scraper/src/Mysql Table">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="0" selection-start="1922" selection-end="1922" vertical-scroll-proportion="0.31846154" vertical-offset="1383" max-vertical-offset="2160" />
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scraper/src/MiscCode">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1950" />
       </provider>
     </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/__init__.py">
@@ -983,21 +1076,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scraper/src/carzone/spiders/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="324" selection-end="324" vertical-scroll-proportion="0.044313148" vertical-offset="0" max-vertical-offset="1185" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scraper/src/carzone/spiders/MiscSpiders">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="47" selection-start="1695" selection-end="1695" vertical-scroll-proportion="-0.49096385" vertical-offset="926" max-vertical-offset="1590" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scraper/src/carzone/PipeLines/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="194" selection-end="194" vertical-scroll-proportion="0.15813252" vertical-offset="0" max-vertical-offset="1080" />
-      </provider>
-    </entry>
     <entry file="uml://Python/#/Users/davidoregan/Documents/Development/4THYEARPROJECT/Machine Learning/LinearRegression/LR.py">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1019,13 +1097,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Scraper/carzone/CSVFiles/wv_golf.csv">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="33" selection-start="0" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="24465">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scraper/carzone/CSVFiles/vw_polo.csv">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9075">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scraper/carzone/carzone/spiders/spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="4" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="1320">
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scraper/carzone/carzone/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="59" selection-start="1869" selection-end="1869" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1065">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Machine Learning/LinearRegression/LR.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="7" selection-start="471" selection-end="471" vertical-scroll-proportion="-5.4849396" vertical-offset="3957" max-vertical-offset="6195">
+        <state line="200" column="0" selection-start="7138" selection-end="7138" vertical-scroll-proportion="-0.24881516" vertical-offset="3105" max-vertical-offset="4950">
           <folding>
             <element signature="e#49#58#0" expanded="true" />
-            <marker date="1401621604000" expanded="true" signature="994:1025" placeholder="select * fro..bmw_3..." />
-            <marker date="1401621604000" expanded="true" signature="12730:12929" placeholder="INSERT into ..." />
+            <marker date="1401807304000" expanded="true" signature="864:895" placeholder="select * fro..bmw_3..." />
+            <marker date="1401807304000" expanded="true" signature="10679:10878" placeholder="INSERT into ..." />
           </folding>
         </state>
       </provider>

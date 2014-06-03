@@ -11,7 +11,7 @@ import MySQLdb
 
 class CarzonePipeline3(object):
     def __init__(self):
-        self.myCSV = csv.writer(open('merc_e.csv', 'wb'))
+        self.myCSV = csv.writer(open('bmw_3.csv', 'wb'))
         self.myCSV.writerow(['title', 'link', 'price', 'carYear', 'location', 'mileage', 'engineSize', 'engineType', 'Transmission', 'Colour', 'Owners', 'NCT',  'BodyType'])
 
     def process_item(self, item, spider):
@@ -34,14 +34,14 @@ class CarzonePipeline3(object):
 
 class MySQLStorePipeline(object):
     def __init__(self):
-        self.conn = MySQLdb.connect(user='root', passwd='root', db='carzone',port=8889, host='127.0.0.1',
+        self.conn = MySQLdb.connect(user='david', passwd='apUJP5VxBTZ9atXD', db='david',port=3306, host='192.168.100.101',
                                     charset="utf8",
                                     use_unicode=True)
         self.cursor = self.conn.cursor()
 
     def process_item(self, item, spider):
         try:
-            self.cursor.execute("""INSERT IGNORE INTO merc_e (title, link, price, carYear, location, mileage, engineSize, engineType, Transmission, Colour, Owners, NCT, BodyType)
+            self.cursor.execute("""INSERT IGNORE INTO bmw_3 (title, link, price, carYear, location, mileage, engineSize, engineType, Transmission, Colour, Owners, NCT, BodyType)
                         VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)""",
                                 (item['title'][0:100].encode('utf-8'),
                                  item['link'][0:100].encode('utf-8'),

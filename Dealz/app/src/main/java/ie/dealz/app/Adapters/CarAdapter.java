@@ -43,36 +43,6 @@ public class CarAdapter extends BaseAdapter {
 
     }
 
-    public Boolean findByColor(String color) {
-        List<ListItem> items = new LinkedList<ListItem>();
-        for (ListItem car : cars) {
-            String carColor = car.getColour();
-            if (carColor.trim().equalsIgnoreCase(color.trim()))
-                items.add(car);
-        }
-
-        if (items.size() > 0) {
-
-            originalList = cars;
-            cars = items;
-
-            this.notifyDataSetChanged();
-
-            return true;
-        } else {
-            if (originalList != null) {
-                if (originalList.size() > 0) {
-
-                    cars = originalList;
-                    this.notifyDataSetChanged();
-                }
-            }
-
-            return false;
-        }
-
-    }
-
     //If I put a space after the word, the search bar does not work anymore.
     //Fix
 
@@ -80,18 +50,18 @@ public class CarAdapter extends BaseAdapter {
     public boolean findByAnything(String anything) {
         List<ListItem> items = new LinkedList<ListItem>();
         for (ListItem car : cars) {
-            String carColour = car.getColour();
-            String carLocation = car.getLocation();
-//            String carPrice = car.getpredictedPrice();
+            String mil = car.getMileage();
+            String year = car.getCarYear();
+            String diff = car.getDifference();
 
-            if (carLocation.trim().equalsIgnoreCase(anything.trim())) {
+            if (year.trim().equalsIgnoreCase(anything.trim())) {
                 items.add(car);
-            } else if ((carColour.trim().equalsIgnoreCase(anything.trim()))) {
+            } else if ((mil.trim().equalsIgnoreCase(anything.trim()))) {
                 items.add(car);
             }
-//          else if ((carPrice.trim().equalsIgnoreCase(anything.trim()))) {
-//                items.add(car);
-//            }
+          else if ((diff.trim().equalsIgnoreCase(anything.trim()))) {
+                items.add(car);
+            }
         }
 
         if (items.size() > 0) {
@@ -113,37 +83,6 @@ public class CarAdapter extends BaseAdapter {
             return false;
         }
     }
-
-    public boolean findByPrice(String price) {
-        List<ListItem> items = new LinkedList<ListItem>();
-        for (ListItem car : cars) {
-            String carPrice = car.getpredictedPrice();
-            if (carPrice.trim().equalsIgnoreCase(price.trim()))
-                items.add(car);
-        }
-
-        if (items.size() > 0) {
-
-            originalList = cars;
-            cars = items;
-
-            this.notifyDataSetChanged();
-
-            return true;
-        } else {
-            if (originalList != null) {
-                if (originalList.size() > 0) {
-
-                    cars = originalList;
-                    this.notifyDataSetChanged();
-                }
-            }
-
-            return false;
-        }
-
-    }
-
 
     @Override
     public int getCount() {

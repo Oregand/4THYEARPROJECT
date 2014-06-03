@@ -44,15 +44,6 @@ public class ListFragment extends Fragment implements AbsListView.OnItemClickLis
     private String grid_currentQuery = null; // holds the current query...
     private SearchView.OnQueryTextListener queryListener;
 
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
-
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
-
     private OnFragmentInteractionListener mListener;
     CarAdapter arrayOfCars;
     private Callbacks mCallbacks = sDummyCallbacks;
@@ -94,16 +85,6 @@ public class ListFragment extends Fragment implements AbsListView.OnItemClickLis
      */
     private CarAdapter mAdapter;
 
-    // TODO: Rename and change types of parameters
-    public static ListFragment newInstance(String param1, String param2) {
-        ListFragment fragment = new ListFragment();
-        Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
-        fragment.setArguments(args);
-        return fragment;
-    }
-
     /**
      * Mandatory empty constructor for the fragment manager to instantiate the
      * fragment (e.g. upon screen orientation changes).
@@ -115,12 +96,7 @@ public class ListFragment extends Fragment implements AbsListView.OnItemClickLis
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
 
-        // TODO: Change Adapter to display your content
         mAdapter = new CarAdapter(getActivity());
 
         setHasOptionsMenu(true);
@@ -144,9 +120,6 @@ public class ListFragment extends Fragment implements AbsListView.OnItemClickLis
                     mAdapter.findByAnything(grid_currentQuery);
 
 
-//                    List<ListItem> itemsLoc = mAdapter.findByLocation(grid_currentQuery);
-//                    List<ListItem> itemsPrice = mAdapter.findByPrice(grid_currentQuery);
-
                 }
 
 
@@ -166,6 +139,7 @@ public class ListFragment extends Fragment implements AbsListView.OnItemClickLis
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         inflater.inflate(R.menu.main, menu);
+
         // Add SearchWidget.
         SearchView searchView = (SearchView) menu.findItem(R.id.grid_default_search).getActionView();
         searchView.setOnQueryTextListener(queryListener);
@@ -192,8 +166,6 @@ public class ListFragment extends Fragment implements AbsListView.OnItemClickLis
     @Background
     void apiTest() {
 
-        //When MAMP starts, I need to change the ip to my public IP in order to access the files.
-        //Began using server Alan provide, connect to VPN, find web address, access php file
         RestAdapter restAdapter = new RestAdapter.Builder().setServer("http://david.pimyride.com").build();
 
         //Create link to golf service
@@ -245,6 +217,7 @@ public class ListFragment extends Fragment implements AbsListView.OnItemClickLis
             arguments.putString("title", item.getTitle());
             arguments.putString("link", item.getLink());
             arguments.putString("predictedPrice", item.getpredictedPrice());
+            arguments.putString("askingPrice", item.getAskingPrice());
             arguments.putString("location", item.getLocation());
             arguments.putString("Colour", item.getColour());
 

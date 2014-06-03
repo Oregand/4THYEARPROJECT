@@ -5,6 +5,7 @@
 
 from scrapy.item import Item, Field
 
+
 class CarzoneItem(Item):
     title = Field()
     link = Field()
@@ -18,5 +19,6 @@ class CarzoneItem(Item):
     Owners = Field()
     NCT = Field()
     BodyType = Field()
+
 
 

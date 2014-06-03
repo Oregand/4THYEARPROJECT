@@ -9,15 +9,11 @@ import json
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.linear_model import LinearRegression
 from sklearn import svm
-from sklearn import linear_model
-from sklearn.naive_bayes import MultinomialNB
-from yhat import BaseModel
+from yhat import BaseModel, YhatModel
 import MySQLdb
-from scipy import stats
 from pylab import *
 from numpy import *
-import pandas as pd
-import numpy as np
+
 
 # Notes
 
@@ -143,23 +139,7 @@ df.fillna(0, inplace=True)
 # --------------------------------------------------------------------------------------------------------
 
 # Edit our dataframe to drop colums we dont need and seerate the price colum already there
-
-df_no_price = df.drop(['price'], 1)
-df_no_priceLink = df_no_price.drop(['link'], 1)
 df_no_priceLinkTitle = df.drop(['ID', 'price', 'link', 'title'], 1)
-
-df_no_IDLinkTitle = df.drop(['ID', 'link', 'title'], 1)
-
-df_no_ID = df.drop(['ID'], 1)
-
-# rows_with_strings  = df.apply(lambda row :any([ isinstance(e, 'POA') for e in row ]), axis=1)
-# df_no_ID = df_no_ID[~rows_with_strings]
-# df_no_ID = df_no_ID[df_no_ID.price != 0]
-# df = df[df.price != 0]
-# df_no_ID = df_no_ID[df_no_ID.isin(df_no_IDLinkTitle.to_dict(outtype='price')).all('POA')]
-# df_no_ID.fillna(0, inplace=True)
-
-
 
 
 # --------------------------------------------------------------------------------------------------------
@@ -167,8 +147,6 @@ df_no_ID = df.drop(['ID'], 1)
 
 #Now use the sklearn DictVectorizor libary to map each colum from the data frame into a numpy array
 # Transforms lists of feature-value mappings to vectors.
-#
-#
 dv = DictVectorizer()
 dv.fit(df.T.to_dict().values())
 
@@ -177,7 +155,6 @@ dv.fit(df.T.to_dict().values())
 # We specifiy a LR model to predict a price for each unique feature from our DictV
 # This leaves us with a model that has the asking price on one side,
 #  and a prediction for each feature on the other
-# 
 
 
 # Create linear regression object
@@ -196,29 +173,11 @@ clf = svm.SVC()
 
 clf = clf.fit(dv.transform(df_no_priceLinkTitle.T.to_dict().values()), df.price)
 
-# Naive Bayers
-
-NB = MultinomialNB()
-
-NB = NB.fit(dv.transform(df_no_priceLinkTitle.T.to_dict().values()), df.price)
-
-log = linear_model.LogisticRegression()
-
-log = log.fit(dv.transform(df_no_priceLinkTitle.T.to_dict().values()), df.price)
-
-
-
 
 # Explained variance score: 1 is perfect prediction
 print ('Variance score LR: %.2f' % LR.score(dv.transform(df_no_priceLinkTitle.T.to_dict().values()), df.price))
 
 print ('Variance score SVM: %.2f' % clf.score(dv.transform(df_no_priceLinkTitle.T.to_dict().values()), df.price))
-
-print ('Variance score NB: %.2f' % NB.score(dv.transform(df_no_priceLinkTitle.T.to_dict().values()), df.price))
-
-print ('Variance score log: %.2f' % log.score(dv.transform(df_no_priceLinkTitle.T.to_dict().values()), df.price))
-
-
 
 # --------------------------------------------------------------------------------------------------------
 
@@ -235,7 +194,7 @@ print ('Variance score log: %.2f' % log.score(dv.transform(df_no_priceLinkTitle.
 goodDeal = ''
 
 
-class predictFunction(BaseModel):
+class predictFunction(YhatModel):
     #Place transformed data into numpy array for use
     def transform(self, doc):
         return self.dv.transform(doc)
@@ -268,14 +227,6 @@ class predictFunction(BaseModel):
                 'GoodDeal': str(goodDeal),
         }
 
-
-# --------------------------------------------------------------------------------------------------------
-# Now we need to vailidate if the cars are actually a good deal i.e.
-# - If asking price is less than predicted price(good deal) else bad deal
-
-
-
-
 # --------------------------------------------------------------------------------------------------------
 
 # Start by passing our variables(transformed data frame and LR model to function above)
@@ -293,35 +244,6 @@ with open('bmw_3.json', 'w') as outfile:
         # print outputPrice[0]
         json.dump(outputPrice, outfile)
         outfile.write('\n')
-
-# --------------------------------------------------------------------------------------------------------
-#
-# #Graph
-# xi = arange(0,3)
-# A = array([ xi, ones(3)])
-#
-# # linearly generated sequence
-# y = [df['location']]
-#
-#
-#
-#
-#
-# slope, intercept, r_value, p_value, std_err = stats.linregress(xi,y)
-#
-# print 'r value', r_value
-# print  'p_value', p_value
-# print 'standard deviation', std_err
-#
-# line = slope*xi+intercept
-# plot(xi,line,'r-',xi,y,'o')
-# plt.ylabel('Location Of Car')
-# plt.xlabel('Associated Prediction For Feature')
-# show()
-
-
-
-
 # --------------------------------------------------------------------------------------------------------
 # Write Json data to csv for db insert
 
@@ -339,11 +261,6 @@ for item in data:
         [item['predictedPrice'], str(item['mileage'])[14:20], item['difference'], item['askingPrice'], str(item['carYear'])[14:16],
          str(item['Owners'])[13:14], item['GoodDeal'], str(item['title'])[10:35], str(item['link'])[9:92]])
 
-
-# --------------------------------------------------------------------------------------------------------
-
-
-
 # --------------------------------------------------------------------------------------------------------
 
 
@@ -352,7 +269,7 @@ for item in data:
 # prepare a cursor object using cursor() method
 cursor = db.cursor()
 
-#SQL query to INSERT a record into the table FACTRESTTBL.
+#SQL query to INSERT a record into the table.
 for item in data:
 
     make = str(item['title'])[10:35]

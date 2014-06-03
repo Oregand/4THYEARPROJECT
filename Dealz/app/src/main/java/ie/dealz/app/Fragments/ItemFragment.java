@@ -36,15 +36,6 @@ import retrofit.RestAdapter;
  */
 public class ItemFragment extends Fragment {
 
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
-
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
-
     private OnFragmentInteractionListener mListener;
     private Callbacks mCallbacks = sDummyCallbacks;
 
@@ -86,16 +77,6 @@ public class ItemFragment extends Fragment {
      */
     private CarAdapter mAdapter;
 
-    // TODO: Rename and change types of parameters
-    public static ListFragment newInstance(String param1, String param2) {
-        ListFragment fragment = new ListFragment();
-        Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
-        fragment.setArguments(args);
-        return fragment;
-    }
-
     /**
      * Mandatory empty constructor for the fragment manager to instantiate the
      * fragment (e.g. upon screen orientation changes).
@@ -107,16 +88,6 @@ public class ItemFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-
-//        getActivity().setTitle("Cars");
-//        arrayOfCars = new CarAdapter(getActivity(), R.layout.list_item);
-
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
-
-        // TODO: Change Adapter to display your content
         mAdapter = new CarAdapter(getActivity());
     }
 
@@ -126,10 +97,12 @@ public class ItemFragment extends Fragment {
         Bundle bundle = this.getArguments();
         View view = inflater.inflate(R.layout.singlecar, container, false);
         TextView tv = (TextView) view.findViewById(R.id.sc_title);
-        TextView cv = (TextView) view.findViewById(R.id.sc_colour);
+        TextView av = (TextView) view.findViewById(R.id.sc_asking);
         TextView pv = (TextView) view.findViewById(R.id.sc_PP);
         TextView lv = (TextView) view.findViewById(R.id.sc_location);
         TextView linkv = (TextView) view.findViewById(R.id.sc_link);
+
+
 //        linkv.setMovementMethod(LinkMovementMethod.getInstance());
 //
 //
@@ -146,7 +119,7 @@ public class ItemFragment extends Fragment {
 
 
         tv.setText(bundle.getString("title"));
-        cv.setText(bundle.getString("Colour"));
+        av.setText(bundle.getString("askingPrice"));
         pv.setText(bundle.getString("location"));
         lv.setText(bundle.getString("predictedPrice"));
         wv.getSettings().setJavaScriptEnabled(true);

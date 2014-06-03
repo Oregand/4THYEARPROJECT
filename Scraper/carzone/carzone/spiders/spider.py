@@ -3,16 +3,19 @@ from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor
 from scrapy.selector import HtmlXPathSelector
 from scrapy.http.request import Request
 from carzone.items import CarzoneItem
-from scrapy.contracts import Contract
-from scrapy.exceptions import ContractFail
+from scrapy.settings import Settings
+
+
+
+
+# from carzone.items import CarzoneItem
 
 
 class ScrapyDemoSpider(CrawlSpider):
-    name = "car3"
+    name = "car4"
     allowed_domains = ["carzone.ie"]
     start_urls = [
-        "http://www.carzone.ie/search/results?nParam=4294911044%2B200590&searchsource=browse&cacheBuster=1396019161046889"]
-
+"http://www.carzone.ie/search/results?nParam=4294911133%2B200590&searchsource=browse&cacheBuster=1401792077845644"]
     rules = (Rule(SgmlLinkExtractor(allow=('\\&page=\\d')), 'parse_start_url', follow=True),)
 
 
@@ -69,11 +72,11 @@ class ScrapyDemoSpider(CrawlSpider):
 
         yield item
 
-    class HasHeaderContract(Contract):
-        URL = 'http://www.carzone.ie/search/Audi/A4/2.0TDI-1/49614000719014160/advert?channel=CARS'
-
-        def pre_process(self, response):
-            for URL in self.args:
-                if URL not in response.url:
-                    raise ContractFail('URL not present')
+    # class HasHeaderContract(Contract):
+    #     URL = 'http://www.carzone.ie/search/Audi/A4/2.0TDI-1/49614000719014160/advert?channel=CARS'
+    #
+    #     def pre_process(self, response):
+    #         for URL in self.args:
+    #             if URL not in response.url:
+    #                 raise ContractFail('URL not present')
 
