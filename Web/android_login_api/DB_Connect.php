@@ -20,9 +20,8 @@ class DB_Connect {
         // selecting database
         mysql_select_db(DB_DATABASE);
 
-        mysql_sele
- 
-        // return database handler
+
+         // return database handler
         return $con;
     }
  
