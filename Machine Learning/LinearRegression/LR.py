@@ -21,6 +21,8 @@ from numpy import *
 # DELETE FROM `bmw_3` WHERE `price` LIKE '%POA%'
 # Golf worked best with LR
 # SELECT * FROM `audi_a4` WHERE `mileage` = ""
+# UPDATE `CarDealz` SET `mileage` = REPLACE(`mileage`, '.', ' ')
+
 
 
 
@@ -32,7 +34,7 @@ db = MySQLdb.connect(host="mysql.raven.com", user="david", passwd="apUJP5VxBTZ9a
                      db="david")
 sql = """
         select *
-            from bmw_3
+            from bmw_5
       """
 df = psql.frame_query(sql, db)
 # db.close()
@@ -208,7 +210,6 @@ class predictFunction(BaseModel):
         doc = self.dv.inverse_transform(x)[0]
         predicted = self.lr.predict(x)[0]
 
-        # err = abs(predicted - doc['price'])
 
         goodDeal = (doc['price'] < predicted)
 
@@ -224,8 +225,7 @@ class predictFunction(BaseModel):
                 'location': [(k, v) for (k, v) in doc.iteritems() if 'location' in k],
                 'Colour': [(k, v) for (k, v) in doc.iteritems() if 'Colour' in k],
                 'askingPrice': doc['price'],
-                'difference': predicted - doc['price'],
-                # 'predictedDifference': err,
+                'difference': round(predicted - doc['price']),
                 'GoodDeal': str(goodDeal),
         }
 
@@ -241,11 +241,12 @@ class predictFunction(BaseModel):
 predictedPrice = predictFunction(dv=dv, lr=LR)
 print " "
 with open('bmw_3.json', 'w') as outfile:
-    for i in range(10):
+    for i in range(1200):
         outputPrice = predictedPrice.predict(predictedPrice.transform(df_noID.T.to_dict()[i]))
         # print outputPrice[0]
         json.dump(outputPrice, outfile)
         outfile.write('\n')
+
 # --------------------------------------------------------------------------------------------------------
 # Write Json data to csv for db insert
 
@@ -260,8 +261,12 @@ f = csv.writer(open('Dealz.csv', 'wb+'))
 for item in data:
     # values = [x.encode('utf8') for x in it;em['Predicted Difference:'].values()]
     f.writerow(
-        [item['predictedPrice'], str(item['mileage'])[14:20], item['difference'], item['askingPrice'], str(item['carYear'])[14:16],
-         str(item['Owners'])[13:14], item['GoodDeal'], str(item['title'])[10:35], str(item['link'])[9:92]])
+        [str(item['title'])[10:60], str(item['link'])[9:92], item['askingPrice'], item['predictedPrice'], item['difference'], str(item['carYear'])[14:15], str(item['location'])[13:21],(item['mileage'])[14:20], str(item['Colour'])[11:17] ,str(item['Owners'])[13:14], item['GoodDeal']])
+
+# --------------------------------------------------------------------------------------------------------
+# String conversion, characters
+
+
 
 # --------------------------------------------------------------------------------------------------------
 
@@ -274,13 +279,13 @@ cursor = db.cursor()
 #SQL query to INSERT a record into the table.
 for item in data:
 
-    make = str(item['title'])[10:35]
+    make = str(item['title'])[10:60]
     URL = str(item['link'])[9:92].strip()
     askingPrice = str(item['askingPrice'])
     difference = str(item['difference'])
     carAge = str(item['carYear'])[14:15]
     location = str(item['location'])[13:21]
-    mileage = str(item['mileage'])[13:21]
+    mileage = str(item['mileage'])[13:20]
     colour = str(item['Colour'])[11:17].strip()
     owners = str(item['Owners'])[13:14]
 
