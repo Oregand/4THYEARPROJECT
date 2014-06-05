@@ -57,7 +57,7 @@ public class CarAdapter extends BaseAdapter {
 
             if (year.trim().equalsIgnoreCase(anything.trim())) {
                 items.add(car);
-            } else if ((mil.trim().matches(anything.trim()))) {
+            } else if ((mil.trim().equalsIgnoreCase(anything.trim()))) {
                 items.add(car);
             } else if ((diff.trim().equalsIgnoreCase(anything.trim()))) {
                 items.add(car);

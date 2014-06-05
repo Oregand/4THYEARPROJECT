@@ -184,16 +184,7 @@ print ('Variance score SVM: %.2f' % clf.score(dv.transform(df_no_priceLinkTitle.
 # --------------------------------------------------------------------------------------------------------
 
 
-
-# --------------------------------------------------------------------------------------------------------
-
-
-# Predict function that uses yhat's basemodel
-# This function allows me to use the transform method
-#  This will map my input to the numpy array needed by the LR model
-#  My predict function will then evaluate my LR model based on the numpy array
-
-
+# Set variable to hold good deal check
 goodDeal = ''
 
 
@@ -209,10 +200,14 @@ class predictFunction(BaseModel):
     # info is our input vector(car information)
     # Predicted price is what our model determines based on the LR
     def predict(self, info):
+
+        # Transform numpy array back into back into features
         dict = self.dv.inverse_transform(info)[0]
+
+        # predicted is the final variable from our LR model per car
         predicted = self.lr.predict(info)[0]
 
-
+        # Evaluate if its a good deal vs asking price from ad
         goodDeal = (dict['price'] < predicted)
 
 
@@ -266,57 +261,51 @@ for item in data:
         [str(item['title'])[10:60], str(item['link'])[9:92], item['askingPrice'], item['predictedPrice'], item['difference'], str(item['carYear'])[14:15], str(item['location'])[13:21],(item['mileage'])[14:20], str(item['Colour'])[11:17] ,str(item['Owners'])[13:14], item['GoodDeal']])
 
 # --------------------------------------------------------------------------------------------------------
-# String conversion, characters
 
 
-
-# --------------------------------------------------------------------------------------------------------
-
-
-
-# #Open database connection
+#Open database connection
 # prepare a cursor object using cursor() method
-# cursor = db.cursor()
-#
-# #SQL query to INSERT a record into the table.
-# for item in data:
-#
-#     make = str(item['title'])[10:60]
-#     URL = str(item['link'])[9:92].strip()
-#     askingPrice = str(item['askingPrice'])
-#     difference = str(item['difference'])
-#     carAge = str(item['carYear'])[14:15]
-#     location = str(item['location'])[13:21]
-#     mileage = str(item['mileage'])[13:20]
-#     colour = str(item['Colour'])[11:17].strip()
-#     owners = str(item['Owners'])[13:14]
-#
-#
-#     # l = re.sub(r'^"|"$', '', l)
-#
-#     location = re.sub(r'[^\w]', ' ', location)
-#     colour = re.sub(r'[^\w]', ' ', colour)
-#
-#     if item['GoodDeal'] == 'True':
-#         cursor.execute('''INSERT into CarDealz (title, link, askingPrice, predictedPrice, difference, carYear, location, mileage, Colour, Owners)
-#                                 values (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)''',
-#                        (
-#                            make,
-#                            URL,
-#                            askingPrice,
-#                            item['predictedPrice'],
-#                            difference,
-#                            carAge,
-#                            location,
-#                            mileage,
-#                            colour,
-#                            owners))
-#
-# # Commit your changes in the database
-# db.commit()
-#
-# # disconnect from server
-# db.close()
+cursor = db.cursor()
+
+#SQL query to INSERT a record into the table.
+for item in data:
+
+    make = str(item['title'])[10:60]
+    URL = str(item['link'])[9:92].strip()
+    askingPrice = str(item['askingPrice'])
+    difference = str(item['difference'])
+    carAge = str(item['carYear'])[14:15]
+    location = str(item['location'])[13:21]
+    mileage = str(item['mileage'])[13:20]
+    colour = str(item['Colour'])[11:17].strip()
+    owners = str(item['Owners'])[13:14]
+
+
+    # l = re.sub(r'^"|"$', '', l)
+
+    location = re.sub(r'[^\w]', ' ', location)
+    colour = re.sub(r'[^\w]', ' ', colour)
+
+    if item['GoodDeal'] == 'True':
+        cursor.execute('''INSERT into CarDealz (title, link, askingPrice, predictedPrice, difference, carYear, location, mileage, Colour, Owners)
+                                values (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)''',
+                       (
+                           make,
+                           URL,
+                           askingPrice,
+                           item['predictedPrice'],
+                           difference,
+                           carAge,
+                           location,
+                           mileage,
+                           colour,
+                           owners))
+
+# Commit your changes in the database
+db.commit()
+
+# disconnect from server
+db.close()
 
 
 # --------------------------------------------------------------------------------------------------------
