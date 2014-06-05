@@ -123,7 +123,7 @@ public class ItemFragment extends Fragment {
         pv.setText(bundle.getString("location"));
         lv.setText(bundle.getString("predictedPrice"));
         wv.getSettings().setJavaScriptEnabled(true);
-        wv.loadUrl(bundle.getString("link"));
+        wv.loadUrl(bundle.getString("link") + "#selectedImage");
         linkv.setText(bundle.getString("link"));
 
         return view;

@@ -106,7 +106,7 @@ class MyAsyncTask extends AsyncTask<String, Void, JSONObject> {
                         finish();
                     }else{
                         // Error in registration
-                        registerErrorMsg.setText("Error occured in registration");
+                        registerErrorMsg.setText("Error in registration");
                     }
                 }
             } catch (JSONException e) {

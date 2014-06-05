@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b729d6f-cc02-47a6-a2a4-6ac27f58beaa" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documents/Functional Spec/Functional Spec/CarDealz(Final2PDF).pdf" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dealz/app/src/main/res/drawable-hdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/Dealz/app/src/main/res/drawable-hdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dealz/app/src/main/res/drawable-mdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/Dealz/app/src/main/res/drawable-mdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dealz/app/src/main/res/drawable-xhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/Dealz/app/src/main/res/drawable-xhdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dealz/app/src/main/res/drawable-xxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/Dealz/app/src/main/res/drawable-xxhdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Fragments/BrandListFragment.java" afterPath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Fragments/BrandListFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Adapters/CarAdapter.java" afterPath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Adapters/CarAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Machine Learning/LinearRegression/Dealz.csv" afterPath="$PROJECT_DIR$/Machine Learning/LinearRegression/Dealz.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Registration/JSONParser.java" afterPath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Registration/JSONParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Machine Learning/LinearRegression/LR.py" afterPath="$PROJECT_DIR$/Machine Learning/LinearRegression/LR.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Fragments/ItemFragment.java" afterPath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Fragments/ItemFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Activites/LoginRegActivity.java" afterPath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Activites/LoginRegActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Activites/RegisterActivity.java" afterPath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Activites/RegisterActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Registration/UserFunctions.java" afterPath="$PROJECT_DIR$/Dealz/app/src/main/java/ie/dealz/app/Registration/UserFunctions.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Machine Learning/LinearRegression/bmw_3.json" afterPath="$PROJECT_DIR$/Machine Learning/LinearRegression/bmw_3.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dealz/app/src/main/res/layout/loginreg.xml" afterPath="$PROJECT_DIR$/Dealz/app/src/main/res/layout/loginreg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dealz/app/src/main/res/layout/register.xml" afterPath="$PROJECT_DIR$/Dealz/app/src/main/res/layout/register.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dealz/app/src/main/res/xml/string.xml" afterPath="$PROJECT_DIR$/Dealz/app/src/main/res/xml/string.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dealz/app/src/main/res/layout/singlecar.xml" afterPath="$PROJECT_DIR$/Dealz/app/src/main/res/layout/singlecar.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dealz/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/Dealz/app/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -55,9 +43,10 @@
       <file leaf-file-name="LR.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Machine Learning/LinearRegression/LR.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="2" selection-start="492" selection-end="536" vertical-scroll-proportion="0.2799378" vertical-offset="0" max-vertical-offset="4935">
+            <state line="198" column="0" selection-start="6877" selection-end="6877" vertical-scroll-proportion="3.4570982" vertical-offset="604" max-vertical-offset="4770">
               <folding>
-                <marker date="1401912889000" expanded="true" signature="930:965" placeholder="select * fro..t_corolla..." />
+                <marker date="1401963852000" expanded="true" signature="930:965" placeholder="select * fro..t_corolla..." />
+                <marker date="1401963852000" expanded="true" signature="10540:10739" placeholder="INSERT into ..." />
               </folding>
             </state>
           </provider>
@@ -175,7 +164,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -186,109 +175,7 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4THYEARPROJECT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4THYEARPROJECT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4THYEARPROJECT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4THYEARPROJECT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4THYEARPROJECT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Scraper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="carzone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4THYEARPROJECT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4THYEARPROJECT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Scraper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="carzone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="carzone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4THYEARPROJECT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4THYEARPROJECT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Scraper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="carzone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="carzone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spiders" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4THYEARPROJECT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4THYEARPROJECT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Machine Learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
@@ -657,7 +544,11 @@
       <created>1400246390762</created>
       <updated>1400246390762</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Comments">
+      <created>1401963867426</created>
+      <updated>1401963867426</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -684,6 +575,7 @@
     <frame x="0" y="22" width="1280" height="774" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32111436" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991204" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -699,7 +591,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32844576" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -745,7 +636,8 @@
     <MESSAGE value="update mysql credentials" />
     <MESSAGE value="Test" />
     <MESSAGE value="Testing Files, pytest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing Files, pytest" />
+    <MESSAGE value="Comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1120,9 +1012,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Machine Learning/LinearRegression/LR.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="2" selection-start="492" selection-end="536" vertical-scroll-proportion="0.2799378" vertical-offset="0" max-vertical-offset="4935">
+        <state line="198" column="0" selection-start="6877" selection-end="6877" vertical-scroll-proportion="3.4570982" vertical-offset="604" max-vertical-offset="4770">
           <folding>
-            <marker date="1401912889000" expanded="true" signature="930:965" placeholder="select * fro..t_corolla..." />
+            <marker date="1401963852000" expanded="true" signature="930:965" placeholder="select * fro..t_corolla..." />
+            <marker date="1401963852000" expanded="true" signature="10540:10739" placeholder="INSERT into ..." />
           </folding>
         </state>
       </provider>

@@ -50,7 +50,8 @@ public class CarAdapter extends BaseAdapter {
         List<ListItem> items = new LinkedList<ListItem>();
         for (ListItem car : cars) {
             String mil = "mileage " + car.getMileage();
-            String year = "year " + car.getCarYear();
+            String year = "years " + car.getCarYear();
+            String colour = "colour " + car.getColour();
             String diff = "deal " + car.getDifference();
             String loc = "location " + car.getLocation();
             String Own = "owners " + car.getOwners();
@@ -64,6 +65,8 @@ public class CarAdapter extends BaseAdapter {
             } else if ((loc.trim().equalsIgnoreCase(anything.trim()))) {
                 items.add(car);
             } else if ((Own.trim().equalsIgnoreCase(anything.trim()))) {
+                items.add(car);
+            } else if ((colour.trim().equalsIgnoreCase(anything.trim()))) {
                 items.add(car);
             }
         }

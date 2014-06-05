@@ -26,5 +26,10 @@
     <string name="pswdLog">Password</string>
     <string name="buttonLog">Login</string>
     <string name="LogToReg">I need to register!!</string>
+    <string name="SingleLink">Link</string>
+    <string name="SingleTitle">Title</string>
+    <string name="SingleaSKING">askingprice</string>
+    <string name="SinglePredicted">Predicted</string>
+    <string name="SingleLocation">location</string>
 
 </resources>
