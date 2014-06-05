@@ -67,6 +67,7 @@ public class UserFunctions {
         return false;
     }
 
+
     /**
      * Function to logout user
      * Reset Database

@@ -16,6 +16,7 @@ import ie.dealz.app.Activites.ItemActivity;
 import ie.dealz.app.Adapters.CarAdapter;
 import ie.dealz.app.Facade.ListItem;
 import ie.dealz.app.R;
+import ie.dealz.app.Registration.UserFunctions;
 import ie.dealz.app.models.Cars;
 
 /**
@@ -151,6 +152,7 @@ public class BrandListFragment extends Fragment implements AbsListView.OnItemCli
 //        item11.title = "Volkswagen Polo";
 //        mAdapter.add(item11);
 //        mAdapter.notifyDataSetChanged();
+
 
         return view;
 

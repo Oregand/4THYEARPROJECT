@@ -137,7 +137,7 @@ df.fillna(0, inplace=True)
 
 # --------------------------------------------------------------------------------------------------------
 
-# Edit our dataframe to drop colums we dont need and seerate the price colum already there
+# Edit our dataframe to drop colums we dont need and seperate the price colum already there
 df_noID = df.drop(['ID'],1)
 df_no_priceLinkTitle = df.drop(['ID', 'price', 'link', 'title'], 1)
 
@@ -159,11 +159,18 @@ dv.fit(df.T.to_dict().values())
 LR = LinearRegression()
 
 # Train the model using the training sets(DataFrame without title, link or price and then price by itself)
+# Model is trained to fit a price against a feature
 LR = LR.fit(dv.transform(df_no_priceLinkTitle.T.to_dict().values()), df.price)
 
-# print LR
-# print ' + '.join(
-#     [format(LR.intercept_, '0.2f')] + map(lambda (a, b): "(%0.2f %s)" % (b, a), zip(dv.feature_names_, LR.coef_)))
+print LR
+
+# Print the model in format native to python
+print ' + '.join([format(LR.intercept_, '0.2f')])
+
+# Print the model via python format
+# Create a map for the feature names and the corressponding estimated coefficients for the linear regression problem
+# Done using map & lambda
+print map(lambda (a, b): "(%0.2f %s)" % (b, a), zip(dv.feature_names_, LR.coef_))
 
 # Support Vector Machine
 
