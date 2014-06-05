@@ -123,10 +123,6 @@ df['location'] = df['location'].str.replace('Roscommon', 'Connucht')
 # NCT
 # For this we need three categories, NCT Needed - present/ NCT Needed - Not present/ NCT Not Needed(New car) - Not present
 
-# # NCT Needed - Not Present
-# if df['NCT'].empty & age >= 1:
-#     df['NCT'] = df['NCT'].str.replace('', 'YOLO')
-# print df['NCT']
 
 
 
