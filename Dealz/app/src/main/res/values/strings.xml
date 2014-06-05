@@ -15,5 +15,16 @@
     <string name="Saving">difference</string>
     <string name="Age">Age</string>
     <string name="Mileage">Mileage</string>
+    <string name="RegForDealz">REGISTER FOR CARDEALZ</string>
+    <string name="NameReg">Full Name</string>
+    <string name="EmailReg">Email</string>
+    <string name="pswdReg">Password</string>
+    <string name="buttonReg">Register</string>
+    <string name="RegToLog">Already a member?</string>
+    <string name="LogDealz">LOGIN TO CARDEALZ</string>
+    <string name="emailLog">Email</string>
+    <string name="pswdLog">Password</string>
+    <string name="buttonLog">Login</string>
+    <string name="LogToReg">I need to register!!</string>
 
 </resources>

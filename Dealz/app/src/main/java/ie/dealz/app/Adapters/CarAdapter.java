@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
+import java.util.Collection;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -21,9 +22,6 @@ import ie.dealz.app.R;
 
 
 public class CarAdapter extends BaseAdapter {
-
-    //Enable filtering
-
 
     //Make generic, list item interface
     //Origional Values
@@ -43,23 +41,29 @@ public class CarAdapter extends BaseAdapter {
 
     }
 
-    //If I put a space after the word, the search bar does not work anymore.
-    //Fix
+    public void clear(Cars object){
+
+    }
 
 
     public boolean findByAnything(String anything) {
         List<ListItem> items = new LinkedList<ListItem>();
         for (ListItem car : cars) {
-            String mil = car.getMileage();
-            String year = car.getCarYear();
-            String diff = car.getDifference();
+            String mil = "mileage " + car.getMileage();
+            String year = "year " + car.getCarYear();
+            String diff = "deal " + car.getDifference();
+            String loc = "location " + car.getLocation();
+            String Own = "owners " + car.getOwners();
 
             if (year.trim().equalsIgnoreCase(anything.trim())) {
                 items.add(car);
-            } else if ((mil.trim().equalsIgnoreCase(anything.trim()))) {
+            } else if ((mil.trim().matches(anything.trim()))) {
                 items.add(car);
-            }
-          else if ((diff.trim().equalsIgnoreCase(anything.trim()))) {
+            } else if ((diff.trim().equalsIgnoreCase(anything.trim()))) {
+                items.add(car);
+            } else if ((loc.trim().equalsIgnoreCase(anything.trim()))) {
+                items.add(car);
+            } else if ((Own.trim().equalsIgnoreCase(anything.trim()))) {
                 items.add(car);
             }
         }

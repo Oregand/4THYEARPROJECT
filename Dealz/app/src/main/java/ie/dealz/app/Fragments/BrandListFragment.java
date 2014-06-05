@@ -95,9 +95,11 @@ public class BrandListFragment extends Fragment implements AbsListView.OnItemCli
         // Set OnItemClickListener so we can be notified on item clicks
         mListView.setOnItemClickListener(this);
 
+//        mAdapter.clear(item);
+
 
         Cars item = new Cars();
-        item.title = "Golf";
+        item.title = "Volkswagen Golf";
         mAdapter.add(item);
 
         Cars item2 = new Cars();
@@ -131,28 +133,27 @@ public class BrandListFragment extends Fragment implements AbsListView.OnItemCli
         mAdapter.notifyDataSetChanged();
 
         Cars item8 = new Cars();
-        item8.title = "Mercedaes E Class";
+        item8.title = "Mercedes-Benz E-Class";
         mAdapter.add(item8);
         mAdapter.notifyDataSetChanged();
 
         Cars item9 = new Cars();
-        item9.title = "Tyoyta Avensis";
+        item9.title = "Toyota Avensis";
         mAdapter.add(item9);
         mAdapter.notifyDataSetChanged();
 
         Cars item10 = new Cars();
-        item10.title = "Tyoyta Corolla";
+        item10.title = "Toyota Corolla";
         mAdapter.add(item10);
         mAdapter.notifyDataSetChanged();
 
-
-        Cars item11 = new Cars();
-        item11.title = "WV Polo";
-        mAdapter.add(item11);
-        mAdapter.notifyDataSetChanged();
-
+//        Cars item11 = new Cars();
+//        item11.title = "Volkswagen Polo";
+//        mAdapter.add(item11);
+//        mAdapter.notifyDataSetChanged();
 
         return view;
+
 
     }
 
